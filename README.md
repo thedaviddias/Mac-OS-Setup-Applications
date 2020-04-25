@@ -141,6 +141,7 @@ This is a complete list of all the applications I have on my personal and profes
 This is the list of the most essentials apps I would install if I was limited in the number of apps to have.
 
 <img src="media/15878421335213.jpg" width="50" align="right">
+
 #### [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html) - Control incoming/outgoing network traffic
 ![Licence ~$30][licence-30] ![Usage high][usage-high]
 
@@ -150,6 +151,7 @@ brew cask install little-snitch
 ```
 
 <img src="media/15878412922030.png" width="50" align="right">
+
 #### [1Password](https://1password.com) - Password manager
 ![Yearly subscription][subscription-yearly] ![Proprietary backup][backup-proprietary] ![High usage][usage-high]
 
@@ -166,6 +168,7 @@ mas install 1333542190
 ```
 
 <img src="media/15878422056701.jpg" width="50" align="right">
+
 #### [Alfred 4](https://www.alfredapp.com) - Launcher, the best alternative for Spolight
 ![Free][licence-free-limit] ![Licence ~$30][licence-30] ![Backup Dropbox][backup-dropbox] ![High usage][usage-high]
 
@@ -197,6 +200,7 @@ brew cask install iterm2
 
 
 <img src="media/15878423395361.png" width="50" align="right">
+
 #### [Spotify](https://www.spotify.com/) - Music
 ![Montly subscription][subscription-montly] ![Usage high][usage-high]
 
