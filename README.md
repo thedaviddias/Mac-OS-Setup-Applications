@@ -5,7 +5,7 @@
   My Mac OS setup and workflow
 </h1>
 <p align="center">
-  <!-- img -->
+  My Mac OS setup, applications and workflows I use as a Web Developer
 </p>
 
 ## Table of content
@@ -14,19 +14,22 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
+- [Disclaimer](#disclaimer)
+  - [Good to know!](#good-to-know)
+  - [Where to find the right tool?](#where-to-find-the-right-tool)
 - [My Hardware](#my-hardware)
 - [Setup shell](#setup-shell)
 - [Command Line Apps](#command-line-apps)
   - [Quick Look plugins](#quick-look-plugins)
 - [Applications](#applications)
-  - [The bare minimum](#the-bare-minimum)
+  - [Bare minimum](#bare-minimum)
   - [Browsers](#browsers)
   - [Utilities](#utilities)
   - [Automation](#automation)
   - [Tasks & time management](#tasks--time-management)
   - [Storage & backup management](#storage--backup-management)
   - [Code](#code)
-  - [Reading / Writing](#reading--writing)
+  - [Reading & Writing](#reading--writing)
   - [Communication](#communication)
   - [Social Media](#social-media)
   - [Design & Web Design](#design--web-design)
@@ -38,6 +41,21 @@
 - [Licence](#licence)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## Disclaimer
+I have been always passionate about tools. Maybe because my father was a carpenter... I always loved experimenting until I can find the right tool for the right task. Being a Front-End Developer requires to know the tools that exist and choosing the one that will perform the task faster and better.
+
+Based on hours of research and testing, I'm sharing all the applications I believe suits the best my work and workflow. It's a living MacOS configuration that, I hope, will also save you time for you to enjoy life more!
+
+### Good to know!
+
+- I tried to keep the right order you should also follow to install packages and applications on your Mac.
+- Some tools are free and some are not. I'm lucky to have the ability to pay for licences and subscriptions. But if you are not in that situation, 1) I will try to always share free alternatives, 2) you don't need a paid tool to do an amazing work. Just choose the best tool that suits you and your situation.
+
+### Where to find the right tool?
+- [Product Hunt](https://www.producthunt.com/) - By far the best and well-know website where you can find almost everything you need.
+- [AlternativeTo](https://alternativeto.net/) - I regulary use AlternativeTo but find it limited and not always accurate. The "ups" are most of the time not relevant or doesn't reflect what people prefer the most. It's a great place to start if you are looking for a list of alternatives though.
+- [Slant](https://www.slant.co/) and [stackshare](https://stackshare.io/) - Slant and Stackshare are kind of similar but Stackshare is more developer tools focused. It's a nice source of information to compare apps / webapps.
 
 ## My Hardware
 
@@ -58,6 +76,7 @@ Mouses:
 
 Accessories:
 
+* [Bose]()
 * [Elgato Stream Deck](https://www.amazon.ca/dp/B06XKNZT1P/ref=cm_sw_em_r_mt_dp_U_64mNEbDTVAA81)
 * [Elgato Green Screen](https://www.amazon.ca/dp/B0743Z892W/ref=cm_sw_em_r_mt_dp_U_n-mNEbNJ37DDK)
 * [Focusrite Scarlett-2i2 Gen2](https://www.amazon.ca/dp/B005OZE9SA/ref=cm_sw_em_r_mt_dp_U_v7mNEb9RZNDFG)
@@ -241,7 +260,7 @@ brew cask install \
 
 This is a complete list of all the applications I have on my personal and professional Mac (some apps are only on my personal computer).
 
-### The bare minimum
+### Bare minimum
 
 This is the list of the most essentials apps I would install if I was limited in the number of apps to have.
 
@@ -823,7 +842,7 @@ mas install Haskell
 #### [Querious](https://www.araelium.com/querious) - MySQL database management
 ![Free][licence-free] ![Usage low][usage-low]
 
-### Reading / Writing
+### Reading & Writing
 
 #### [Reeder](https://reederapp.com/) - News reader
 ![Licence ~$13][licence-10] ![Usage high][usage-high]
@@ -840,7 +859,7 @@ mas install 880001334
 ```
 
 #### [Scapple](https://www.literatureandlatte.com/scapple/overview) - Brain, ideas and connections
-![Usage medium][usage-medium]
+![Licence ~$20][licence-20] ![Usage medium][usage-medium]
 
 - When I want to brainstorm without any structure, Scapple is the first tool I use in my workflow.
 - It allows me to put all words / ideas I can think of and then start establishing relationships.
@@ -1159,6 +1178,7 @@ defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-t
 
 - Dock screenshot
 
+![dock-perso](media/dock-perso.jpg)
 
 
 ## Web Applications
