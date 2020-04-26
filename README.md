@@ -1,8 +1,34 @@
 # My Mac OS setup and workflow
 
+
+
 ## Table of content
 
-[TOC]
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [My Hardware](#my-hardware)
+- [Setup shell](#setup-shell)
+- [Command Line Apps](#command-line-apps)
+- [Applications](#applications)
+  - [The minimum essential](#the-minimum-essential)
+  - [Browsers](#browsers)
+  - [Utilities](#utilities)
+  - [Automation](#automation)
+  - [Tasks management / time tracking](#tasks-management--time-tracking)
+  - [Storage / backup management](#storage--backup-management)
+  - [Code](#code)
+  - [Reading / Writing](#reading--writing)
+  - [Communication](#communication)
+  - [Social Media](#social-media)
+  - [Design](#design)
+  - [Audio / Video production](#audio--video-production)
+  - [Miscellaneous](#miscellaneous)
+- [Web Applications](#web-applications)
+- [Inspiration](#inspiration)
+- [Licence](#licence)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## My Hardware
 
@@ -29,63 +55,75 @@ Accessories:
 
 ## Setup shell
 
+#### [Xcode 11](https://developer.apple.com/xcode/)
 
+- Xcode is required for some applications to run. So having Xcode updated just remove the issue of not being able to install some apps.
 
-#### Install [Homebrew](https://brew.sh)
+```sh
+xcode-select --install
+```
 
-```bash
+#### [Homebrew](https://brew.sh) - The Missing Package Manager for macOS
+
+```sh
 $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
-#### Install [Caskfile]()
 
-```bash
-brew install caskroom/cask/brew-cask
+With Homebrew comes `brew-cask` which will allow us to install applications with the command line.
+
+##### Useful commands for Homebrew
+
+```sh
+brew update                         # Fetch latest version of homebrew and formula.
+brew search {app name}              # Searches all known Casks for a partial or exact match.
+brew cask info {app name}           # Displays information about a given Cask
+brew cask install {app name}        # Install the given cask.
+brew cleanup
 ```
 
-or brew tap caskroom/cask?
+##### [Cakebrew](https://www.cakebrew.com/) (optional) - A GUI for Cask
 
+```sh
 brew cask install cakebrew
-https://www.cakebrew.com/
+```
 
-#### Install [ZSH]()
+#### [ZSH]()
 
-```bash
+```sh
 brew install zsh
 ```
 
 Add this to my `./zshrc`
 
-```
+```sh
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 ```
 
-#### Install [Oh My Zsh]()
+#### [Oh My Zsh](https://ohmyz.sh/#install) - Framework for managing your Zsh configuration
 
-```bash
+Verify that ZSH is correctly installed
+
+```sh
+zsh --version
+```
+
+Additionally, Zsh should be set as your default shell.
+Run `echo $SHELL` from a new terminal to confirm.
+Expected result: `/usr/bin/zsh` or similar
+
+```sh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
 Check if Oh My Zsh was correctly installed
 
-```bash
-zsh --version
-```
 
-Add spaces to my dock 
-
+#### GNU Coreutils
 ```sh
-defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'; killall Dock
+brew install coreutils
 ```
 
 
-```sh
- brew update                           # Fetch latest version of homebrew and formula.
-$ brew tap caskroom/cask                # Tap the Caskroom/Cask repository from Github using HTTPS.
-$ brew search {app name}                    # Searches all known Casks for a partial or exact match.
-$ brew cask info {app name}                # Displays information about the given Cask
-$ brew cask install {app name}             # Install the given cask.
-$ brew cleanup   
-```
 
 
 brew tap homebrew/cask-fonts
@@ -94,11 +132,32 @@ brew install ffmpeg
 brew install youtube-dl
 brew install imagemagick
 
-
-
 brew install tree
 
+
+Add spaces to my dock
+
+```sh
+defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'; killall Dock
+```
+
+### [Ruby (rbenv)](https://github.com/rbenv/rbenv)
+
+```sh
+brew install rbenv ruby-build rbenv-default-gems rbenv-gemset
+echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+source ~/.zshrc # Apply changes
+
+rbenv install {version}
+```
+
+
 ## Command Line Apps
+
+- [node]()
+```
+brew install node
+```
 
 - [nvm](https://github.com/nvm-sh/nvm) - Easily manage your node versions
 
@@ -132,6 +191,7 @@ add-zsh-hook chpwd load-nvmrc
 load-nvmrc
 ```
 
+To default a specific node version: `nvm alias default {version}`
 
 
 - [yarn](https://github.com/yarnpkg/yarn) - Fast, reliable, and secure dependency management.
@@ -140,17 +200,14 @@ load-nvmrc
 brew install yarn
 ```
 
-#### GNU Coreutils
-```sh
-brew install coreutils
-```
+
 
 #### MAS - Install App Store apps from the command line
 ```sh
 brew install mas
-```
 
-mas search app name
+mas search {app name} # To search for an app
+```
 
 #### Act - Run Github Actions Locally
 ```sh
@@ -163,14 +220,26 @@ brew install github/gh/gh
 ```
 
 
+### [Quick Look plugins](https://github.com/sindresorhus/quick-look-plugins)
+
+```sh
+brew cask install \
+    qlcolorcode \
+    qlstephen \
+    qlmarkdown \
+    quicklook-json \
+    qlimagesize \
+    suspicious-package \
+    quicklookase \
+    qlvideo
+```
+
+
+
+
 ## Applications
 
 This is a complete list of all the applications I have on my personal and professional Mac (some apps are only on my personal computer).
-
- [Xcode 11](https://developer.apple.com/xcode/)
-![Free][licence-free] ![Usage low][usage-low]
-
-- Xcode is required for some applications to run. So having Xcode updated just remove the issue of not being able to install some apps.
 
 ### The minimum essential
 
@@ -212,7 +281,7 @@ mas install 1333542190
 #### [Alfred 4](https://www.alfredapp.com) - Launcher, the best alternative for Spolight
 ![Free][licence-free-limit] ![Licence ~$30][licence-30] ![Backup Dropbox][backup-dropbox] ![High usage][usage-high]
 
-- **Snippets**: previously using [TextExpander](https://textexpander.com/), I switched in using the snippet feature in Alfred. (text-expander to aflred)
+- **Text expansions**: previously using [TextExpander](https://textexpander.com/), I switched in using the snippet feature in Alfred. (text-expander to aflred)
 
 - Workflows used (files saved on Dropbox):
     - [caniuse](https://github.com/willfarrell/alfred-caniuse-workflow)
@@ -220,7 +289,7 @@ mas install 1333542190
     - F.lux
     - Lorem Ipsum
     - MDN Search
-    - Snippets Lab
+    - [Snippets Lab](http://www.packal.org/workflow/search-snippetslab)
     - Spotify Mini Player
     - Things
     - Alfred Maestro
@@ -335,8 +404,7 @@ brew cask install bartender
 #### [Flux](https://justgetflux.com/) -  Reduce eyes fatigue
 ![Free][licence-free] ![Usage high][usage-high] [![Show your support][support]](https://justgetflux.com/promo/paypal2.html)
 
-![flux up-w250](media/flux.jpg)
-
+<img src="media/flux.jpg" width="250">
 
 ##### CLI installation
 ```sh
@@ -377,7 +445,7 @@ brew cask install contexts
 #### [Kap](https://getkap.co/) - An open-source screen recorder
 ![Free][licence-free] ![Usage high][usage-high]
 
-- Plugins activated: 
+- Plugins activated:
     - [Kap Dropbox](https://github.com/karaggeorge/kap-dropbox)
 
 ##### CLI installation
@@ -388,7 +456,7 @@ brew cask install kap
 #### [Next Meeting](https://apps.apple.com/us/app/next-meeting-quickly-see-your/id1017470484) - Never miss a meeting again
 ![Free][licence-free] ![Usage high][usage-high]
 
-![next-meeting up-w300](media/next-meeting.png)
+<img src="media/next-meeting.png" width="300">
 
 #### [CleanMyMac X](https://macpaw.com/cleanmymac) - To maintain my Mac as he was new
 ![Licence ~$50][licence-50] ![Usage high][usage-high]
@@ -407,14 +475,14 @@ brew cask install cleanmymac
 #### [Lungo](https://sindresorhus.com/lungo) - Prevent your Mac from going to sleep
 ![Free][licence-free] ![Usage low][usage-low] [![Show your support][support]](https://sindresorhus.com/donate)
 
-#### [Stream Deck](https://www.elgato.com/en/gaming/downloads) - 
+#### [Stream Deck](https://www.elgato.com/en/gaming/downloads) -
 ![Free][licence-free] ![Usage medium][usage-medium]
 
 ##### VSCode profile
 
 ##### Slack profile
-![streamdeck-slack up-w250](media/streamdeck-slack.png)
 
+<img src="media/streamdeck-slack.png" width="250">
 
 | Slack app            | Quick search                            | Access list of users | History - go back          | Emojis folder         |
 |:---------------------|:----------------------------------------|:---------------------|:---------------------------|:----------------------|
@@ -422,7 +490,8 @@ brew cask install cleanmymac
 | Status: PR reviewing | Status: Intensive work - Do not disturb | Status: In a call    | Status: Sleeping / resting | Next profile          |
 
 ##### Emojis folder
-![emojis-stream-deck up-w250](media/emojis-stream-deck.png)
+
+<img src="media/emojis-stream-deck.png" width="250">
 
 ##### CLI installation
 ```sh
@@ -432,7 +501,10 @@ brew cask install elgato-stream-deck
 #### [Noizio](https://noiz.io/) - I love birds
 ![Free][licence-free] ![Usage low][usage-low]
 
-![noizio up-w200](media/noizio.jpg)
+* I use to play different ambients when coding or working in general.
+* I also use [Portal](https://portal.app/) and [Thunderspace](https://apps.apple.com/us/app/thunderspace-rain-sleep-sounds/id636485814) on my iPhone.
+
+<img src="media/noizio.jpg" width="200">
 
 ##### CLI installation
 ```sh
@@ -443,6 +515,8 @@ mas install 928871589
 
 #### [Mouseless](https://mouseless.app/) - Practice and learn new keyboard's shortcuts
 ![Licence ~$20][licence-20] ![Usage low][usage-low]
+
+
 
 ![mouseless up-w300](media/mouseless.jpg)
 
@@ -484,7 +558,7 @@ brew cask install hazel
 brew cask install bettertouchtool
 ```
 
-#### [Hammerspoon](https://www.hammerspoon.org/) - OSX automation using Lua 
+#### [Hammerspoon](https://www.hammerspoon.org/) - OSX automation using Lua
 ![Free][licence-free]
 
 ##### CLI installation
@@ -513,6 +587,8 @@ brew cask install fantastical
 ##### CLI installation
 ```sh
 brew cask install things
+
+mas install 904280696
 ```
 
 #### [Timing](https://timingapp.com/?lang=en) - To record everything I do without manual action
@@ -547,6 +623,8 @@ brew cask install dropbox
 ##### CLI installation
 ```sh
 brew cask install forklift
+
+mas install 412448059
 ```
 
 #### [The Unarchiver](https://theunarchiver.com/) - The missing RAR and Zip unarchiver
@@ -609,10 +687,15 @@ brew cask install diffmerge
 ![snippetlab-smart](media/snippetlab-smart.jpg)
 
 
-- I store all my code snippets 
+- I store all my code snippets
 
 Other options
 - [Alfred](https://www.alfredapp.com/extras/snippets/), [VSCode](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
+
+##### CLI installation
+```sh
+mas install 1006087419
+```
 
 ##### Extensions / plugins
 * [Alfred extension]()
@@ -657,6 +740,8 @@ brew cask install mockoon
 ##### CLI installation
 ```sh
 brew install docker
+
+brew cask install docker-toolbox
 ```
 
 #### [GraphQL Playground](https://github.com/prisma-labs/graphql-playground) - Another GraphQL IDE
@@ -705,6 +790,11 @@ brew cask install switchhosts
 
 Free alternative [Jayson](https://jayson.app/)
 
+##### CLI installation
+```sh
+mas install 1268962404
+```
+
 #### [Carbonize](https://www.dangercove.com/carbonize/) - Generate beautiful code snippets
 ![Free][licence-free] ![Usage low][usage-low]
 
@@ -719,6 +809,11 @@ Free alternative [Jayson](https://jayson.app/)
 #### [Haskell](http://haskellformac.com/) - Haskell for Mac IDE
 ![Licence ~$30][licence-30] ![Usage low][usage-low]
 
+##### CLI installation
+```sh
+mas install Haskell
+```
+
 #### [Querious](https://www.araelium.com/querious) - MySQL database management
 ![Free][licence-free] ![Usage low][usage-low]
 
@@ -727,12 +822,14 @@ Free alternative [Jayson](https://jayson.app/)
 #### [Reeder](https://reederapp.com/) - News reader
 ![Licence ~$13][licence-10] ![Usage high][usage-high]
 
+![reeder](media/reeder.jpg)
+
 ##### CLI installation
 ```sh
 mas install 880001334
 ```
 
-#### [Notion](https://www.notion.so) - 
+#### [Notion](https://www.notion.so) -
 ![Yearly subscription][subscription-yearly] ![Proprietary backup][backup-proprietary] ![High usage][usage-high]
 
 ##### CLI installation
@@ -759,11 +856,16 @@ brew cask install notion
 brew cask install devonthink
 ```
 
-#### [DEVONagent Pro](https://www.devontechnologies.com/apps/devonagent) - Search the web
+#### [DEVONagent Pro](https://www.devontechnologies.com/apps/devonagent) - Search the web and filter the results
 ![Licence ~$50][licence-50] ![High medium][usage-medium]
 
-#### [MWeb](https://www.mweb.im/) - 
+#### [MWeb](https://www.mweb.im/) - A powerful Markdown Editor
 ![Licence ~$20][licence-20] ![Backup iCloud][backup-icloud] ![Usage high][usage-high]
+
+##### CLI installation
+```sh
+mas install 1403919533
+```
 
 #### [MindNode](https://mindnode.com) - Interactive Mind Mapping
 ![Licence ~$30][licence-30] ![Backup iCloud][backup-icloud] ![High medium][usage-medium]
@@ -771,21 +873,56 @@ brew cask install devonthink
 ##### CLI installation
 ```sh
 brew cask install mindnode-pro
+
+mas install 1289197285
 ```
 
-#### [Scrivener](https://www.literatureandlatte.com/scrivener/overview) - 
+#### [Scrivener](https://www.literatureandlatte.com/scrivener/overview) - One day I want to be a writer
 ![Usage low][usage-low]
 
-#### [Scapple](https://www.literatureandlatte.com/scapple/overview) - 
+- Scrivener is the perfect tool to write any book.
+- I've used Scrivener in the past to work on the outline on a video course
+- I'm planning in using it more and maybe start writing small non-fictional ebooks soon.
+
+##### CLI installation
+```sh
+brew cask install scrivener
+
+mas install 1310686187
+```
+
+#### [Scapple](https://www.literatureandlatte.com/scapple/overview) - Brain, ideas and connections
 ![Usage medium][usage-medium]
 
+- When I want to brainstorm without any structure, Scapple is the first tool I use in my workflow.
+- It allows me to put all words / ideas I can think of and then start establishing relationships.
+- When I have a better vision, I usually switch in using [MindNode](#mindnode---interactive-mind-mapping).
+
+![scapple](media/scapple.jpg)
+
+
+##### CLI installation
+```sh
+brew cask install scapple
+
+mas install 568020055
+```
+
 #### [Apple Keynote](https://www.apple.com/keynote/)
-![Free][licence-free] 
+![Free][licence-free]
 
 ### Communication
 
-#### [Slack](https://slack.com) - Work chat
+#### [Slack](https://slack.com) - Work chat and more
 ![Free][licence-free] ![Usage high][usage-high]
+
+##### Workspaces
+- HomeX
+- [Contentful Community](https://www.contentful.com/slack/)
+- [A11y](https://web-a11y.slack.com/#/)
+- [TorontoJS](http://slack.torontojs.com/)
+- [FEDs](http://fedsonslack.com/)
+- [Civic Tech Toronto](http://civictechto-slack-invite.herokuapp.com/)
 
 ```sh
 brew install cask slack
@@ -795,6 +932,8 @@ mas install 803453959
 
 #### [Airmail]() - Email client
 ![Free][licence-free-limit] ![Yearly subscription][subscription-yearly] ![Backup iCloud][backup-icloud] ![Usage high][usage-high]
+
+![airmail](media/airmail.jpg)
 
 ##### CLI installation
 ```sh
@@ -810,16 +949,16 @@ I have a strict rule in regards to social apps on my professional Mac. I usually
 #### [Flume](https://flumeapp.com/) - To manage Instagram on Mac
 ![Free][licence-free] ![Usage low][usage-low]
 
-#### [Messenger](https://apps.apple.com/us/app/messenger/id1480068668?mt=12) - 
+#### [Messenger](https://apps.apple.com/us/app/messenger/id1480068668?mt=12) -
 ![Free][licence-free] ![Usage low][usage-low]
 
-#### [WhatApps](https://www.whatsapp.com/download) - 
+#### [WhatApps](https://www.whatsapp.com/download) -
 ![Free][licence-free] ![Usage low][usage-low]
 
-#### [Discord](https://discordapp.com/download) - 
+#### [Discord](https://discordapp.com/download) -
 ![Free][licence-free] ![Usage low][usage-low]
 
-#### [Skype](https://www.skype.com/en/get-skype/) - 
+#### [Skype](https://www.skype.com/en/get-skype/) -
 ![Free][licence-free] ![Usage low][usage-low]
 
 ##### CLI installation
@@ -827,7 +966,7 @@ I have a strict rule in regards to social apps on my professional Mac. I usually
 brew cask install skype
 ```
 
-#### [Telegram](https://desktop.telegram.org/) - 
+#### [Telegram](https://desktop.telegram.org/) -
 
 ##### CLI installation
 
@@ -843,7 +982,7 @@ I'm not a Web Designer / Designer, but I love studying Photography, UI and UX. I
 ![Yearly subscription][subscription-yearly] ![Usage high][usage-high] ![Backup Dropbox][backup-dropbox]
 
 ##### Extensions / plugins
-* [Chrome extension]()
+* [Chrome extension](https://chrome.google.com/webstore/detail/eagle-save-images-faster/lieogkinebikhdchceieedcigeafdkid?hl=en)
 
 #### [Rightfont 5](https://rightfontapp.com/) - The best font manager for Mac
 ![Licence ~$35][licence-30] ![Usage medium][usage-medium] ![Backup Dropbox][backup-dropbox]
@@ -859,6 +998,15 @@ I'm not a Web Designer / Designer, but I love studying Photography, UI and UX. I
 
 #### [Adobe Creative Cloud](https://www.adobe.com/ca/creativecloud.html)
 ![Monthly subscription][subscription-montly] ![Proprietary backup][backup-proprietary] ![Usage high][usage-high]
+
+- List of Adobe Softwares I use
+    - Adobe Photoshop
+    - Adobe Illustrator
+    - Adobe Premiere Rush
+    - Adobe Premiere Pro
+    - Adobe Audition
+    - Adobe Lightroom Classic
+    - Adobe Acrobat
 
 ##### CLI installation
 ```sh
@@ -884,6 +1032,8 @@ brew cask install sketch
 #### [Sketchpacks](https://sketchpacks.com/)
 ![Free][licence-free]
 
+#### Zeplin
+
 #### [Sip](https://sipapp.io/) - Collect, organize and share colors
 ![Yearly subscription][subscription-yearly] ![Usage medium][usage-medium] ![Proprietary backup][backup-proprietary]
 
@@ -905,13 +1055,13 @@ brew cask install imageoptim
 #### [VLC](https://www.videolan.org/vlc/index.html) - A Media player built by my compatriots
 ![Free][licence-free] ![Usage high][usage-high] [![Show your support][support]](https://www.videolan.org/contribute.html#money)
 
-#### [Loopback](https://rogueamoeba.com/loopback/) - 
+#### [Loopback](https://rogueamoeba.com/loopback/) -
  ![Usage low][usage-low]
 
 #### [Audio Hijack](https://rogueamoeba.com/audiohijack/) - Record any audio
  ![Usage low][usage-low]
 
-#### [Ecamm Live](https://www.ecamm.com/mac/ecammlive/) - 
+#### [Ecamm Live](https://www.ecamm.com/mac/ecammlive/) -
  ![Usage high][usage-high]
 
 #### [Streamlabs OBS](https://streamlabs.com/) - The best (and free)  streaming app
@@ -922,7 +1072,7 @@ brew cask install imageoptim
 
 - Screenflow doesn't recommend to store files on Dropbox, so I usually store the files on Dropbox but move them to my local hard drive if I want to edit these. No problem until today.
 
-#### [Power Prompter](https://suborbital.io/powerprompter/download/) - 
+#### [Power Prompter](https://suborbital.io/powerprompter/download/) -
 ![Licence ~$50][licence-50] ![Usage low][usage-low]
 
 #### Twitch
