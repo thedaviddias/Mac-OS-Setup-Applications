@@ -1,29 +1,38 @@
-# My Mac OS setup and workflow
-
-
+<p align="center">
+  <!-- img -->
+</p>
+<h1 align="center">
+  My Mac OS setup and workflow
+</h1>
+<p align="center">
+  <!-- img -->
+</p>
 
 ## Table of content
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+
 - [My Hardware](#my-hardware)
 - [Setup shell](#setup-shell)
 - [Command Line Apps](#command-line-apps)
+  - [Quick Look plugins](#quick-look-plugins)
 - [Applications](#applications)
-  - [The minimum essential](#the-minimum-essential)
+  - [The bare minimum](#the-bare-minimum)
   - [Browsers](#browsers)
   - [Utilities](#utilities)
   - [Automation](#automation)
-  - [Tasks management / time tracking](#tasks-management--time-tracking)
-  - [Storage / backup management](#storage--backup-management)
+  - [Tasks & time management](#tasks--time-management)
+  - [Storage & backup management](#storage--backup-management)
   - [Code](#code)
   - [Reading / Writing](#reading--writing)
   - [Communication](#communication)
   - [Social Media](#social-media)
-  - [Design](#design)
-  - [Audio / Video production](#audio--video-production)
+  - [Design & Web Design](#design--web-design)
+  - [Audio & Video production](#audio--video-production)
   - [Miscellaneous](#miscellaneous)
+- [Dock](#dock)
 - [Web Applications](#web-applications)
 - [Inspiration](#inspiration)
 - [Licence](#licence)
@@ -32,11 +41,12 @@
 
 ## My Hardware
 
-Computer: 13" Late 2017 Macbook Pro with Touch bar.
+Personal Computer: 13" Late 2017 Macbook Pro with Touch bar.
+Professional Computer: 15" 2019 Macbook Pro with Touch bar.
 
-Monitor: [LG 34UM69G-B 34" 21:9 UltraWide](https://www.amazon.ca/gp/product/B06XFXX5JH/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
+Personal Monitor: [LG 34UM69G-B 34" 21:9 UltraWide](https://www.amazon.ca/gp/product/B06XFXX5JH/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 
-Keyboards:
+Personal Keyboards:
 
 * At Work: [Pock3R](https://mechanicalkeyboards.com/shop/index.php?l=product_detail&p=3631) black with blue leds
 * At Home: [Ducky One 2 RGB TKL](https://mechanicalkeyboards.com/shop/index.php?l=product_detail&p=4284)
@@ -44,6 +54,7 @@ Keyboards:
 Mouses:
 
 * 2 [Logitech MX Master 2S](https://www.amazon.ca/dp/B071YZJ1G1/ref=cm_sw_em_r_mt_dp_U_92mNEbX6PD4H0)
+* 1 [Logitech MX Ergo](https://www.amazon.ca/Logitech%C2%AE-Advanced-Wireless-Trackball-910-005177/dp/B0753P1GTS)
 
 Accessories:
 
@@ -87,7 +98,7 @@ brew cleanup
 brew cask install cakebrew
 ```
 
-#### [ZSH]()
+#### ZSH
 
 ```sh
 brew install zsh
@@ -117,6 +128,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 Check if Oh My Zsh was correctly installed
 
+## Command Line Apps
 
 #### GNU Coreutils
 ```sh
@@ -135,13 +147,8 @@ brew install imagemagick
 brew install tree
 
 
-Add spaces to my dock
 
-```sh
-defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'; killall Dock
-```
-
-### [Ruby (rbenv)](https://github.com/rbenv/rbenv)
+- [Ruby (rbenv)](https://github.com/rbenv/rbenv)
 
 ```sh
 brew install rbenv ruby-build rbenv-default-gems rbenv-gemset
@@ -150,9 +157,6 @@ source ~/.zshrc # Apply changes
 
 rbenv install {version}
 ```
-
-
-## Command Line Apps
 
 - [node]()
 ```
@@ -219,7 +223,6 @@ brew install nektos/tap/act
 brew install github/gh/gh
 ```
 
-
 ### [Quick Look plugins](https://github.com/sindresorhus/quick-look-plugins)
 
 ```sh
@@ -234,14 +237,11 @@ brew cask install \
     qlvideo
 ```
 
-
-
-
 ## Applications
 
 This is a complete list of all the applications I have on my personal and professional Mac (some apps are only on my personal computer).
 
-### The minimum essential
+### The bare minimum
 
 This is the list of the most essentials apps I would install if I was limited in the number of apps to have.
 
@@ -261,13 +261,15 @@ brew cask install little-snitch
 ![Yearly subscription][subscription-yearly] ![Proprietary backup][backup-proprietary] ![High usage][usage-high]
 
 - Generate all of my passwords with it and keep everything in a secured and encrypted vault kept secure by my one master password.
-- No longer need to remember passwords and I now have a unique password for every website that I am signed up on whilst [activating two factor authentication](https://support.1password.com/one-time-passwords/) wherever possible.
+- No longer need to remember passwords and I now have a unique password for every website [activating two factor authentication](https://support.1password.com/one-time-passwords/) wherever possible.
 - All my applications licences are saved in 1Password
-- I switched from using LastPass in 2019
+- I was previously using [LastPass](https://www.lastpass.com/) until I switched to 1Password in 2019.
 
 ##### Extensions / plugins
-* [Chrome extension]()
-* [Alfred extension]()
+* [Chrome extension](https://chrome.google.com/webstore/detail/1password-x-%E2%80%93-password-ma/aeblfdkhhhdcdjpifhhbdiojplfjncoa?hl=en) - Update settings and set the shortcut to `⌃⇧P`
+* [Setting 1Password 1Click Bookmarks in Alfred](https://www.alfredapp.com/help/features/1password/)
+
+<img src="media/1password-alfred.jpg" width="300">
 
 ##### CLI installation
 ```sh
@@ -283,7 +285,7 @@ mas install 1333542190
 
 - **Text expansions**: previously using [TextExpander](https://textexpander.com/), I switched in using the snippet feature in Alfred. (text-expander to aflred)
 
-- Workflows used (files saved on Dropbox):
+- **Workflows** used (files saved on Dropbox):
     - [caniuse](https://github.com/willfarrell/alfred-caniuse-workflow)
     - [DEVONThink Search](https://www.packal.org/workflow/devonthink-search)
     - F.lux
@@ -293,6 +295,8 @@ mas install 1333542190
     - Spotify Mini Player
     - Things
     - Alfred Maestro
+    - Terminal Finder
+    - Copy URL
 
 ##### CLI installation
 ```sh
@@ -338,7 +342,7 @@ Multiple profiles
 brew cask install google-chrome
 ```
 
-##### Extensions
+##### Chrome extensions
 * [Feedly Mini](https://chrome.google.com/webstore/detail/feedly-mini/ndhinffkekpekljifjkkkkkhopnjodja?hl=en) - Easily save the RSS feed of the current website
 * [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb?hl=en) - Because I prefer to limit ads
 * [1Password](https://chrome.google.com/webstore/detail/1password-x-%E2%80%93-password-ma/aeblfdkhhhdcdjpifhhbdiojplfjncoa?hl=en) - 1Password companion
@@ -392,9 +396,15 @@ brew cask install microsoft-edge
     - Hide view
 
 - Person
-    - Show view
+    - **Show view**
 
-    - Hide view
+    ![bartender-show-personal](media/bartender-show-personal.jpg)
+(Trailer, Mouseless, SnippetsLabs, PopClip, Magnet, Timing)
+
+    - **Hide view**
+
+    ![bartender-hide-personal](media/bartender-hide-personal.jpg)
+(Flux, Hammerspoon, Dropbox, Google Backup, Airplay, Wifi)
 
 ##### CLI installation
 ```sh
@@ -458,11 +468,13 @@ brew cask install kap
 
 <img src="media/next-meeting.png" width="300">
 
+#### [Moon](https://manytricks.com/moom/) - Move and zoom windows
+![Licence ~$10][licence-10] ![Usage high][usage-high]
+
 #### [CleanMyMac X](https://macpaw.com/cleanmymac) - To maintain my Mac as he was new
 ![Licence ~$50][licence-50] ![Usage high][usage-high]
 
-![cleanmymac](media/cleanmymac.jpg)
-
+<img src="media/cleanmymac.jpg" width="700" align="center">
 
 ##### CLI installation
 ```sh
@@ -476,7 +488,7 @@ brew cask install cleanmymac
 ![Free][licence-free] ![Usage low][usage-low] [![Show your support][support]](https://sindresorhus.com/donate)
 
 #### [Stream Deck](https://www.elgato.com/en/gaming/downloads) -
-![Free][licence-free] ![Usage medium][usage-medium]
+![Free][licence-free] ![Usage medium][usage-medium] ![Backup iCloud][backup-icloud]
 
 ##### VSCode profile
 
@@ -516,18 +528,18 @@ mas install 928871589
 #### [Mouseless](https://mouseless.app/) - Practice and learn new keyboard's shortcuts
 ![Licence ~$20][licence-20] ![Usage low][usage-low]
 
-
-
-![mouseless up-w300](media/mouseless.jpg)
-
+<img src="media/mouseless.jpg" width="300">
 
 #### [TeamViewer](https://www.teamviewer.com/en/) - Remote control
 ![Free][licence-free] ![Usage low][usage-low]
 
-I only use TeamViewer when I need to debug or help my Mom's computer.
+I only use TeamViewer when I need to debug my Mom's computer (which is located in France).
 
 #### [Cardhop](https://flexibits.com/cardhop) - Contacts lists management
 ![Licence ~$30][licence-30] ![Usage low][usage-low]
+
+- I use Cardhop occasionally to ensure my contact list is up to date or to easily add missing information or missing birthday dates.
+- I synchronise my list of Contacts on iCloud and [Gmail Contacts](https://contacts.google.com/) to avoid duplicates.
 
 ### Automation
 
@@ -547,7 +559,7 @@ brew cask install keyboard-maestro
 brew cask install hazel
 ```
 
-#### [Karabiner](https://karabiner-elements.pqrs.org/) - Personalize keyboards
+#### [Karabiner](https://karabiner-elements.pqrs.org/) - Remapping my  keyboards
 ![Free][licence-free] ![Usage medium][usage-medium] [![Show your support][support]](https://karabiner-elements.pqrs.org/docs/pricing/#supporting-this-project)
 
 #### [BetterTouch Tool](https://folivora.ai/) - Customize multiple devices on the Mac
@@ -566,7 +578,7 @@ brew cask install bettertouchtool
 brew cask install hammerspoon
 ```
 
-### Tasks management / time tracking
+### Tasks & time management
 
 #### [Fantastical](https://flexibits.com/fantastical) - Calendar
 ![Free][licence-free] ![High usage][usage-high]
@@ -594,19 +606,19 @@ mas install 904280696
 #### [Timing](https://timingapp.com/?lang=en) - To record everything I do without manual action
 ![Yearly subscription][subscription-yearly] ![High usage][usage-high]
 
-![timing](media/timing.jpg)
-
+<img src="media/timing.jpg" width="700" align="center">
 
 ##### CLI installation
 ```sh
 brew cask install timing
 ```
 
-### Storage / backup management
+### Storage & backup management
 
 #### [Dropbox](https://www.dropbox.com/individual) - Online Cloud Backup
 ![Monthly subscription][subscription-montly] ![Usage high][usage-high]
 
+##### To DO after install
 - [ ] Select `Apps` and `Screenshots` folders to sync
 
 ##### CLI installation
@@ -617,8 +629,16 @@ brew cask install dropbox
 #### [Google Backup Up & Sync](https://www.google.com/drive/download/backup-and-sync/)
 ![Free][licence-free] ![Usage high][usage-high]
 
+##### To DO after install
+- [ ] Choose folders to sync
+
 #### [ForkLift](https://binarynights.com/) - Dual pane file manager and file transfer client for macOS
 ![Licence ~$30][licence-30] ![Usage medium][usage-medium]
+
+##### To DO after install
+- [ ] *Sync favorites* with Dropbox
+
+<img src="media/forklift-preferences.jpg" width="400">
 
 ##### CLI installation
 ```sh
@@ -640,8 +660,7 @@ mas install 425424353
 #### [Hard Disk Manager](https://www.paragon-software.com/hdm-mac/) - Maintain and manage my external hard drives
 ![Licence ~$65][licence-50] ![Usage low][usage-low]
 
-![harddiskmanager up-w400](media/harddiskmanager.jpg)
-
+<img src="media/harddiskmanager.jpg" width="400">
 
 #### [GoodSync](https://www.goodsync.com/download) - Backup/sync and file organization
 ![Licence ~$30][licence-30]
@@ -665,8 +684,7 @@ brew cask install visual-studio-code
 
 - I love using Tower as it gave me a more visual representation of my Github projects. When I'm not using Tower, I use some aliases enabled in ZSH to speedup Git commands.
 
-![tower](media/tower.jpg)
-
+<img src="media/tower.jpg" width="700" align="center">
 
 ##### CLI installation
 ```sh
@@ -684,23 +702,21 @@ brew cask install diffmerge
 #### [SnippetsLabs](https://www.renfei.org/snippets-lab/) - Code snippets manager
 ![Licence ~$10][licence-10] ![Backup iCloud][backup-icloud] ![Usage high][usage-high]
 
-![snippetlab-smart](media/snippetlab-smart.jpg)
-
+<img src="media/snippetlab-smart.jpg" width="130">
 
 - I store all my code snippets
 
 Other options
 - [Alfred](https://www.alfredapp.com/extras/snippets/), [VSCode](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
 
+##### Extensions / plugins
+* [Alfred extension](http://www.packal.org/workflow/search-snippetslab)
+* [PopClip extension](https://pilotmoon.com/popclip/extensions/page/SnippetsLab)
+
 ##### CLI installation
 ```sh
 mas install 1006087419
 ```
-
-##### Extensions / plugins
-* [Alfred extension]()
-* [PopClip extension]()
-
 
 #### [Trailer](http://ptsochantaris.github.io/trailer/) - Github Notifications
 ![Free][licence-free] ![Usage high][usage-high]
@@ -710,8 +726,7 @@ mas install 1006087419
 
 I found Proxyman when struggling making Charles working on my Mac. Proxyman make it really easy to....
 
-![proxyman](media/proxyman.jpg)
-
+<img src="media/proxyman.jpg" width="700" align="center">
 
 #### [Paw](https://paw.cloud/) - Beautiful HTTP client for Mac
 ![Backup Dropbox][backup-dropbox] ![Usage medium][usage-medium]
@@ -742,14 +757,6 @@ brew cask install mockoon
 brew install docker
 
 brew cask install docker-toolbox
-```
-
-#### [GraphQL Playground](https://github.com/prisma-labs/graphql-playground) - Another GraphQL IDE
-![Free][licence-free]
-
-##### CLI installation
-```sh
-brew cask install graphql-playground
 ```
 
 #### [Altair GraphQL Client]() - Beautiful GraphQL Client
@@ -798,8 +805,7 @@ mas install 1268962404
 #### [Carbonize](https://www.dangercove.com/carbonize/) - Generate beautiful code snippets
 ![Free][licence-free] ![Usage low][usage-low]
 
-![carbonize](media/carbonize.jpg)
-
+<img src="media/carbonize.jpg" width="700" align="center">
 
 #### [CodeKit](https://codekitapp.com/) - Gulp, Grunt, Pug are on a boat
 ![Licence ~$34][licence-30] ![Usage low][usage-low]
@@ -822,14 +828,46 @@ mas install Haskell
 #### [Reeder](https://reederapp.com/) - News reader
 ![Licence ~$13][licence-10] ![Usage high][usage-high]
 
-![reeder](media/reeder.jpg)
+* I use [Feedly](https://feedly.com/) to store all my RSS feeds and synchronize with Reeder.
+* I like to activate the *Bionic Reading* setting, which speed up my reading.
+* **DEVONthink 3** and **Things** are activated in the "Actions and Sharing" settings.
+
+<img src="media/reeder.jpg" width="700" align="center">
 
 ##### CLI installation
 ```sh
 mas install 880001334
 ```
 
-#### [Notion](https://www.notion.so) -
+#### [Scapple](https://www.literatureandlatte.com/scapple/overview) - Brain, ideas and connections
+![Usage medium][usage-medium]
+
+- When I want to brainstorm without any structure, Scapple is the first tool I use in my workflow.
+- It allows me to put all words / ideas I can think of and then start establishing relationships.
+- When I have a better vision or want to be more organize, I usually switch in using [MindNode](#mindnode---interactive-mind-mapping).
+
+<img src="media/scapple.jpg" width="700" align="center">
+
+##### CLI installation
+```sh
+brew cask install scapple
+
+mas install 568020055
+```
+
+#### [MindNode](https://mindnode.com) - Interactive Mind Mapping
+![Licence ~$30][licence-30] ![Backup iCloud][backup-icloud] ![High medium][usage-medium]
+
+<img src="media/mindnode.jpg" width="700" align="center">
+
+##### CLI installation
+```sh
+brew cask install mindnode-pro
+
+mas install 1289197285
+```
+
+#### [Notion](https://www.notion.so) - Notes, docs, knowledge base and more, in one place
 ![Yearly subscription][subscription-yearly] ![Proprietary backup][backup-proprietary] ![High usage][usage-high]
 
 ##### CLI installation
@@ -837,19 +875,18 @@ mas install 880001334
 brew cask install notion
 ```
 
-#### [DEVONthink](https://www.devontechnologies.com/apps/devonthink) - To collect, organize and edit all my documents
-![Licence ~200](https://img.shields.io/static/v1?style=flat-square&label=LICENCE&message=~$200&color=orange) ![Usage high][usage-high]
+#### [DEVONthink](https://www.devontechnologies.com/apps/devonthink) - To collect, organize and edit all my documents and articles
+![Licence ~200](https://img.shields.io/static/v1?style=flat-square&label=LICENCE&message=~$200&color=orange) ![Usage high][usage-high] ![Backup iCloud][backup-icloud]
 
-- I used [Evernote](https://evernote.com/) for years
+* I used [Evernote](https://evernote.com/) for years, but the lack of new features I decided to use DEVONthink and have no regrets.
 
-![devonthink](media/devonthink.jpg)
-
+<img src="media/devonthink.jpg" width="700" align="center">
 
 ##### Extensions / plugins
 * [Chrome extension](https://chrome.google.com/webstore/detail/clip-to-devonthink/pjoafdokmbmkpolhcnmnkgaicbajigcc?hl=en)
-* [Alfred extension]()
-* [PopClip extension]()
-* Airmail services
+* [Alfred extension](https://www.packal.org/workflow/devonthink-search)
+* [PopClip extension](https://pilotmoon.com/popclip/extensions/page/DEVONthink3)
+* [Airmail services activation](https://help.airmailapp.com/en-us/article/integration-devonthink-1wd677j/)
 
 ##### CLI installation
 ```sh
@@ -859,30 +896,30 @@ brew cask install devonthink
 #### [DEVONagent Pro](https://www.devontechnologies.com/apps/devonagent) - Search the web and filter the results
 ![Licence ~$50][licence-50] ![High medium][usage-medium]
 
+* I use DEVONagent Pro every-time I need to do research to prepare a presentation, write an article or produce some sort of content.
+
+<img src="media/devonagent.jpg" width="700" align="center">
+
 #### [MWeb](https://www.mweb.im/) - A powerful Markdown Editor
 ![Licence ~$20][licence-20] ![Backup iCloud][backup-icloud] ![Usage high][usage-high]
+
+- I've used [Marked 2](https://marked2app.com/), [Ulysses](https://ulysses.app/) and [Boostnode](https://boostnote.io/) but MWeb is the one app I've enjoy the most using.
+
+<img src="media/mweb.jpg" width="700" align="center">
 
 ##### CLI installation
 ```sh
 mas install 1403919533
 ```
 
-#### [MindNode](https://mindnode.com) - Interactive Mind Mapping
-![Licence ~$30][licence-30] ![Backup iCloud][backup-icloud] ![High medium][usage-medium]
-
-##### CLI installation
-```sh
-brew cask install mindnode-pro
-
-mas install 1289197285
-```
-
 #### [Scrivener](https://www.literatureandlatte.com/scrivener/overview) - One day I want to be a writer
 ![Usage low][usage-low]
 
 - Scrivener is the perfect tool to write any book.
-- I've used Scrivener in the past to work on the outline on a video course
+- I've used Scrivener in the past to work on the outline for a video course.
 - I'm planning in using it more and maybe start writing small non-fictional ebooks soon.
+
+<img src="media/scrivener.jpg" width="700" align="center">
 
 ##### CLI installation
 ```sh
@@ -891,24 +928,7 @@ brew cask install scrivener
 mas install 1310686187
 ```
 
-#### [Scapple](https://www.literatureandlatte.com/scapple/overview) - Brain, ideas and connections
-![Usage medium][usage-medium]
-
-- When I want to brainstorm without any structure, Scapple is the first tool I use in my workflow.
-- It allows me to put all words / ideas I can think of and then start establishing relationships.
-- When I have a better vision, I usually switch in using [MindNode](#mindnode---interactive-mind-mapping).
-
-![scapple](media/scapple.jpg)
-
-
-##### CLI installation
-```sh
-brew cask install scapple
-
-mas install 568020055
-```
-
-#### [Apple Keynote](https://www.apple.com/keynote/)
+#### [Apple Keynote](https://www.apple.com/keynote/) - A better alternative to Powerpoint
 ![Free][licence-free]
 
 ### Communication
@@ -918,6 +938,7 @@ mas install 568020055
 
 ##### Workspaces
 - HomeX
+- Dias testing (my own Slack workspace to test apps and webhooks)
 - [Contentful Community](https://www.contentful.com/slack/)
 - [A11y](https://web-a11y.slack.com/#/)
 - [TorontoJS](http://slack.torontojs.com/)
@@ -930,10 +951,19 @@ brew install cask slack
 mas install 803453959
 ```
 
-#### [Airmail]() - Email client
+#### [Airmail](https://airmailapp.com/) - My favorite email client
 ![Free][licence-free-limit] ![Yearly subscription][subscription-yearly] ![Backup iCloud][backup-icloud] ![Usage high][usage-high]
 
-![airmail](media/airmail.jpg)
+* I've been using Airmail since I fully work on MacOS.
+* I tried [Spark](https://sparkmailapp.com/) for few days but I didn't feel it was a big win in comparaison to Airmail.
+* Like many people, I approach my emails tasks in GTD style, trying to always be close to zero emails in my inbox.
+
+##### Filters and triage
+
+I used "filters" on Gmail to organize most of my emails (especially newsletters, bills, recurring emails...). I wish Gmail would have an easiest way to create these filters.
+![gmail-filters](media/gmail-filters.jpg)
+
+<img src="media/airmail.jpg" width="160" align="center">
 
 ##### CLI installation
 ```sh
@@ -949,17 +979,19 @@ I have a strict rule in regards to social apps on my professional Mac. I usually
 #### [Flume](https://flumeapp.com/) - To manage Instagram on Mac
 ![Free][licence-free] ![Usage low][usage-low]
 
-#### [Messenger](https://apps.apple.com/us/app/messenger/id1480068668?mt=12) -
+#### [Messenger](https://apps.apple.com/us/app/messenger/id1480068668?mt=12) - Facebook Messenger but on Mac
 ![Free][licence-free] ![Usage low][usage-low]
 
-#### [WhatApps](https://www.whatsapp.com/download) -
+#### [WhatApps](https://www.whatsapp.com/download) - WhatApps on Mac
 ![Free][licence-free] ![Usage low][usage-low]
 
 #### [Discord](https://discordapp.com/download) -
 ![Free][licence-free] ![Usage low][usage-low]
 
-#### [Skype](https://www.skype.com/en/get-skype/) -
+#### [Skype](https://www.skype.com/en/get-skype/)
 ![Free][licence-free] ![Usage low][usage-low]
+
+* Skype was my to-go chat app for years, but since Google Meet, Facebook Messenger and WhatsApp, I only use with 2-3 people that are not on these platforms.
 
 ##### CLI installation
 ```sh
@@ -974,7 +1006,7 @@ brew cask install skype
 mas install 747648890
 ```
 
-### Design
+### Design & Web Design
 
 I'm not a Web Designer / Designer, but I love studying Photography, UI and UX. I try to practice as much as I can using the following applications.
 
@@ -982,19 +1014,22 @@ I'm not a Web Designer / Designer, but I love studying Photography, UI and UX. I
 ![Yearly subscription][subscription-yearly] ![Usage high][usage-high] ![Backup Dropbox][backup-dropbox]
 
 ##### Extensions / plugins
-* [Chrome extension](https://chrome.google.com/webstore/detail/eagle-save-images-faster/lieogkinebikhdchceieedcigeafdkid?hl=en)
+* [Eagle Chrome extension](https://chrome.google.com/webstore/detail/eagle-save-images-faster/lieogkinebikhdchceieedcigeafdkid?hl=en)
 
 #### [Rightfont 5](https://rightfontapp.com/) - The best font manager for Mac
 ![Licence ~$35][licence-30] ![Usage medium][usage-medium] ![Backup Dropbox][backup-dropbox]
 
 - By far, the best font manager that supports my library of more than 80 000 font files.
 
-![rightfont-5](media/rightfont-5.jpg)
+<img src="media/rightfont-5.jpg" width="700" align="center">
 
 #### [IconJar](https://geticonjar.com/) - Best icon manager
 ![Usage low][usage-low] ![Backup Dropbox][backup-dropbox]
 
-![iconjar](media/iconjar.jpg)
+* All my icons are stored on IconJar
+* I could also used [Eagle](#eagle---organize-my-design-library) to store these, but I prefer to have a dedicated software to manage all icon's formats.
+
+<img src="media/iconjar.jpg" width="700" align="center">
 
 #### [Adobe Creative Cloud](https://www.adobe.com/ca/creativecloud.html)
 ![Monthly subscription][subscription-montly] ![Proprietary backup][backup-proprietary] ![Usage high][usage-high]
@@ -1050,7 +1085,7 @@ brew cask install sip
 brew cask install imageoptim
 ```
 
-### Audio / Video production
+### Audio & Video production
 
 #### [VLC](https://www.videolan.org/vlc/index.html) - A Media player built by my compatriots
 ![Free][licence-free] ![Usage high][usage-high] [![Show your support][support]](https://www.videolan.org/contribute.html#money)
@@ -1075,7 +1110,7 @@ brew cask install imageoptim
 #### [Power Prompter](https://suborbital.io/powerprompter/download/) -
 ![Licence ~$50][licence-50] ![Usage low][usage-low]
 
-#### Twitch
+#### [Twitch](https://www.twitch.tv/) - The well-known streaming platform
 ![Free][licence-free] ![Usage medium][usage-medium]
 
 #### [Airy](https://www.airy-youtube-downloader.com/) - YouTube video and MP3 Downloader
@@ -1113,6 +1148,18 @@ brew cask install airy
 ```sh
 brew cask install bartender
 ```
+
+## Dock
+
+Add spaces to my dock
+
+```sh
+defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'; killall Dock
+```
+
+- Dock screenshot
+
+
 
 ## Web Applications
 
