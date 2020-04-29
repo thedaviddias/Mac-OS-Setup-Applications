@@ -35,7 +35,8 @@
   - [Design & Web Design](#design--web-design)
   - [Audio & Video production](#audio--video-production)
   - [Miscellaneous](#miscellaneous)
-- [Dock](#dock)
+- [Mac preferences](#mac-preferences)
+  - [Dock](#dock)
 - [Web Applications](#web-applications)
 - [Inspiration](#inspiration)
 - [Icons and images](#icons-and-images)
@@ -404,23 +405,23 @@ mas install 1333542190
 
 ##### What I 👎
 
-* I wish some features like "Snippets", would be more advanced to compete more with TextExpander
+* I wish some features like "Snippets", would be more advanced to compete with tools like TextExpander or [Typinator](https://www.ergonis.com/products/typinator/)
 
 ##### Worflows
 
-This is the list of most of the workflows I used (files saved on Dropbox):
+This is the list of the workflows I used the most (files saved in Dropbox):
 
 - [caniuse](https://github.com/willfarrell/alfred-caniuse-workflow)
 - [DEVONThink Search](https://www.packal.org/workflow/devonthink-search) - To search on my DEVONThink databases
-- [F.lux]() - Change the settings of [F.lux]()
-- [Lorem Ipsum]() - To generate random Lorem Ipsum text
-- [MDN Search]() - One of the best documentation
-- [Snippets Lab](http://www.packal.org/workflow/search-snippetslab)
-- [Spotify Mini Player]() - Play, Pause, Next, the missing remote for Spotify
-- [Things]() - Access my tasks from Alfred
-- Alfred Maestro
-- Terminal Finder
-- Copy URL
+- [F.lux](https://www.packal.org/workflow/flux-0) - Change the settings of [F.lux]()
+- [Lorem Ipsum](https://www.packal.org/workflow/lorem-ipsum-0) - To generate random Lorem Ipsum text
+- [MDN Search](https://www.packal.org/workflow/mdn-search) - One of the best documentation
+- [Snippets Lab](http://www.packal.org/workflow/search-snippetslab) - Search code snippets
+- [Spotify Mini Player](https://alfred-spotify-mini-player.com/) - Play, Pause, Next, the missing remote for Spotify
+- [Things](https://www.packal.org/workflow/things) - Access my tasks from Alfred
+- [Alfred Maestro](https://github.com/iansinnott/alfred-maestro) - Search on Keyboard Maestro using Alfred
+- [Terminal Finder](https://www.packal.org/workflow/terminalfinder) - Type a command in Alfred and append it directly in the terminal
+- [Copy URL](https://www.packal.org/workflow/copy-url) - Copy the current browser tab URL and deliver it in the markdown format
 
 ##### CLI installation
 ```sh
@@ -429,8 +430,22 @@ brew cask install alfred
 
 <img src="media/iterm2.png" width="50" align="right">
 
-#### [iTerm2](https://www.iterm2.com/downloads.html) - Better than the native terminal
+#### [iTerm2](https://www.iterm2.com/downloads.html) - The replacement for  terminal
 ![Free][licence-free] ![Usage high][usage-high] ![Backup Dropbox][backup-dropbox] [![Show your support][support]](https://www.iterm2.com/donate.html) [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/iterm2)
+
+##### What for?
+
+* Because the native MacOS terminal is ugly and limited in terms of personalization and functionalities.
+
+##### What I ❤️
+
+* The number of options
+* The possibility to create multiple profiles
+* Password manager
+
+##### What I 👎
+
+* 0️⃣
 
 ##### CLI installation
 ```sh
@@ -442,8 +457,22 @@ brew cask install iterm2
 #### [Spotify](https://www.spotify.com/) - Music for my hears
 ![Montly subscription][subscription-montly] ![Usage high][usage-high] ![Proprietary backup][backup-proprietary]
 
+##### What for?
+
+* Listen to music
+* Help to concentrate when doing heaving work
+
+##### What I ❤️
+
+* Fast and mostly stable
+* The "Made for You" which choose music based on my preferences.
+
+##### What I 👎
+
+* 0️⃣
+
 ##### Extensions / plugins
-* [Alfred extension]()
+- [Alfred - Spotify Mini Player](https://alfred-spotify-mini-player.com/) - Play, Pause, Next, the missing remote for Spotify
 
 ##### CLI installation
 ```sh
@@ -460,26 +489,34 @@ brew cask install spotify
 
 Multiple profiles
 - Professional user
-- Personnal user
+- Personal user
 - Accessibility user
-
-##### CLI installation
-```sh
-brew cask install google-chrome
-```
 
 ##### Chrome extensions
 * [Feedly Mini](https://chrome.google.com/webstore/detail/feedly-mini/ndhinffkekpekljifjkkkkkhopnjodja?hl=en) - Easily save the RSS feed of the current website
 * [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb?hl=en) - Because I prefer to limit ads
 * [1Password](https://chrome.google.com/webstore/detail/1password-x-%E2%80%93-password-ma/aeblfdkhhhdcdjpifhhbdiojplfjncoa?hl=en) - 1Password companion
 * [Toolbar Spacer 1](https://chrome.google.com/webstore/detail/toolbar-spacer/golladjmjodbefcoombodcdhimkmgemd?hl=en) - I prefer to separate my extensions visually
-* [Clip to DEVONthink](https://chrome.google.com/webstore/detail/clip-to-devonthink/pjoafdokmbmkpolhcnmnkgaicbajigcc?hl=en)
-* Save to Notion
-* Add to Things 3
-* Eagle
-* What Runs
-* React Developer Tools
-* Grammarly
+* [Clip to DEVONthink](https://chrome.google.com/webstore/detail/clip-to-devonthink/pjoafdokmbmkpolhcnmnkgaicbajigcc?hl=en) - Clip the URL, text or screenshot the page and save it in DEVONthink
+* [Save to Notion](https://chrome.google.com/webstore/detail/notion-web-clipper/knheggckgoiihginacbkhaalnibhilkk?hl=en) - Save a page, text or anything else to Notion
+* [Add to Things 3](https://chrome.google.com/webstore/detail/add-to-things-3/kakcfbhogeepoebcaidchmhphjeknpne?hl=en) - Add the current URL to Things
+* [Eagle](https://chrome.google.com/webstore/detail/eagle-save-images-faster/lieogkinebikhdchceieedcigeafdkid?hl=en) - Save images to Eagle (love the drag and drop functionality that works with any image)
+* [What Runs](https://chrome.google.com/webstore/detail/whatruns/cmkdbmfndkfgebldhnkbfhlneefdaaip?hl=en) - Discover what runs a website
+* [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en) - The required tool that help to inspect any React component
+* [Grammarly](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen?hl=en) - The life saving tool that help to fix writing errors
+* CSS Scan
+* Session Budy
+* Keepa
+* VisBug
+* Merge all Windows
+* Tab Organizer
+* JSONView
+* Momentum
+
+##### CLI installation
+```sh
+brew cask install google-chrome
+```
 
 <img src="media/chrome-canary.png" width="50" align="right">
 
@@ -643,7 +680,7 @@ brew cask install cleanmymac
 
 <img src="media/streamdeck.png" width="50" align="right">
 
-#### [Stream Deck](https://www.elgato.com/en/gaming/downloads) -
+#### [Stream Deck](https://www.elgato.com/en/gaming/downloads) - Defining actions on buttons
 ![Free][licence-free] ![Usage medium][usage-medium] ![Backup iCloud][backup-icloud] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/elgato-stream-deck)
 
 * I have [few profiles]()
@@ -700,6 +737,10 @@ I only use TeamViewer when I need to debug my Mom's computer (which is located i
 #### [Keyboard Maestro](https://www.keyboardmaestro.com/main/) - The most powerful option to automate EVERYTHING on Mac
 ![Licence ~$30][licence-30] ![Usage high][usage-high] ![Backup Dropbox][backup-dropbox] ![Backup Dropbox][backup-dropbox] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/keyboard-maestro)
 
+##### Extensions
+
+* [Alfred Maestro](https://github.com/iansinnott/alfred-maestro) - Search on Keyboard Maestro using Alfred
+
 ##### CLI installation
 ```sh
 brew cask install keyboard-maestro
@@ -744,7 +785,7 @@ brew cask install hammerspoon
 
 <img src="media/fantastical.png" width="50" align="right">
 
-#### [Fantastical](https://flexibits.com/fantastical) - Calendar
+#### [Fantastical](https://flexibits.com/fantastical) - Calendar management
 ![Free][licence-free] ![High usage][usage-high] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/fantastical-3-0)
 
 - I use the app to manage personal and professional events.
@@ -852,7 +893,7 @@ mas install 425424353
 ----
 <img src="media/visual-studio-code.png" width="50" align="right">
 
-#### [Visual Studio Code](https://github.com/Microsoft/vscode) - Code editor
+#### [Visual Studio Code](https://github.com/Microsoft/vscode) - My preferred code editor
 ![Free][licence-free] ![Usage high][usage-high] ![Backup Github][backup-github]
 
 sync settings
@@ -940,7 +981,7 @@ brew cask install paw
 
 <img src="media/mockoon.png" width="50" align="right">
 
-#### [Mockoon](https://mockoon.com/)
+#### [Mockoon](https://mockoon.com/) - Has never been so easy to create a mock server
 ![Free][licence-free] ![Usage medium][usage-medium] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/mockoon)
 
 ##### CLI installation
@@ -1047,7 +1088,7 @@ mas install Haskell
 
 <img src="media/reeder.png" width="50" align="right">
 
-#### [Reeder](https://reederapp.com/) - News reader
+#### [Reeder](https://reederapp.com/) - To stay informed
 ![Licence ~$13][licence-10] ![Usage high][usage-high] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/reeder-3-2)
 
 * I use [Feedly](https://feedly.com/) to store all my RSS feeds and synchronize with Reeder.
@@ -1452,9 +1493,11 @@ brew cask install airy
 brew cask install
 ```
 
-## Dock
+## Mac preferences
 
-Add spaces to my dock
+### Dock
+
+#### Add spaces to my dock
 
 ```sh
 defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'; killall Dock
@@ -1467,7 +1510,11 @@ defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-t
 
 ## Web Applications
 
-https://themer.dev/
+* Invision
+* [Namecheap](https://www.namecheap.com/) - The best domain registrar
+* [StatusCake](https://www.statuscake.com/) - To keep an eye on your website uptime
+* [Themer.dev](https://themer.dev/) - To generate themes (editors, terminals, wallpapers, and more) with ease
+
 
 ## Inspiration
 
@@ -1478,7 +1525,7 @@ Heavily inspired by the works from:
 
 ## Icons and images
 
-All logos used a
+All logos and brand/applications names are registered and below to their owners.
 
 <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
