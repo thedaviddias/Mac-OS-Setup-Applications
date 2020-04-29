@@ -50,12 +50,12 @@ Based on hours of research and testing, I'm sharing all the applications I belie
 ### Good to know!
 
 - I tried to keep the right order you should also follow to install packages and applications on your Mac.
-- Some tools are free and some are not. I'm lucky to have the ability to pay for licences and subscriptions. But if you are not in that situation, 1) I will try to always share free alternatives, 2) you don't need a paid tool to do an amazing work. Just choose the best tool that suits you and your situation.
+- Some tools are free and some are not. I'm lucky to have the ability to pay for licences and subscriptions. But if you are not in that situation, 1) You will find free alternatives in the "Alternatives" section of each tool, 2) you don't need a paid tool to do an amazing work. Just choose the best tool that suits you and your situation.
 
 ### Where to find the right tool?
-- [Product Hunt](https://www.producthunt.com/) - By far the best and well-know website where you can find almost everything you need.
-- [AlternativeTo](https://alternativeto.net/) - I regulary use AlternativeTo but find it limited and not always accurate. The "ups" are most of the time not relevant or doesn't reflect what people prefer the most. It's a great place to start if you are looking for a list of alternatives though.
-- [Slant](https://www.slant.co/) and [stackshare](https://stackshare.io/) - Slant and Stackshare are kind of similar but Stackshare is more developer tools focused. It's a nice source of information to compare apps / webapps.
+- [Product Hunt](https://www.producthunt.com/?ref=thedaviddias) - By far the best and well-know website where you can find almost everything you need. You will sometimes find a badge ![Upvote on Product Hunt][product-hunt] that redirects to the Product Hunt page. Show some ❤️ to the makers!
+- [AlternativeTo](https://alternativeto.net/?ref=thedaviddias) - I regularly use AlternativeTo but find it limited and not always accurate. The "ups" are most of the time not relevant or doesn't reflect what people prefer the most. It's a great place to start if you are looking for a list of alternatives though.
+- [Slant](https://www.slant.co/?ref=thedaviddias) and [stackshare](https://stackshare.io/?ref=thedaviddias) - Slant and Stackshare are kind of similar but Stackshare is more developer tools focused. It's a nice source of information to compare apps / web apps.
 
 ## My Hardware
 
@@ -76,12 +76,12 @@ Mouses:
 
 Accessories:
 
-* [Bose]()
+* [Bose QuietComfort 35 II](https://www.amazon.com/dp/B0756CYWWD/ref=cm_sw_em_r_mt_dp_U_XKlQEbZWNE0YW)
 * [Elgato Stream Deck](https://www.amazon.ca/dp/B06XKNZT1P/ref=cm_sw_em_r_mt_dp_U_64mNEbDTVAA81)
 * [Elgato Green Screen](https://www.amazon.ca/dp/B0743Z892W/ref=cm_sw_em_r_mt_dp_U_n-mNEbNJ37DDK)
 * [Focusrite Scarlett-2i2 Gen2](https://www.amazon.ca/dp/B005OZE9SA/ref=cm_sw_em_r_mt_dp_U_v7mNEb9RZNDFG)
 * [DBX 286s Microphone Pre-amp Processor](https://www.amazon.ca/dp/B004NDFRVC/ref=cm_sw_em_r_mt_dp_U_V7mNEbTJ0E20E)
-* Rode Procaster
+* [Rode Procaster](https://www.amazon.com/dp/B001IPUJJI/ref=cm_sw_em_r_mt_dp_U_wLlQEbV5FS1XC)
 
 ## Setup shell
 
@@ -299,20 +299,20 @@ mas install 1333542190
 
 <img src="media/15878422056701.jpg" width="50" align="right">
 
-#### [Alfred 4](https://www.alfredapp.com) - Launcher, the best alternative for Spolight
+#### [Alfred 4](https://www.alfredapp.com) - Application Launcher, the best alternative for Spolight
 ![Free][licence-free-limit] ![Licence ~$30][licence-30] ![Backup Dropbox][backup-dropbox] ![High usage][usage-high]
 
 - **Text expansions**: previously using [TextExpander](https://textexpander.com/), I switched in using the snippet feature in Alfred. (text-expander to aflred)
 
 - **Workflows** used (files saved on Dropbox):
     - [caniuse](https://github.com/willfarrell/alfred-caniuse-workflow)
-    - [DEVONThink Search](https://www.packal.org/workflow/devonthink-search)
-    - F.lux
-    - Lorem Ipsum
-    - MDN Search
+    - [DEVONThink Search](https://www.packal.org/workflow/devonthink-search) - To search on my DEVONThink databases
+    - [F.lux]() - Change the settings of [F.lux]()
+    - [Lorem Ipsum]() - To generate random Lorem Ipsum text
+    - [MDN Search]() - One of the best documentation
     - [Snippets Lab](http://www.packal.org/workflow/search-snippetslab)
-    - Spotify Mini Player
-    - Things
+    - [Spotify Mini Player]() - Play, Pause, Next, the missing remote for Spotify
+    - [Things]() - Access my tasks from Alfred
     - Alfred Maestro
     - Terminal Finder
     - Copy URL
@@ -348,6 +348,7 @@ brew cask install spotify
 ### Browsers
 ![Free][licence-free]
 
+<img src="media/chrome.png" width="50" align="right">
 
 #### [Google Chrome](https://www.google.com/chrome/)
 
@@ -374,12 +375,16 @@ brew cask install google-chrome
 * React Developer Tools
 * Grammarly
 
+<img src="media/chrome-canary.png" width="50" align="right">
+
 #### [Google Chrome Canary](https://www.google.com/chrome/canary/)
 
 ##### CLI installation
 ```sh
 brew cask install google-chrome-canary
 ```
+
+<img src="media/firefox.png" width="50" align="right">
 
 #### [Firefox](https://www.mozilla.org/en-CA/firefox/new/)
 
@@ -388,12 +393,16 @@ brew cask install google-chrome-canary
 brew cask install firefox
 ```
 
+<img src="media/firefox-nightly.png" width="50" align="right">
+
 #### [Firefox Nightly](https://www.mozilla.org/en-US/firefox/channel/desktop/)
 
 ##### CLI installation
 ```sh
 brew cask install firefox-nightly
 ```
+
+<img src="media/edge.png" width="50" align="right">
 
 #### [Microsoft Edge](https://www.microsoft.com/en-us/edge) - The browser from Microsoft
 
@@ -403,6 +412,8 @@ brew cask install microsoft-edge
 ```
 
 ### Utilities
+
+<img src="media/bartender.png" width="50" align="right">
 
 #### [Bartender 3](https://www.macbartender.com/) - Organize menu bar icons
 ![Licence ~$20][licence-20] ![High usage][usage-high]
@@ -423,14 +434,16 @@ brew cask install microsoft-edge
     - **Hide view**
 
     ![bartender-hide-personal](media/bartender-hide-personal.jpg)
-(Flux, Hammerspoon, Dropbox, Google Backup, Airplay, Wifi)
+(f.lux, Hammerspoon, Dropbox, Google Backup, Airplay, Wifi)
 
 ##### CLI installation
 ```sh
 brew cask install bartender
 ```
 
-#### [Flux](https://justgetflux.com/) -  Reduce eyes fatigue
+<img src="media/flux-1.png" width="50" align="right">
+
+#### [f.lux](https://justgetflux.com/) -  Reduce eyes fatigue
 ![Free][licence-free] ![Usage high][usage-high] [![Show your support][support]](https://justgetflux.com/promo/paypal2.html)
 
 <img src="media/flux.jpg" width="250">
@@ -439,6 +452,8 @@ brew cask install bartender
 ```sh
 brew cask install flux
 ```
+
+<img src="media/popclip.png" width="50" align="right">
 
 #### [PopClip](https://pilotmoon.com/popclip/) - Giving more power to my mouse
 ![Licence ~$10][licence-10] ![Usage high][usage-high]
@@ -460,6 +475,8 @@ brew cask install flux
 brew cask install popclip
 ```
 
+<img src="media/contexts.png" width="50" align="right">
+
 #### [Contexts](https://contexts.co) - Window switcher
 ![Licence ~$10][licence-10] ![Usage high][usage-high]
 
@@ -471,24 +488,30 @@ brew cask install popclip
 brew cask install contexts
 ```
 
-#### [Kap](https://getkap.co/) - An open-source screen recorder
-![Free][licence-free] ![Usage high][usage-high]
+<img src="media/cleanshotx.png" width="50" align="right">
 
-- Plugins activated:
-    - [Kap Dropbox](https://github.com/karaggeorge/kap-dropbox)
+#### [CleanShot X](https://getcleanshot.com/?ref=thedaviddias) - Capture your Mac’s screen like a pro.
+![Licence ~$30][licence-30] ![Usage high][usage-high] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/cleanshot-x)
 
-##### CLI installation
-```sh
-brew cask install kap
-```
+
+#### Alternatives
+* Free: [Kap](https://getkap.co/?ref=thedaviddias)
+
+<img src="media/next-meeting.png" width="50" align="right">
 
 #### [Next Meeting](https://apps.apple.com/us/app/next-meeting-quickly-see-your/id1017470484) - Never miss a meeting again
 ![Free][licence-free] ![Usage high][usage-high]
 
-<img src="media/next-meeting.png" width="300">
+<img src="media/next-meeting-sc.png" width="300">
 
-#### [Moon](https://manytricks.com/moom/) - Move and zoom windows
+---
+
+<img src="media/moom.png" width="50" align="right">
+
+#### [Moom](https://manytricks.com/moom/) - Move and zoom windows
 ![Licence ~$10][licence-10] ![Usage high][usage-high]
+
+<img src="media/clean-my-mac.png" width="50" align="right">
 
 #### [CleanMyMac X](https://macpaw.com/cleanmymac) - To maintain my Mac as he was new
 ![Licence ~$50][licence-50] ![Usage high][usage-high]
@@ -500,34 +523,29 @@ brew cask install kap
 brew cask install cleanmymac
 ```
 
+<img src="media/muzzle.png" width="50" align="right">
+
 #### [Muzzle](http://muzzleapp.com) - Silence embarrassing notifications
 ![Free][licence-free] ![Usage high][usage-high]
+
+<img src="media/lungo.png" width="50" align="right">
 
 #### [Lungo](https://sindresorhus.com/lungo) - Prevent your Mac from going to sleep
 ![Free][licence-free] ![Usage low][usage-low] [![Show your support][support]](https://sindresorhus.com/donate)
 
+<img src="media/streamdeck.png" width="50" align="right">
+
 #### [Stream Deck](https://www.elgato.com/en/gaming/downloads) -
 ![Free][licence-free] ![Usage medium][usage-medium] ![Backup iCloud][backup-icloud]
 
-##### VSCode profile
-
-##### Slack profile
-
-<img src="media/streamdeck-slack.png" width="250">
-
-| Slack app            | Quick search                            | Access list of users | History - go back          | Emojis folder         |
-|:---------------------|:----------------------------------------|:---------------------|:---------------------------|:----------------------|
-| Status: In a meeting | Status: Be right back                   | Status: Coding       | Status: Lunch              | Status: Brainstorming |
-| Status: PR reviewing | Status: Intensive work - Do not disturb | Status: In a call    | Status: Sleeping / resting | Next profile          |
-
-##### Emojis folder
-
-<img src="media/emojis-stream-deck.png" width="250">
+* I have [few profiles]()
 
 ##### CLI installation
 ```sh
 brew cask install elgato-stream-deck
 ```
+
+<img src="media/noizio.png" width="50" align="right">
 
 #### [Noizio](https://noiz.io/) - I love birds
 ![Free][licence-free] ![Usage low][usage-low]
@@ -544,15 +562,22 @@ brew cask install noizio
 mas install 928871589
 ```
 
+<img src="media/mouseless.png" width="50" align="right">
+
 #### [Mouseless](https://mouseless.app/) - Practice and learn new keyboard's shortcuts
 ![Licence ~$20][licence-20] ![Usage low][usage-low]
 
 <img src="media/mouseless.jpg" width="300">
 
+---
+<img src="media/team-viewer.png" width="50" align="right">
+
 #### [TeamViewer](https://www.teamviewer.com/en/) - Remote control
 ![Free][licence-free] ![Usage low][usage-low]
 
 I only use TeamViewer when I need to debug my Mom's computer (which is located in France).
+
+<img src="media/cardhop.png" width="50" align="right">
 
 #### [Cardhop](https://flexibits.com/cardhop) - Contacts lists management
 ![Licence ~$30][licence-30] ![Usage low][usage-low]
@@ -562,6 +587,8 @@ I only use TeamViewer when I need to debug my Mom's computer (which is located i
 
 ### Automation
 
+<img src="media/keyboard-maestro.png" width="50" align="right">
+
 #### [Keyboard Maestro](https://www.keyboardmaestro.com/main/) - The most powerful option to automate EVERYTHING on Mac
 ![Usage high][usage-high] ![Backup Dropbox][backup-dropbox]
 
@@ -569,6 +596,8 @@ I only use TeamViewer when I need to debug my Mom's computer (which is located i
 ```sh
 brew cask install keyboard-maestro
 ```
+
+<img src="media/hazel.png" width="50" align="right">
 
 #### [Hazel](https://www.noodlesoft.com/) - Automate repetitive tasks in a few clicks
 ![Licence ~$30][licence-30] ![Usage high][usage-high]
@@ -578,8 +607,12 @@ brew cask install keyboard-maestro
 brew cask install hazel
 ```
 
+<img src="media/karabiner.png" width="50" align="right">
+
 #### [Karabiner](https://karabiner-elements.pqrs.org/) - Remapping my  keyboards
 ![Free][licence-free] ![Usage medium][usage-medium] [![Show your support][support]](https://karabiner-elements.pqrs.org/docs/pricing/#supporting-this-project)
+
+<img src="media/better-touch-tool.png" width="50" align="right">
 
 #### [BetterTouch Tool](https://folivora.ai/) - Customize multiple devices on the Mac
 ![Licence ~$30][licence-30] ![Usage medium][usage-medium]
@@ -588,6 +621,8 @@ brew cask install hazel
 ```sh
 brew cask install bettertouchtool
 ```
+
+<img src="media/hammerspoon.png" width="50" align="right">
 
 #### [Hammerspoon](https://www.hammerspoon.org/) - OSX automation using Lua
 ![Free][licence-free]
@@ -599,6 +634,8 @@ brew cask install hammerspoon
 
 ### Tasks & time management
 
+<img src="media/fantastical.png" width="50" align="right">
+
 #### [Fantastical](https://flexibits.com/fantastical) - Calendar
 ![Free][licence-free] ![High usage][usage-high]
 
@@ -609,6 +646,8 @@ brew cask install hammerspoon
 ```sh
 brew cask install fantastical
 ```
+
+<img src="media/things.png" width="50" align="right">
 
 #### [Things](https://culturedcode.com/things/) - Task manager
 ![Licence ~$30][licence-30] ![Proprietary backup][backup-proprietary] ![High usage][usage-high]
@@ -622,6 +661,8 @@ brew cask install things
 mas install 904280696
 ```
 
+<img src="media/timing.png" width="50" align="right">
+
 #### [Timing](https://timingapp.com/?lang=en) - To record everything I do without manual action
 ![Yearly subscription][subscription-yearly] ![High usage][usage-high]
 
@@ -634,6 +675,8 @@ brew cask install timing
 
 ### Storage & backup management
 
+<img src="media/dropbox.png" width="50" align="right">
+
 #### [Dropbox](https://www.dropbox.com/individual) - Online Cloud Backup
 ![Monthly subscription][subscription-montly] ![Usage high][usage-high]
 
@@ -645,11 +688,15 @@ brew cask install timing
 brew cask install dropbox
 ```
 
+<img src="media/backup-sync-google.png" width="50" align="right">
+
 #### [Google Backup Up & Sync](https://www.google.com/drive/download/backup-and-sync/)
 ![Free][licence-free] ![Usage high][usage-high]
 
 ##### To DO after install
 - [ ] Choose folders to sync
+
+<img src="media/forklift.png" width="50" align="right">
 
 #### [ForkLift](https://binarynights.com/) - Dual pane file manager and file transfer client for macOS
 ![Licence ~$30][licence-30] ![Usage medium][usage-medium]
@@ -666,6 +713,8 @@ brew cask install forklift
 mas install 412448059
 ```
 
+<img src="media/the-unarchiver.png" width="50" align="right">
+
 #### [The Unarchiver](https://theunarchiver.com/) - The missing RAR and Zip unarchiver
 ![Free][licence-free] ![Usage high][usage-high]
 
@@ -676,10 +725,16 @@ brew cask install the-unarchiver
 mas install 425424353
 ```
 
+<img src="media/hard-disk-manager.png" width="50" align="right">
+
 #### [Hard Disk Manager](https://www.paragon-software.com/hdm-mac/) - Maintain and manage my external hard drives
 ![Licence ~$65][licence-50] ![Usage low][usage-low]
 
 <img src="media/harddiskmanager.jpg" width="400">
+
+---
+
+<img src="media/goodsync.png" width="50" align="right">
 
 #### [GoodSync](https://www.goodsync.com/download) - Backup/sync and file organization
 ![Licence ~$30][licence-30]
@@ -687,6 +742,7 @@ mas install 425424353
 
 ### Code
 ----
+<img src="media/visual-studio-code.png" width="50" align="right">
 
 #### [Visual Studio Code](https://github.com/Microsoft/vscode) - Code editor
 ![Free][licence-free] ![Usage high][usage-high]
@@ -697,6 +753,8 @@ sync settings
 ```sh
 brew cask install visual-studio-code
 ```
+
+<img src="media/tower.png" width="50" align="right">
 
 #### [Tower](https://www.git-tower.com/) - Git client
 ![Yearly subscription][subscription-yearly] ![Usage high][usage-high]
@@ -718,6 +776,8 @@ brew cask install tower
 brew cask install diffmerge
 ```
 
+<img src="media/snippetslab.png" width="50" align="right">
+
 #### [SnippetsLabs](https://www.renfei.org/snippets-lab/) - Code snippets manager
 ![Licence ~$10][licence-10] ![Backup iCloud][backup-icloud] ![Usage high][usage-high]
 
@@ -737,8 +797,12 @@ Other options
 mas install 1006087419
 ```
 
+<img src="media/trailer.png" width="50" align="right">
+
 #### [Trailer](http://ptsochantaris.github.io/trailer/) - Github Notifications
 ![Free][licence-free] ![Usage high][usage-high]
+
+<img src="media/proxyman.png" width="50" align="right">
 
 #### [Proxyman](https://proxyman.io/) - Best Web Debugging Proxy for MacOS
 ![Free][licence-free-limit] ![Usage medium][usage-medium]
@@ -746,6 +810,10 @@ mas install 1006087419
 I found Proxyman when struggling making Charles working on my Mac. Proxyman make it really easy to....
 
 <img src="media/proxyman.jpg" width="700" align="center">
+
+---
+
+<img src="media/paw.png" width="50" align="right">
 
 #### [Paw](https://paw.cloud/) - Beautiful HTTP client for Mac
 ![Backup Dropbox][backup-dropbox] ![Usage medium][usage-medium]
@@ -757,8 +825,12 @@ https://paw.cloud/extensions/
 brew cask install paw
 ```
 
+<img src="media/postman.png" width="50" align="right">
+
 #### [Postman](https://www.postman.com/downloads/) - A free alternative to Paw
 ![Free][licence-free] ![Usage medium][usage-medium]
+
+<img src="media/mockoon.png" width="50" align="right">
 
 #### [Mockoon](https://mockoon.com/)
 ![Free][licence-free] ![Usage medium][usage-medium]
@@ -767,6 +839,8 @@ brew cask install paw
 ```sh
 brew cask install mockoon
 ```
+
+<img src="media/docker.png" width="50" align="right">
 
 #### [Docker](https://www.docker.com/products/docker-desktop) - Containerize everything!
 ![Free][licence-free] ![Usage high][usage-high]
@@ -778,6 +852,8 @@ brew install docker
 brew cask install docker-toolbox
 ```
 
+<img src="media/altair-graphql.png" width="50" align="right">
+
 #### [Altair GraphQL Client]() - Beautiful GraphQL Client
 ![Free][licence-free] ![Usage low][usage-low] [![Show your support][support]](https://opencollective.com/altair/donate)
 
@@ -786,8 +862,12 @@ brew cask install docker-toolbox
 brew cask install altair-graphql-client
 ```
 
+<img src="media/screaming-frog-seo-spider.png" width="50" align="right">
+
 #### [Screaming Frog SEO Spider]() - Website crawler to test SEO issues
 ![Free][licence-free-limit] ![Usage low][usage-low]
+
+<img src="media/poedit.png" width="50" align="right">
 
 #### [Poedit](https://poedit.net/download) - Translations made easy
 ![Free][licence-free-limit] ![Usage low][usage-low]
@@ -797,6 +877,8 @@ brew cask install altair-graphql-client
 brew cask install poedit
 ```
 
+<img src="media/switch-hosts.png" width="50" align="right">
+
 #### [SwitchHosts!](https://oldj.github.io/SwitchHosts/) - Hosts management & switching
 ![Free][licence-free] ![Usage low][usage-low]
 
@@ -805,11 +887,17 @@ brew cask install poedit
 brew cask install switchhosts
 ```
 
+<img src="media/core-shell.png" width="50" align="right">
+
 #### [Core Shell](https://coreshell.app/) - Full featured terminal with OpenSSH support
 ![Free][licence-free-limit]  ![Usage low][usage-low]
 
+<img src="media/virtual-box.png" width="50" align="right">
+
 #### [VirtualBox](https://www.virtualbox.org/) - In case I need to debug on Windows
 ![Free][licence-free] ![Usage low][usage-low]
+
+<img src="media/smart-json-editor.png" width="50" align="right">
 
 #### [Smart JSON Editor](http://www.smartjsoneditor.com/) - JSON data manipulation for Mac
 ![Free][licence-free-limit] ![Licence ~$10][licence-10]
@@ -821,15 +909,23 @@ Free alternative [Jayson](https://jayson.app/)
 mas install 1268962404
 ```
 
+<img src="media/carbonize.png" width="50" align="right">
+
 #### [Carbonize](https://www.dangercove.com/carbonize/) - Generate beautiful code snippets
 ![Free][licence-free] ![Usage low][usage-low]
 
 <img src="media/carbonize.jpg" width="700" align="center">
 
+---
+
+<img src="media/codekit.png" width="50" align="right">
+
 #### [CodeKit](https://codekitapp.com/) - Gulp, Grunt, Pug are on a boat
 ![Licence ~$34][licence-30] ![Usage low][usage-low]
 
 - CodeKit was one of the best and first software that would convert Sass to CSS. A lot of improvements were made since then. I use it when I'm lazy and don't want to configure Gulp, [ParcelJS](https://parceljs.org/) or Webpack.
+
+<img src="media/haskell.png" width="50" align="right">
 
 #### [Haskell](http://haskellformac.com/) - Haskell for Mac IDE
 ![Licence ~$30][licence-30] ![Usage low][usage-low]
@@ -839,10 +935,9 @@ mas install 1268962404
 mas install Haskell
 ```
 
-#### [Querious](https://www.araelium.com/querious) - MySQL database management
-![Free][licence-free] ![Usage low][usage-low]
-
 ### Reading & Writing
+
+<img src="media/reeder.png" width="50" align="right">
 
 #### [Reeder](https://reederapp.com/) - News reader
 ![Licence ~$13][licence-10] ![Usage high][usage-high]
@@ -857,6 +952,8 @@ mas install Haskell
 ```sh
 mas install 880001334
 ```
+
+<img src="media/scapple.png" width="50" align="right">
 
 #### [Scapple](https://www.literatureandlatte.com/scapple/overview) - Brain, ideas and connections
 ![Licence ~$20][licence-20] ![Usage medium][usage-medium]
@@ -874,6 +971,8 @@ brew cask install scapple
 mas install 568020055
 ```
 
+<img src="media/mindnode.png" width="50" align="right">
+
 #### [MindNode](https://mindnode.com) - Interactive Mind Mapping
 ![Licence ~$30][licence-30] ![Backup iCloud][backup-icloud] ![High medium][usage-medium]
 
@@ -886,6 +985,8 @@ brew cask install mindnode-pro
 mas install 1289197285
 ```
 
+<img src="media/notion.png" width="50" align="right">
+
 #### [Notion](https://www.notion.so) - Notes, docs, knowledge base and more, in one place
 ![Yearly subscription][subscription-yearly] ![Proprietary backup][backup-proprietary] ![High usage][usage-high]
 
@@ -893,6 +994,8 @@ mas install 1289197285
 ```sh
 brew cask install notion
 ```
+
+<img src="media/devonthink.png" width="50" align="right">
 
 #### [DEVONthink](https://www.devontechnologies.com/apps/devonthink) - To collect, organize and edit all my documents and articles
 ![Licence ~200](https://img.shields.io/static/v1?style=flat-square&label=LICENCE&message=~$200&color=orange) ![Usage high][usage-high] ![Backup iCloud][backup-icloud]
@@ -912,12 +1015,18 @@ brew cask install notion
 brew cask install devonthink
 ```
 
+<img src="media/devonagent.png" width="50" align="right">
+
 #### [DEVONagent Pro](https://www.devontechnologies.com/apps/devonagent) - Search the web and filter the results
 ![Licence ~$50][licence-50] ![High medium][usage-medium]
 
 * I use DEVONagent Pro every-time I need to do research to prepare a presentation, write an article or produce some sort of content.
 
 <img src="media/devonagent.jpg" width="700" align="center">
+
+---
+
+<img src="media/mweb.png" width="50" align="right">
 
 #### [MWeb](https://www.mweb.im/) - A powerful Markdown Editor
 ![Licence ~$20][licence-20] ![Backup iCloud][backup-icloud] ![Usage high][usage-high]
@@ -930,6 +1039,8 @@ brew cask install devonthink
 ```sh
 mas install 1403919533
 ```
+
+<img src="media/scrivener.png" width="50" align="right">
 
 #### [Scrivener](https://www.literatureandlatte.com/scrivener/overview) - One day I want to be a writer
 ![Usage low][usage-low]
@@ -947,10 +1058,14 @@ brew cask install scrivener
 mas install 1310686187
 ```
 
+<img src="media/keynote.png" width="50" align="right">
+
 #### [Apple Keynote](https://www.apple.com/keynote/) - A better alternative to Powerpoint
 ![Free][licence-free]
 
 ### Communication
+
+<img src="media/slack.png" width="50" align="right">
 
 #### [Slack](https://slack.com) - Work chat and more
 ![Free][licence-free] ![Usage high][usage-high]
@@ -969,6 +1084,8 @@ brew install cask slack
 
 mas install 803453959
 ```
+
+<img src="media/airmail.png" width="50" align="right">
 
 #### [Airmail](https://airmailapp.com/) - My favorite email client
 ![Free][licence-free-limit] ![Yearly subscription][subscription-yearly] ![Backup iCloud][backup-icloud] ![Usage high][usage-high]
@@ -995,17 +1112,27 @@ mas install 918858936
 
 I have a strict rule in regards to social apps on my professional Mac. I usually don't have any social / communication app that is not directly related to work (only Slack).
 
+<img src="media/flume.png" width="50" align="right">
+
 #### [Flume](https://flumeapp.com/) - To manage Instagram on Mac
 ![Free][licence-free] ![Usage low][usage-low]
+
+<img src="media/messenger.png" width="50" align="right">
 
 #### [Messenger](https://apps.apple.com/us/app/messenger/id1480068668?mt=12) - Facebook Messenger but on Mac
 ![Free][licence-free] ![Usage low][usage-low]
 
-#### [WhatApps](https://www.whatsapp.com/download) - WhatApps on Mac
+<img src="media/whatsapp.png" width="50" align="right">
+
+#### [WhatsApp](https://www.whatsapp.com/download) - WhatsApp on Mac
 ![Free][licence-free] ![Usage low][usage-low]
+
+<img src="media/discord.png" width="50" align="right">
 
 #### [Discord](https://discordapp.com/download) -
 ![Free][licence-free] ![Usage low][usage-low]
+
+<img src="media/skype.png" width="50" align="right">
 
 #### [Skype](https://www.skype.com/en/get-skype/)
 ![Free][licence-free] ![Usage low][usage-low]
@@ -1016,6 +1143,8 @@ I have a strict rule in regards to social apps on my professional Mac. I usually
 ```sh
 brew cask install skype
 ```
+
+<img src="media/telegram.png" width="50" align="right">
 
 #### [Telegram](https://desktop.telegram.org/) -
 
@@ -1029,11 +1158,15 @@ mas install 747648890
 
 I'm not a Web Designer / Designer, but I love studying Photography, UI and UX. I try to practice as much as I can using the following applications.
 
+<img src="media/eagle.png" width="50" align="right">
+
 #### [Eagle](https://en.eagle.cool/) - Organize my design library
 ![Yearly subscription][subscription-yearly] ![Usage high][usage-high] ![Backup Dropbox][backup-dropbox]
 
 ##### Extensions / plugins
 * [Eagle Chrome extension](https://chrome.google.com/webstore/detail/eagle-save-images-faster/lieogkinebikhdchceieedcigeafdkid?hl=en)
+
+<img src="media/rightfont.png" width="50" align="right">
 
 #### [Rightfont 5](https://rightfontapp.com/) - The best font manager for Mac
 ![Licence ~$35][licence-30] ![Usage medium][usage-medium] ![Backup Dropbox][backup-dropbox]
@@ -1041,6 +1174,8 @@ I'm not a Web Designer / Designer, but I love studying Photography, UI and UX. I
 - By far, the best font manager that supports my library of more than 80 000 font files.
 
 <img src="media/rightfont-5.jpg" width="700" align="center">
+
+<img src="media/iconjar.png" width="50" align="right">
 
 #### [IconJar](https://geticonjar.com/) - Best icon manager
 ![Usage low][usage-low] ![Backup Dropbox][backup-dropbox]
@@ -1050,10 +1185,14 @@ I'm not a Web Designer / Designer, but I love studying Photography, UI and UX. I
 
 <img src="media/iconjar.jpg" width="700" align="center">
 
+---
+
+<img src="media/adobe-creative-cloud.png" width="50" align="right">
+
 #### [Adobe Creative Cloud](https://www.adobe.com/ca/creativecloud.html)
 ![Monthly subscription][subscription-montly] ![Proprietary backup][backup-proprietary] ![Usage high][usage-high]
 
-- List of Adobe Softwares I use
+- List of Adobe Softwares I most often use
     - Adobe Photoshop
     - Adobe Illustrator
     - Adobe Premiere Rush
@@ -1067,6 +1206,8 @@ I'm not a Web Designer / Designer, but I love studying Photography, UI and UX. I
 brew cask install adobe-creative-cloud
 ```
 
+<img src="media/figma.png" width="50" align="right">
+
 #### [Figma](https://www.figma.com/)
 ![Free][licence-free-limit] ![Usage low][usage-low] ![Usage medium][usage-medium]
 
@@ -1074,6 +1215,8 @@ brew cask install adobe-creative-cloud
 ```sh
 brew cask install figma
 ```
+
+<img src="media/sketch.png" width="50" align="right">
 
 #### [Sketch](https://www.sketch.com/)
 ![Yearly subscription][subscription-yearly] ![Usage medium][usage-medium] ![Backup Dropbox][backup-dropbox]
@@ -1083,10 +1226,14 @@ brew cask install figma
 brew cask install sketch
 ```
 
+<img src="media/sketchpacks.png" width="50" align="right">
+
 #### [Sketchpacks](https://sketchpacks.com/)
 ![Free][licence-free]
 
 #### Zeplin
+
+<img src="media/sip.png" width="50" align="right">
 
 #### [Sip](https://sipapp.io/) - Collect, organize and share colors
 ![Yearly subscription][subscription-yearly] ![Usage medium][usage-medium] ![Proprietary backup][backup-proprietary]
@@ -1095,6 +1242,8 @@ brew cask install sketch
 ```sh
 brew cask install sip
 ```
+
+<img src="media/image-optim.png" width="50" align="right">
 
 #### [ImageOptim](https://imageoptim.com/mac) - Optimize images
 ![Free][licence-free] ![Usage low][usage-low]
@@ -1106,31 +1255,49 @@ brew cask install imageoptim
 
 ### Audio & Video production
 
+<img src="media/vlc.png" width="50" align="right">
+
 #### [VLC](https://www.videolan.org/vlc/index.html) - A Media player built by my compatriots
 ![Free][licence-free] ![Usage high][usage-high] [![Show your support][support]](https://www.videolan.org/contribute.html#money)
+
+<img src="media/loopback.png" width="50" align="right">
 
 #### [Loopback](https://rogueamoeba.com/loopback/) -
  ![Usage low][usage-low]
 
+<img src="media/audiohijack.png" width="50" align="right">
+
 #### [Audio Hijack](https://rogueamoeba.com/audiohijack/) - Record any audio
  ![Usage low][usage-low]
+
+<img src="media/ecammlive.png" width="50" align="right">
 
 #### [Ecamm Live](https://www.ecamm.com/mac/ecammlive/) -
  ![Usage high][usage-high]
 
+<img src="media/streamlabs-obs.png" width="50" align="right">
+
 #### [Streamlabs OBS](https://streamlabs.com/) - The best (and free)  streaming app
 ![Free][licence-free] ![Usage medium][usage-medium]
+
+<img src="media/screenflow.png" width="50" align="right">
 
 #### [Screenflow 8](https://www.telestream.net/controls/screenflow/download-screenflow.htm) - Screen recording and editing like a pro
 ![Licence ~$100][licence-100] ![Usage low][usage-low] ![Backup Dropbox][backup-dropbox]
 
 - Screenflow doesn't recommend to store files on Dropbox, so I usually store the files on Dropbox but move them to my local hard drive if I want to edit these. No problem until today.
 
+<img src="media/power-prompter.png" width="50" align="right">
+
 #### [Power Prompter](https://suborbital.io/powerprompter/download/) -
 ![Licence ~$50][licence-50] ![Usage low][usage-low]
 
+<img src="media/twitch.png" width="50" align="right">
+
 #### [Twitch](https://www.twitch.tv/) - The well-known streaming platform
 ![Free][licence-free] ![Usage medium][usage-medium]
+
+<img src="media/airy.png" width="50" align="right">
 
 #### [Airy](https://www.airy-youtube-downloader.com/) - YouTube video and MP3 Downloader
 ![Licence ~$10][licence-10] ![Usage low][usage-low]
@@ -1142,30 +1309,37 @@ brew cask install airy
 
 ### Miscellaneous
 
+<img src="media/keykey.png" width="50" align="right">
+
 #### [KeyKey](http://keykey.ninja/) - A minimalist touch typing tutor for Mac
 ![Licence ~$20][licence-20] ![Usage low][usage-low]
+
+<img src="media/typefu.png" width="50" align="right">
 
 #### [Type Fu](https://type-fu.com/) - Typing training
 ![Free][licence-free]
 
+<img src="media/typesy.png" width="50" align="right">
+
 #### [Typesy](https://www.typesy.com/) - When I want to compete with my wife
 ![Licence ~$30][licence-30] ![Usage low][usage-low]
+
+<img src="media/gpg-suite.png" width="50" align="right">
 
 #### [GPG Suite](https://gpgtools.org/) - Encrypt, decrypt, sign and verify files or messages.
 ![Free][licence-free]
 
 - I use this also for signing my commits.
 
-#### [Hue Sync](https://www2.meethue.com/en-au/entertainment/hue-sync) - Sync my lights with audio / video files
-![Free][licence-free] ![Usage low][usage-low]
+<img src="media/hue-sync.png" width="50" align="right">
 
-#### [balenaEtcher]() - RaspberryPi microSim flasher
+#### [Hue Sync](https://www2.meethue.com/en-au/entertainment/hue-sync) - Sync my lights with audio / video files
 ![Free][licence-free] ![Usage low][usage-low]
 
 ##### CLI installation
 
 ```sh
-brew cask install bartender
+brew cask install
 ```
 
 ## Dock
@@ -1221,3 +1395,4 @@ MIT
 [usage-low]: https://img.shields.io/static/v1?style=flat-square&label=Usage&message=low&color=yellow
 
 [support]: https://img.shields.io/static/v1?style=flat-square&label=Support&message=this%20app&color=purple
+[product-hunt]: https://img.shields.io/static/v1?style=flat-square&label=Product%20Hunt&message=👍%20UPVOTE&color=da552f
