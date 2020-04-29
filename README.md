@@ -277,7 +277,7 @@ brew cask install little-snitch
 <img src="media/15878412922030.png" width="50" align="right">
 
 #### [1Password](https://1password.com) - Password manager
-![Yearly subscription][subscription-yearly] ![Proprietary backup][backup-proprietary] ![High usage][usage-high] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/1password-7-for-mac-and-windows)
+![Yearly subscription][subscription-yearly] ![High usage][usage-high] ![Proprietary backup][backup-proprietary] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/1password-7-for-mac-and-windows)
 
 - Generate all of my passwords with it and keep everything in a secured and encrypted vault kept secure by my one master password.
 - No longer need to remember passwords and I now have a unique password for every website [activating two factor authentication](https://support.1password.com/one-time-passwords/) wherever possible.
@@ -325,7 +325,7 @@ brew cask install alfred
 <img src="media/iterm2.png" width="50" align="right">
 
 #### [iTerm2](https://www.iterm2.com/downloads.html) - Better than the native terminal
-![Free][licence-free] [![Show your support][support]](https://www.iterm2.com/donate.html) [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/iterm2)
+![Free][licence-free] ![Usage high][usage-high] ![Backup Dropbox][backup-dropbox] [![Show your support][support]](https://www.iterm2.com/donate.html) [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/iterm2)
 
 ##### CLI installation
 ```sh
@@ -335,7 +335,7 @@ brew cask install iterm2
 <img src="media/15878423395361.png" width="50" align="right">
 
 #### [Spotify](https://www.spotify.com/) - Music for my hears
-![Montly subscription][subscription-montly] ![Usage high][usage-high]
+![Montly subscription][subscription-montly] ![Usage high][usage-high] ![Proprietary backup][backup-proprietary]
 
 ##### Extensions / plugins
 * [Alfred extension]()
@@ -351,6 +351,7 @@ brew cask install spotify
 <img src="media/chrome.png" width="50" align="right">
 
 #### [Google Chrome](https://www.google.com/chrome/)
+![Proprietary backup][backup-proprietary]
 
 Multiple profiles
 - Professional user
@@ -456,7 +457,7 @@ brew cask install flux
 <img src="media/popclip.png" width="50" align="right">
 
 #### [PopClip](https://pilotmoon.com/popclip/) - Giving more power to my mouse
-![Licence ~$10][licence-10] ![Usage high][usage-high] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/popclip)
+![Licence ~$10][licence-10] ![Usage high][usage-high] ![Backup Dropbox for the extensions][backup-dropbox] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/popclip)
 
 - List of the [extensions I use](https://pilotmoon.com/popclip/extensions/) (files saved on Dropbox)
     - [Past and Match Style](https://pilotmoon.com/popclip/extensions/ext/PasteAndMatch.popclipextz)
@@ -469,6 +470,8 @@ brew cask install flux
     - [Bitly](https://pilotmoon.com/popclip/extensions/ext/Bitly.popclipextz)
     - [Terminal](https://pilotmoon.com/popclip/extensions/ext/RunCommand.popclipextz)
     - [Fantastical 3](https://pilotmoon.com/popclip/extensions/ext/Fantastical3.popclipextz)
+
+- Excluded apps
 
 ##### CLI installation
 ```sh
@@ -491,7 +494,7 @@ brew cask install contexts
 <img src="media/cleanshotx.png" width="50" align="right">
 
 #### [CleanShot X](https://getcleanshot.com/?ref=thedaviddias) - Capture your Mac’s screen like a pro.
-![Licence ~$30][licence-30] ![Usage high][usage-high] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/cleanshot-x)
+![Licence ~$30][licence-30] ![Usage high][usage-high] ![Backup Dropbox][backup-dropbox] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/cleanshot-x)
 
 
 #### Alternatives
@@ -580,7 +583,7 @@ I only use TeamViewer when I need to debug my Mom's computer (which is located i
 <img src="media/cardhop.png" width="50" align="right">
 
 #### [Cardhop](https://flexibits.com/cardhop) - Contacts lists management
-![Licence ~$30][licence-30] ![Usage low][usage-low] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/cardhop)
+![Licence ~$30][licence-30] ![Backup iCloud][backup-icloud] ![Usage low][usage-low] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/cardhop)
 
 - I use Cardhop occasionally to ensure my contact list is up to date or to easily add missing information or missing birthday dates.
 - I synchronise my list of Contacts on iCloud and [Gmail Contacts](https://contacts.google.com/) to avoid duplicates.
@@ -590,7 +593,7 @@ I only use TeamViewer when I need to debug my Mom's computer (which is located i
 <img src="media/keyboard-maestro.png" width="50" align="right">
 
 #### [Keyboard Maestro](https://www.keyboardmaestro.com/main/) - The most powerful option to automate EVERYTHING on Mac
-![Usage high][usage-high] ![Backup Dropbox][backup-dropbox] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/keyboard-maestro)
+![Licence ~$30][licence-30] ![Usage high][usage-high] ![Backup Dropbox][backup-dropbox] ![Backup Dropbox][backup-dropbox] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/keyboard-maestro)
 
 ##### CLI installation
 ```sh
@@ -600,7 +603,7 @@ brew cask install keyboard-maestro
 <img src="media/hazel.png" width="50" align="right">
 
 #### [Hazel](https://www.noodlesoft.com/) - Automate repetitive tasks in a few clicks
-![Licence ~$30][licence-30] ![Usage high][usage-high] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/hazel-4-0)
+![Licence ~$30][licence-30] ![Usage high][usage-high] ![Backup Dropbox][backup-dropbox] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/hazel-4-0)
 
 ##### CLI installation
 ```sh
@@ -610,12 +613,12 @@ brew cask install hazel
 <img src="media/karabiner.png" width="50" align="right">
 
 #### [Karabiner](https://karabiner-elements.pqrs.org/) - Remapping my  keyboards
-![Free][licence-free] ![Usage medium][usage-medium] [![Show your support][support]](https://karabiner-elements.pqrs.org/docs/pricing/#supporting-this-project) [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/karabiner)
+![Free][licence-free] ![Usage medium][usage-medium] ![Backup Github][backup-github] [![Show your support][support]](https://karabiner-elements.pqrs.org/docs/pricing/#supporting-this-project) [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/karabiner)
 
 <img src="media/better-touch-tool.png" width="50" align="right">
 
 #### [BetterTouch Tool](https://folivora.ai/) - Customize multiple devices on the Mac
-![Licence ~$30][licence-30] ![Usage medium][usage-medium] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/bettertouchtool)
+![Licence ~$30][licence-30] ![Usage medium][usage-medium] ![Backup Dropbox][backup-dropbox] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/bettertouchtool)
 
 ##### CLI installation
 ```sh
@@ -625,7 +628,7 @@ brew cask install bettertouchtool
 <img src="media/hammerspoon.png" width="50" align="right">
 
 #### [Hammerspoon](https://www.hammerspoon.org/) - OSX automation using Lua
-![Free][licence-free] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/hammerspoon-2)
+![Free][licence-free] ![Usage low][usage-low]![Backup Github][backup-github] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/hammerspoon-2)
  
 ##### CLI installation
 ```sh
@@ -650,7 +653,7 @@ brew cask install fantastical
 <img src="media/things.png" width="50" align="right">
 
 #### [Things](https://culturedcode.com/things/) - Task manager
-![Licence ~$30][licence-30] ![Proprietary backup][backup-proprietary] ![High usage][usage-high] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/things-3-0)
+![Licence ~$30][licence-30] ![High usage][usage-high] ![Proprietary backup][backup-proprietary] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/things-3-0)
 
 - I used [Todoist](https://todoist.com/) for few years but decided to try Things.
 
@@ -699,7 +702,7 @@ brew cask install dropbox
 <img src="media/forklift.png" width="50" align="right">
 
 #### [ForkLift](https://binarynights.com/) - Dual pane file manager and file transfer client for macOS
-![Licence ~$30][licence-30] ![Usage medium][usage-medium]
+![Licence ~$30][licence-30] ![Backup Dropbox][backup-dropbox] ![Usage medium][usage-medium]
 
 ##### To DO after install
 - [ ] *Sync favorites* with Dropbox
@@ -737,7 +740,7 @@ mas install 425424353
 <img src="media/goodsync.png" width="50" align="right">
 
 #### [GoodSync](https://www.goodsync.com/download) - Backup/sync and file organization
-![Licence ~$30][licence-30]
+![Licence ~$30][licence-30] 
 
 
 ### Code
@@ -745,7 +748,7 @@ mas install 425424353
 <img src="media/visual-studio-code.png" width="50" align="right">
 
 #### [Visual Studio Code](https://github.com/Microsoft/vscode) - Code editor
-![Free][licence-free] ![Usage high][usage-high]
+![Free][licence-free] ![Usage high][usage-high] ![Backup Github][backup-github]
 
 sync settings
 
@@ -779,7 +782,7 @@ brew cask install diffmerge
 <img src="media/snippetslab.png" width="50" align="right">
 
 #### [SnippetsLabs](https://www.renfei.org/snippets-lab/) - Code snippets manager
-![Licence ~$10][licence-10] ![Backup iCloud][backup-icloud] ![Usage high][usage-high]
+![Licence ~$10][licence-10] ![Usage high][usage-high] ![Backup iCloud][backup-icloud] ![Backup Github][backup-github]
 
 <img src="media/snippetlab-smart.jpg" width="130">
 
@@ -816,7 +819,7 @@ I found Proxyman when struggling making Charles working on my Mac. Proxyman make
 <img src="media/paw.png" width="50" align="right">
 
 #### [Paw](https://paw.cloud/) - Beautiful HTTP client for Mac
-![Backup Dropbox][backup-dropbox] ![Usage medium][usage-medium] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/paw)
+![Backup Dropbox][backup-dropbox] ![Usage medium][usage-medium] ![Proprietary backup][backup-proprietary] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/paw)
 
 https://paw.cloud/extensions/
 
@@ -828,7 +831,7 @@ brew cask install paw
 <img src="media/postman.png" width="50" align="right">
 
 #### [Postman](https://www.postman.com/downloads/) - A free alternative to Paw
-![Free][licence-free] ![Usage medium][usage-medium]
+![Free][licence-free] ![Usage medium][usage-medium] ![Proprietary backup][backup-proprietary]
 
 <img src="media/mockoon.png" width="50" align="right">
 
@@ -956,7 +959,7 @@ mas install 880001334
 <img src="media/scapple.png" width="50" align="right">
 
 #### [Scapple](https://www.literatureandlatte.com/scapple/overview) - Brain, ideas and connections
-![Licence ~$20][licence-20] ![Usage medium][usage-medium] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/scapple)
+![Licence ~$20][licence-20] ![Usage medium][usage-medium] ![Backup Dropbox][backup-dropbox] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/scapple)
 
 - When I want to brainstorm without any structure, Scapple is the first tool I use in my workflow.
 - It allows me to put all words / ideas I can think of and then start establishing relationships.
@@ -1043,7 +1046,7 @@ mas install 1403919533
 <img src="media/scrivener.png" width="50" align="right">
 
 #### [Scrivener](https://www.literatureandlatte.com/scrivener/overview) - One day I want to be a writer
-![Usage low][usage-low] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/scrivener-3-0)
+![Licence ~$50][licence-50] ![Usage low][usage-low] ![Backup Dropbox][backup-dropbox] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/scrivener-3-0)
 
 - Scrivener is the perfect tool to write any book.
 - I've used Scrivener in the past to work on the outline for a video course.
@@ -1061,14 +1064,14 @@ mas install 1310686187
 <img src="media/keynote.png" width="50" align="right">
 
 #### [Apple Keynote](https://www.apple.com/keynote/) - A better alternative to Powerpoint
-![Free][licence-free] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/keynote-10-0)
+![Free][licence-free] ![Backup iCloud][backup-icloud] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/keynote-10-0)
 
 ### Communication
 
 <img src="media/slack.png" width="50" align="right">
 
 #### [Slack](https://slack.com) - Work chat and more
-![Free][licence-free] ![Usage high][usage-high] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/slack-for-mac)
+![Free][licence-free] ![Usage high][usage-high] ![Proprietary backup][backup-proprietary] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/slack-for-mac)
 
 ##### Workspaces
 - HomeX
@@ -1179,7 +1182,7 @@ I'm not a Web Designer / Designer, but I love studying Photography, UI and UX. I
 <img src="media/iconjar.png" width="50" align="right">
 
 #### [IconJar](https://geticonjar.com/) - Best icon manager
-![Usage low][usage-low] ![Backup Dropbox][backup-dropbox] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/iconjar-27d1357a-d286-4c95-9c4d-ce1558dc8113)
+![Yearly subscription][subscription-yearly] ![Usage low][usage-low] ![Backup Dropbox][backup-dropbox] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/iconjar-27d1357a-d286-4c95-9c4d-ce1558dc8113)
 
 * All my icons are stored on IconJar
 * I could also used [Eagle](#eagle---organize-my-design-library) to store these, but I prefer to have a dedicated software to manage all icon's formats.
@@ -1210,7 +1213,7 @@ brew cask install adobe-creative-cloud
 <img src="media/figma.png" width="50" align="right">
 
 #### [Figma](https://www.figma.com/)
-![Free][licence-free-limit] ![Usage low][usage-low] ![Usage medium][usage-medium] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/figma-3-0)
+![Free][licence-free-limit] ![Usage low][usage-low] ![Usage medium][usage-medium] ![Proprietary backup][backup-proprietary] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/figma-3-0)
 
 ##### CLI installation
 ```sh
@@ -1233,7 +1236,7 @@ brew cask install sketch
 ![Free][licence-free] ![Usage low][usage-low]
 
 #### [Zeplin](https://zeplin.io/) - 
-![Usage medium][usage-medium] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/zeplin-3-0)
+![Usage medium][usage-medium] ![Proprietary backup][backup-proprietary] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/zeplin-3-0)
 
 <img src="media/sip.png" width="50" align="right">
 
@@ -1264,18 +1267,18 @@ brew cask install imageoptim
 
 <img src="media/loopback.png" width="50" align="right">
 
-#### [Loopback](https://rogueamoeba.com/loopback/) -
- ![Usage low][usage-low]
+#### [Loopback](https://rogueamoeba.com/loopback/) - Cable-free audio routing for Mac
+ ![Licence ~$100][licence-100] ![Usage low][usage-low]
 
 <img src="media/audiohijack.png" width="50" align="right">
 
 #### [Audio Hijack](https://rogueamoeba.com/audiohijack/) - Record any audio
- ![Usage low][usage-low]
+ ![Licence ~$50][licence-50] ![Usage low][usage-low]
 
 <img src="media/ecammlive.png" width="50" align="right">
 
 #### [Ecamm Live](https://www.ecamm.com/mac/ecammlive/) -
- ![Usage high][usage-high]
+ ![Monthly subscription][subscription-montly] ![Usage high][usage-high]
 
 <img src="media/streamlabs-obs.png" width="50" align="right">
 
@@ -1329,7 +1332,7 @@ brew cask install airy
 <img src="media/gpg-suite.png" width="50" align="right">
 
 #### [GPG Suite](https://gpgtools.org/) - Encrypt, decrypt, sign and verify files or messages.
-![Free][licence-free]
+![Free][licence-free] ![Usage high][usage-high]
 
 - I use this also for signing my commits.
 
@@ -1385,6 +1388,7 @@ MIT
 
 [backup-icloud]: https://img.shields.io/static/v1?style=flat-square&label=Backup&message=iCloud&color=1abc9c
 [backup-dropbox]: https://img.shields.io/static/v1?style=flat-square&label=Backup&message=Dropbox&color=1abc9c
+[backup-github]: https://img.shields.io/static/v1?style=flat-square&label=Backup&message=Github&color=1abc9c
 [backup-proprietary]: https://img.shields.io/static/v1?style=flat-square&label=Backup&message=Proprietary&color=1abc9c
 
 [since-2016]: https://img.shields.io/static/v1?style=flat-square&label=Using%20since&message=2016&color=1f425f
