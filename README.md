@@ -43,14 +43,14 @@
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Disclaimer
-I have been always passionate about tools. Maybe because my father was a carpenter... I always loved experimenting until I can find the right tool for the right task. Being a Front-End Developer requires to know the tools that exist and choosing the one that will perform the task faster and better.
+<small>I have been always passionate about tools. Maybe because my father was a carpenter... I always loved experimenting until I can find the right tool for the right task. Being a Front-End Developer requires to know the tools that exist and choosing the one that will perform the task faster and better.
 
-Based on hours of research and testing, I'm sharing all the applications I believe suits the best my work and workflow. It's a living MacOS configuration that, I hope, will also save you time for you to enjoy life more!
+Based on hours of research and testing, I'm sharing all the applications I believe suits the best my work and workflow. It's a living MacOS configuration that, I hope, will also save you time for you to enjoy life more!</small>
 
-### Good to know!
+## Usage
 
-- I tried to keep the right order you should also follow to install packages and applications on your Mac.
-- Some tools are free and some are not. I'm lucky to have the ability to pay for licences and subscriptions. But if you are not in that situation, 1) You will find free alternatives in the "Alternatives" section of each tool, 2) you don't need a paid tool to do an amazing work. Just choose the best tool that suits you and your situation.
+- I tried to keep the right order you should also follow to install packages and applications on your Mac (particularly the [setup shell](#setup-shell) part)
+- Some tools are free and some are not. I'm lucky to have the ability to pay for licences and subscriptions. But if you are not in that situation, 1) You will find free alternatives in the "Alternatives" section of most of the tools, 2) you don't need a paid tool to do an amazing work. Just choose the best tool that suits you and your situation.
 
 ### Where to find the right tool?
 - [Product Hunt](https://www.producthunt.com/?ref=thedaviddias) - By far the best and well-know website where you can find almost everything you need. You will sometimes find a badge ![Upvote on Product Hunt][product-hunt] that redirects to the Product Hunt page. Show some ❤️ to the makers!
@@ -99,7 +99,7 @@ xcode-select --install
 $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-With Homebrew comes `brew-cask` which will allow us to install applications with the command line.
+With Homebrew comes `brew-cask` which will allow to install applications with the command line.
 
 ##### Useful commands for Homebrew
 
@@ -117,7 +117,7 @@ brew cleanup
 brew cask install cakebrew
 ```
 
-#### ZSH
+#### ZSH - An alternative shell to Bash
 
 ```sh
 brew install zsh
@@ -137,7 +137,7 @@ Verify that ZSH is correctly installed
 zsh --version
 ```
 
-Additionally, Zsh should be set as your default shell.
+Additionally, Zsh should be set as the default shell.
 Run `echo $SHELL` from a new terminal to confirm.
 Expected result: `/usr/bin/zsh` or similar
 
@@ -145,50 +145,128 @@ Expected result: `/usr/bin/zsh` or similar
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
-Check if Oh My Zsh was correctly installed
+Check if Oh My Zsh was correctly installed.
 
 ## Command Line Apps
 
-#### GNU Coreutils
+⚠️ Some of the following packages are not essential but highly recommended. Some applications may depend on the installation of these packages.
+
+### [GNU Coreutils](https://www.gnu.org/software/coreutils/) - An essential package with basic tools such as ls, rm...
+
 ```sh
 brew install coreutils
 ```
 
+### [Wget](https://www.gnu.org/software/wget/) - To download data from the web and ftp, easier than curl
 
-
-
-brew tap homebrew/cask-fonts
+```sh
 brew install wget
-brew install ffmpeg
-brew install youtube-dl
-brew install imagemagick
+```
 
+### [Tree](http://mama.indstate.edu/users/ice/tree/) - To create beautiful indented listing of files
+
+```sh
 brew install tree
 
+tree -L 1 # to output only the root directories and files
+```
 
+### [Nmap](https://nmap.org/) - A powerful command line network discovery utility
 
-- [Ruby (rbenv)](https://github.com/rbenv/rbenv)
+```sh
+brew install nmap
+```
+
+### [The Silver Searcher](https://github.com/ggreer/the_silver_searcher) - Really fast code searching tool
+
+```sh
+brew install the_silver_searcher
+```
+
+### [jq](https://stedolan.github.io/jq/) - Lightweight and flexible command-line JSON processor
+
+```sh
+brew install jq
+```
+
+### [Youtube-dl](https://youtube-dl.org/) - A command line alternative to Airy
+```sh
+brew install youtube-dl
+
+youtube-dl -f best 'link-of-your-own-youtube-video'
+```
+
+### FFMPEG - To convert videos in multiple formats
+
+```sh
+brew install tesseract-lang && brew install homebrew-ffmpeg/ffmpeg/ffmpeg --with-fdk-aac --with-librsvg --with-libsoxr --with-libssh --with-tesseract --with-libvidstab --with-opencore-amr --with-openh264 --with-openjpeg --with-openssl --with-rubberband --with-webp --with-zeromq --with-zimg --with-srt --with-libvmaf --with-libxml2 --with-game-music-emu --with-libbluray --with-libbs2b --with-libcaca --with-libgsm --with-libmodplug --with-openssl@1.1 --with-rtmpdump --with-speex --with-two-lame --with-wavpack --with-xvid
+```
+
+More details [here](https://gist.github.com/clayton/6196167)
+
+### [Speetest-cli](https://github.com/sivel/speedtest-cli) - The command line version of Speedtest.net
+
+```sh
+brew install speedtest-cli
+```
+
+### [Imagemagick](https://imagemagick.org/index.php) - You can do almost everything to edit/convert images and pdfs
+
+```sh
+brew install imagemagick
+```
+
+### Fonts - Installing some fonts
+
+```sh
+brew tap homebrew/cask-fonts
+
+brew cask install \
+    font-fira-code \
+    font-source-code-pro font-source-code-pro-for-powerline \
+    font-source-sans-pro
+```
+
+### MAS - Install App Store apps from the command line
+
+```sh
+brew install mas
+
+mas search {app name} # To search for an app
+```
+
+### [Ruby (rbenv)](https://github.com/rbenv/rbenv)
 
 ```sh
 brew install rbenv ruby-build rbenv-default-gems rbenv-gemset
 echo 'eval "$(rbenv init -)"' >> ~/.zshrc
 source ~/.zshrc # Apply changes
-
+    
 rbenv install {version}
 ```
 
-- [node]()
+### [node](https://nodejs.org/en/) 
+
 ```
 brew install node
 ```
 
-- [nvm](https://github.com/nvm-sh/nvm) - Easily manage your node versions
+### [nvm](https://github.com/nvm-sh/nvm) - Easily manage your node versions
+
+⚠️ (never use brew to install nvm)
 
 ```sh
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 ```
 
 Add these lines in the `$HOME/.zshrc` file:
+
+```sh
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
+```
+
+And these lines to automatically switch your node version based on the `nvmrc` file.
 
 ```sh
 # place this after nvm initialization!
@@ -216,28 +294,20 @@ load-nvmrc
 
 To default a specific node version: `nvm alias default {version}`
 
-
-- [yarn](https://github.com/yarnpkg/yarn) - Fast, reliable, and secure dependency management.
+### [yarn](https://github.com/yarnpkg/yarn) - Fast, reliable, and secure dependency management.
 
 ```sh
 brew install yarn
 ```
 
+### [Act](https://github.com/nektos/act) - Run Github Actions Locally
 
-
-#### MAS - Install App Store apps from the command line
-```sh
-brew install mas
-
-mas search {app name} # To search for an app
-```
-
-#### Act - Run Github Actions Locally
 ```sh
 brew install nektos/tap/act
 ```
 
-#### Github CLI
+### [Github CLI](https://cli.github.com/) - Github on the command line
+
 ```sh
 brew install github/gh/gh
 ```
@@ -246,14 +316,9 @@ brew install github/gh/gh
 
 ```sh
 brew cask install \
-    qlcolorcode \
-    qlstephen \
-    qlmarkdown \
-    quicklook-json \
-    qlimagesize \
-    suspicious-package \
-    quicklookase \
-    qlvideo
+	qlcolorcode qlmarkdown qlprettypatch qlstephen \
+	qlimagesize \
+	quicklook-csv quicklook-json epubquicklook 
 ```
 
 ## Applications
