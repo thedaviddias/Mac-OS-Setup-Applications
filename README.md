@@ -1,12 +1,12 @@
 
 <h1 align="center">
-  My Mac OS setup and workflow
+  My Mac OS setup and applications
 </h1>
 <p align="center">
     <img src="media/mac-setup-workflow.jpg" align="center" alt="3 logos: command line, apple and application">
 </p>
 <p align="center">
-  My Mac OS setup, applications and workflows I use as a Web Developer
+  My Mac OS setup and the best applications I use as a Web Developer
 </p>
 
 ## Table of content
@@ -45,9 +45,9 @@
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Disclaimer
-<small>I have been always passionate about tools. Maybe because my father was a carpenter... I always loved experimenting until I can find the right tool for the right task. Being a Front-End Developer requires to know the tools that exist and choosing the one that will perform the task faster and better.
+I have been always passionate about tools. I always loved experimenting until I can find the right tool for the right task. Being a Front-End Developer requires to know the tools that exist and choose the one that will perform the task faster and better.
 
-Based on hours of research and testing, I'm sharing all the applications I believe suits the best my work and workflow. It's a living MacOS configuration that, I hope, will also save you time for you to enjoy life more!</small>
+Based on hours of research and testing, I'm sharing all the applications I believe suits the best my work and daily workflow. It's a living MacOS configuration that, I hope, will also save you time for you to enjoy life more!
 
 ## Usage
 
@@ -108,6 +108,7 @@ With Homebrew comes `brew-cask` which will allow to install applications with th
 ```sh
 brew update                         # Fetch latest version of homebrew and formula.
 brew search {app name}              # Searches all known Casks for a partial or exact match.
+brew install {package name}         # Install a package
 brew cask info {app name}           # Displays information about a given Cask
 brew cask install {app name}        # Install the given cask.
 brew cleanup
@@ -206,6 +207,12 @@ brew install tesseract-lang && brew install homebrew-ffmpeg/ffmpeg/ffmpeg --with
 
 More details [here](https://gist.github.com/clayton/6196167)
 
+#### [blueutil](https://github.com/toy/blueutil) - CLI for bluetooth on OSX
+
+```sh
+brew install blueutil
+```
+
 #### [Speetest-cli](https://github.com/sivel/speedtest-cli) - The command line version of Speedtest.net
 
 ```sh
@@ -302,6 +309,12 @@ brew install yarn
 brew install nektos/tap/act
 ```
 
+#### [Git standup](https://github.com/kamranahmedse/git-standup) - Recall what you did on the last working day
+
+```sh
+brew install git-standup
+```
+
 #### [Github CLI](https://cli.github.com/) - Github on the command line
 
 ```sh
@@ -316,6 +329,25 @@ brew cask install \
 	qlimagesize \
 	quicklook-csv quicklook-json epubquicklook 
 ```
+
+### Node packages to install globally
+
+npm list -g --depth 0
+
+* [Netlify CLI]() - `npm install netlify-cli -g`
+* Gatsby CLI
+* NPM-check
+* Babel CLI?
+* Contentful CLI?
+* Now CLI
+* ESLint?
+* Create React App
+* @lhci/cli
+* [dotenv-cli](https://www.npmjs.com/package/dotenv-cli) - `npm install -g dotenv-cli`
+npm install --global release-it
+npm i -g gitmoji-cli
+npm i -g plop
+
 
 ## Applications
 
@@ -332,10 +364,13 @@ This is the list of the most essentials apps I would install if I was limited in
 #### [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html) - Control incoming/outgoing network traffic
 ![Licence ~$30][licence-30] ![Usage high][usage-high] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/little-snitch-4)
 
+<details>
+  <summary>What for? - What I ❤️ - What I 👎</summary>
+
 ##### What for?
 
 * Little Snitch is perfect to block outgoing or incoming connections.
-* When I'm on the go and using my mobile data, I usually block some heavy connections so I limit the amount of data spent.
+* When **I'm on the go** and using my mobile data, I usually block some heavy connections so I limit the amount of data spent.
 
 ##### What I ❤️
 
@@ -344,6 +379,8 @@ This is the list of the most essentials apps I would install if I was limited in
 ##### What I 👎
 
 * I wish the confirmation window could save "my preferences", so I would not have to select "forever" every time.
+
+</details>
 
 ##### CLI installation
 ```sh
@@ -355,11 +392,14 @@ brew cask install little-snitch
 #### [1Password](https://1password.com) - Password manager
 ![Yearly subscription][subscription-yearly] ![High usage][usage-high] ![Proprietary backup][backup-proprietary] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/1password-7-for-mac-and-windows)
 
+<details>
+  <summary>What for? - What I ❤️ - What I 👎</summary>
+
 ##### What for?
 
-* Generate all of my passwords with it and keep everything in a secured and encrypted vault kept secure by my one master password.
-* No longer need to remember passwords and I now have a unique password for every website [activating two factor authentication](https://support.1password.com/one-time-passwords/) wherever possible.
-* All my applications licences are saved in 1Password
+* **Generate all of my passwords** with it and keep everything in a secured and encrypted vault kept secure by my one master password.
+* No longer need to remember passwords and I now have a unique password for every website **[activating two factor authentication](https://support.1password.com/one-time-passwords/)** wherever possible.
+* All my **applications licences** are saved in 1Password
 
 ##### What I ❤️
 
@@ -372,6 +412,8 @@ brew cask install little-snitch
 
 * I loved that LastPass could recognize a form and automatically filled the inputs on a Website. 1Password requires you to 1) Click on the browser extension, 2) Click on "autofill"
 * Not sure if it will be one day possible, but unlocking 1Password with the Apple Watch would be awesome.
+
+</details>
 
 ##### Extensions / plugins
 * [Chrome extension](https://chrome.google.com/webstore/detail/1password-x-%E2%80%93-password-ma/aeblfdkhhhdcdjpifhhbdiojplfjncoa?hl=en) - Update settings and set the shortcut to `⌃⇧P`
@@ -391,21 +433,26 @@ mas install 1333542190
 #### [Alfred 4](https://www.alfredapp.com) - Application Launcher, the best alternative for Spolight
 ![Free][licence-free-limit] ![Licence ~$30][licence-30] ![Backup Dropbox][backup-dropbox] ![High usage][usage-high] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/alfred-3-3)
 
+<details>
+  <summary>What for? - What I ❤️ - What I 👎</summary>
+
 ##### What for?
 
-* Open or switch quickly to any application 
+* **Open or switch quickly** to any application 
 * **Text expansions**: previously using [TextExpander](https://textexpander.com/), I switched in using the snippet feature in Alfred.
 
 ##### What I ❤️
-
+    
 * Unlimited possibilities to develop any workflows
 * Integration with 1Password
 * Price
 * Tons of options
 
 ##### What I 👎
-
+    
 * I wish some features like "Snippets", would be more advanced to compete with tools like TextExpander or [Typinator](https://www.ergonis.com/products/typinator/)
+
+</details>
 
 ##### Worflows
 
@@ -413,7 +460,7 @@ This is the list of the workflows I used the most (files saved in Dropbox):
 
 - [caniuse](https://github.com/willfarrell/alfred-caniuse-workflow)
 - [DEVONThink Search](https://www.packal.org/workflow/devonthink-search) - To search on my DEVONThink databases
-- [F.lux](https://www.packal.org/workflow/flux-0) - Change the settings of [F.lux]()
+- [F.lux](https://www.packal.org/workflow/flux-0) - Change the settings of F.lux
 - [Lorem Ipsum](https://www.packal.org/workflow/lorem-ipsum-0) - To generate random Lorem Ipsum text
 - [MDN Search](https://www.packal.org/workflow/mdn-search) - One of the best documentation
 - [Snippets Lab](http://www.packal.org/workflow/search-snippetslab) - Search code snippets
@@ -433,6 +480,9 @@ brew cask install alfred
 #### [iTerm2](https://www.iterm2.com/downloads.html) - The replacement for  terminal
 ![Free][licence-free] ![Usage high][usage-high] ![Backup Dropbox][backup-dropbox] [![Show your support][support]](https://www.iterm2.com/donate.html) [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/iterm2)
 
+<details>
+  <summary>What for? - What I ❤️ - What I 👎</summary>
+
 ##### What for?
 
 * Because the native MacOS terminal is ugly and limited in terms of personalization and functionalities.
@@ -447,6 +497,8 @@ brew cask install alfred
 
 * 0️⃣
 
+</details>
+
 ##### CLI installation
 ```sh
 brew cask install iterm2
@@ -457,10 +509,13 @@ brew cask install iterm2
 #### [Spotify](https://www.spotify.com/) - Music for my hears
 ![Montly subscription][subscription-montly] ![Usage high][usage-high] ![Proprietary backup][backup-proprietary]
 
+<details>
+  <summary>What for? - What I ❤️ - What I 👎</summary>
+
 ##### What for?
 
-* Listen to music
-* Help to concentrate when doing heaving work
+* **Listen to music** or nature sounds
+* **Help to concentrate** when doing heaving work
 
 ##### What I ❤️
 
@@ -470,6 +525,8 @@ brew cask install iterm2
 ##### What I 👎
 
 * 0️⃣
+
+</details>
 
 ##### Extensions / plugins
 - [Alfred - Spotify Mini Player](https://alfred-spotify-mini-player.com/) - Play, Pause, Next, the missing remote for Spotify
@@ -572,12 +629,14 @@ brew cask install microsoft-edge
     - **Show view**
 
     ![bartender-show-personal](media/bartender-show-personal.jpg)
-(Trailer, Mouseless, SnippetsLabs, PopClip, Magnet, Timing)
+
+    (Trailer, Mouseless, SnippetsLabs, PopClip, Magnet, Timing)
 
     - **Hide view**
 
     ![bartender-hide-personal](media/bartender-hide-personal.jpg)
-(f.lux, Hammerspoon, Dropbox, Google Backup, Airplay, Wifi)
+
+    (f.lux, Hammerspoon, Dropbox, Google Backup, Airplay, Wifi)
 
 ##### CLI installation
 ```sh
@@ -638,9 +697,26 @@ brew cask install contexts
 #### [CleanShot X](https://getcleanshot.com/?ref=thedaviddias) - Capture your Mac’s screen like a pro.
 ![Licence ~$30][licence-30] ![Usage high][usage-high] ![Backup Dropbox][backup-dropbox] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/cleanshot-x)
 
+##### What for?
+
+* Doing screenshots and quickly send it to my colleagues 
+
+##### What I ❤️
+
+* All the options you can imagine to have in a screenshot application.
+* Can easily rename a file before saving it
+* Scrolling capture
+* Ability to save as a GIF or a video format
+* The Quick Access that keep the last screenshots as an overlay
+* The option to enable "Do Not Disturb" while recording
+
+##### What I 👎
+
+* 0️⃣
 
 #### Alternatives
-* Free: [Kap](https://getkap.co/?ref=thedaviddias)
+* Mac (free): [Kap](https://getkap.co/?ref=thedaviddias)
+* Windows (paid): [Snagit](https://www.techsmith.com/screen-capture.html)
 
 <img src="media/next-meeting.png" width="50" align="right">
 
@@ -662,6 +738,19 @@ brew cask install contexts
 ![Licence ~$50][licence-50] ![Usage high][usage-high] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/cleanmymac-x)
 
 <img src="media/cleanmymac.jpg" width="700" align="center">
+
+##### What for?
+
+* Uninstall properly applications
+* 
+
+##### What I ❤️
+
+* 
+
+##### What I 👎
+
+*
 
 ##### CLI installation
 ```sh
@@ -711,6 +800,19 @@ mas install 928871589
 
 #### [Mouseless](https://mouseless.app/) - Practice and learn new keyboard's shortcuts
 ![Licence ~$20][licence-20] ![Usage low][usage-low] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/mouseless)
+
+##### What for?
+
+* To learn new shortcuts and use less my mouse
+
+##### What I ❤️
+
+* Automatically suggest shortcuts based on the current app
+* Has some 
+
+##### What I 👎
+
+* 
 
 <img src="media/mouseless.jpg" width="300">
 
@@ -1124,6 +1226,19 @@ mas install 568020055
 
 #### [MindNode](https://mindnode.com) - Interactive Mind Mapping
 ![Licence ~$30][licence-30] ![Backup iCloud][backup-icloud] ![High medium][usage-medium] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/mindnode-5)
+
+##### What for?
+
+* 
+
+##### What I ❤️
+
+* 
+
+##### What I 👎
+
+* The mobile application cost
+* No enough inovations
 
 <img src="media/mindnode.jpg" width="700" align="center">
 
