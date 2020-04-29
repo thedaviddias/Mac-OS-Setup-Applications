@@ -1,9 +1,10 @@
-<p align="center">
-  <!-- img -->
-</p>
+
 <h1 align="center">
   My Mac OS setup and workflow
 </h1>
+<p align="center">
+    <img src="media/mac-setup-workflow.jpg" align="center" alt="3 logos: command line, apple and application">
+</p>
 <p align="center">
   My Mac OS setup, applications and workflows I use as a Web Developer
 </p>
@@ -15,12 +16,11 @@
 
 
 - [Disclaimer](#disclaimer)
-  - [Good to know!](#good-to-know)
+- [Usage](#usage)
   - [Where to find the right tool?](#where-to-find-the-right-tool)
 - [My Hardware](#my-hardware)
 - [Setup shell](#setup-shell)
 - [Command Line Apps](#command-line-apps)
-  - [Quick Look plugins](#quick-look-plugins)
 - [Applications](#applications)
   - [Bare minimum](#bare-minimum)
   - [Browsers](#browsers)
@@ -38,6 +38,7 @@
 - [Dock](#dock)
 - [Web Applications](#web-applications)
 - [Inspiration](#inspiration)
+- [Icons and images](#icons-and-images)
 - [Licence](#licence)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -151,19 +152,19 @@ Check if Oh My Zsh was correctly installed.
 
 ⚠️ Some of the following packages are not essential but highly recommended. Some applications may depend on the installation of these packages.
 
-### [GNU Coreutils](https://www.gnu.org/software/coreutils/) - An essential package with basic tools such as ls, rm...
+#### [GNU Coreutils](https://www.gnu.org/software/coreutils/) - An essential package with basic tools such as ls, rm...
 
 ```sh
 brew install coreutils
 ```
 
-### [Wget](https://www.gnu.org/software/wget/) - To download data from the web and ftp, easier than curl
+#### [Wget](https://www.gnu.org/software/wget/) - To download data from the web and ftp, easier than curl
 
 ```sh
 brew install wget
 ```
 
-### [Tree](http://mama.indstate.edu/users/ice/tree/) - To create beautiful indented listing of files
+#### [Tree](http://mama.indstate.edu/users/ice/tree/) - To create beautiful indented listing of files
 
 ```sh
 brew install tree
@@ -171,32 +172,32 @@ brew install tree
 tree -L 1 # to output only the root directories and files
 ```
 
-### [Nmap](https://nmap.org/) - A powerful command line network discovery utility
+#### [Nmap](https://nmap.org/) - A powerful command line network discovery utility
 
 ```sh
 brew install nmap
 ```
 
-### [The Silver Searcher](https://github.com/ggreer/the_silver_searcher) - Really fast code searching tool
+#### [The Silver Searcher](https://github.com/ggreer/the_silver_searcher) - Really fast code searching tool
 
 ```sh
 brew install the_silver_searcher
 ```
 
-### [jq](https://stedolan.github.io/jq/) - Lightweight and flexible command-line JSON processor
+#### [jq](https://stedolan.github.io/jq/) - Lightweight and flexible command-line JSON processor
 
 ```sh
 brew install jq
 ```
 
-### [Youtube-dl](https://youtube-dl.org/) - A command line alternative to Airy
+#### [Youtube-dl](https://youtube-dl.org/) - A command line alternative to Airy
 ```sh
 brew install youtube-dl
 
 youtube-dl -f best 'link-of-your-own-youtube-video'
 ```
 
-### FFMPEG - To convert videos in multiple formats
+#### [FFMPEG](https://www.ffmpeg.org/) - To convert videos in multiple formats
 
 ```sh
 brew install tesseract-lang && brew install homebrew-ffmpeg/ffmpeg/ffmpeg --with-fdk-aac --with-librsvg --with-libsoxr --with-libssh --with-tesseract --with-libvidstab --with-opencore-amr --with-openh264 --with-openjpeg --with-openssl --with-rubberband --with-webp --with-zeromq --with-zimg --with-srt --with-libvmaf --with-libxml2 --with-game-music-emu --with-libbluray --with-libbs2b --with-libcaca --with-libgsm --with-libmodplug --with-openssl@1.1 --with-rtmpdump --with-speex --with-two-lame --with-wavpack --with-xvid
@@ -204,19 +205,19 @@ brew install tesseract-lang && brew install homebrew-ffmpeg/ffmpeg/ffmpeg --with
 
 More details [here](https://gist.github.com/clayton/6196167)
 
-### [Speetest-cli](https://github.com/sivel/speedtest-cli) - The command line version of Speedtest.net
+#### [Speetest-cli](https://github.com/sivel/speedtest-cli) - The command line version of Speedtest.net
 
 ```sh
 brew install speedtest-cli
 ```
 
-### [Imagemagick](https://imagemagick.org/index.php) - You can do almost everything to edit/convert images and pdfs
+#### [Imagemagick](https://imagemagick.org/index.php) - You can do almost everything to edit/convert images and pdfs
 
 ```sh
 brew install imagemagick
 ```
 
-### Fonts - Installing some fonts
+#### Fonts - Installing some fonts
 
 ```sh
 brew tap homebrew/cask-fonts
@@ -227,7 +228,7 @@ brew cask install \
     font-source-sans-pro
 ```
 
-### MAS - Install App Store apps from the command line
+#### [MAS](https://github.com/mas-cli/mas) - Install App Store apps from the command line
 
 ```sh
 brew install mas
@@ -235,7 +236,7 @@ brew install mas
 mas search {app name} # To search for an app
 ```
 
-### [Ruby (rbenv)](https://github.com/rbenv/rbenv)
+#### [Ruby (rbenv)](https://github.com/rbenv/rbenv) - To manage multiple versions of Ruby
 
 ```sh
 brew install rbenv ruby-build rbenv-default-gems rbenv-gemset
@@ -245,13 +246,7 @@ source ~/.zshrc # Apply changes
 rbenv install {version}
 ```
 
-### [node](https://nodejs.org/en/) 
-
-```
-brew install node
-```
-
-### [nvm](https://github.com/nvm-sh/nvm) - Easily manage your node versions
+#### [nvm](https://github.com/nvm-sh/nvm) - Easily manage your node versions
 
 ⚠️ (never use brew to install nvm)
 
@@ -294,25 +289,25 @@ load-nvmrc
 
 To default a specific node version: `nvm alias default {version}`
 
-### [yarn](https://github.com/yarnpkg/yarn) - Fast, reliable, and secure dependency management.
+#### [yarn](https://github.com/yarnpkg/yarn) - Fast, reliable, and secure dependency management.
 
 ```sh
 brew install yarn
 ```
 
-### [Act](https://github.com/nektos/act) - Run Github Actions Locally
+#### [Act](https://github.com/nektos/act) - Run Github Actions Locally
 
 ```sh
 brew install nektos/tap/act
 ```
 
-### [Github CLI](https://cli.github.com/) - Github on the command line
+#### [Github CLI](https://cli.github.com/) - Github on the command line
 
 ```sh
 brew install github/gh/gh
 ```
 
-### [Quick Look plugins](https://github.com/sindresorhus/quick-look-plugins)
+#### [Quick Look plugins](https://github.com/sindresorhus/quick-look-plugins)
 
 ```sh
 brew cask install \
@@ -325,6 +320,8 @@ brew cask install \
 
 This is a complete list of all the applications I have on my personal and professional Mac (some apps are only on my personal computer).
 
+> 🎁 Some applications can be bought individually or you can [subscribe Setapp](https://go.setapp.com/invite/yaychk0m) for a 7-day free trial to test multiple applications and decide the one you want to use!
+
 ### Bare minimum
 
 This is the list of the most essentials apps I would install if I was limited in the number of apps to have.
@@ -333,6 +330,19 @@ This is the list of the most essentials apps I would install if I was limited in
 
 #### [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html) - Control incoming/outgoing network traffic
 ![Licence ~$30][licence-30] ![Usage high][usage-high] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/little-snitch-4)
+
+##### What for?
+
+* Little Snitch is perfect to block outgoing or incoming connections.
+* When I'm on the go and using my mobile data, I usually block some heavy connections so I limit the amount of data spent.
+
+##### What I ❤️
+
+* Easy to use and clean UI
+
+##### What I 👎
+
+* I wish the confirmation window could save "my preferences", so I would not have to select "forever" every time.
 
 ##### CLI installation
 ```sh
@@ -344,10 +354,23 @@ brew cask install little-snitch
 #### [1Password](https://1password.com) - Password manager
 ![Yearly subscription][subscription-yearly] ![High usage][usage-high] ![Proprietary backup][backup-proprietary] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/1password-7-for-mac-and-windows)
 
-- Generate all of my passwords with it and keep everything in a secured and encrypted vault kept secure by my one master password.
-- No longer need to remember passwords and I now have a unique password for every website [activating two factor authentication](https://support.1password.com/one-time-passwords/) wherever possible.
-- All my applications licences are saved in 1Password
-- I was previously using [LastPass](https://www.lastpass.com/) until I switched to 1Password in 2019.
+##### What for?
+
+* Generate all of my passwords with it and keep everything in a secured and encrypted vault kept secure by my one master password.
+* No longer need to remember passwords and I now have a unique password for every website [activating two factor authentication](https://support.1password.com/one-time-passwords/) wherever possible.
+* All my applications licences are saved in 1Password
+
+##### What I ❤️
+
+* 1Password is a native MacOS app and it's probably one of the reason I choose to move away from [LastPass](https://www.lastpass.com/) in 2019.
+* Fast
+* I can save not just passwords but secure notes, bank accounts, licences...
+* Have a shared vault with my wife and being able to send her by Airdrop a new entry.
+
+##### What I 👎
+
+* I loved that LastPass could recognize a form and automatically filled the inputs on a Website. 1Password requires you to 1) Click on the browser extension, 2) Click on "autofill"
+* Not sure if it will be one day possible, but unlocking 1Password with the Apple Watch would be awesome.
 
 ##### Extensions / plugins
 * [Chrome extension](https://chrome.google.com/webstore/detail/1password-x-%E2%80%93-password-ma/aeblfdkhhhdcdjpifhhbdiojplfjncoa?hl=en) - Update settings and set the shortcut to `⌃⇧P`
@@ -367,20 +390,37 @@ mas install 1333542190
 #### [Alfred 4](https://www.alfredapp.com) - Application Launcher, the best alternative for Spolight
 ![Free][licence-free-limit] ![Licence ~$30][licence-30] ![Backup Dropbox][backup-dropbox] ![High usage][usage-high] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/alfred-3-3)
 
-- **Text expansions**: previously using [TextExpander](https://textexpander.com/), I switched in using the snippet feature in Alfred. (text-expander to aflred)
+##### What for?
 
-- **Workflows** used (files saved on Dropbox):
-    - [caniuse](https://github.com/willfarrell/alfred-caniuse-workflow)
-    - [DEVONThink Search](https://www.packal.org/workflow/devonthink-search) - To search on my DEVONThink databases
-    - [F.lux]() - Change the settings of [F.lux]()
-    - [Lorem Ipsum]() - To generate random Lorem Ipsum text
-    - [MDN Search]() - One of the best documentation
-    - [Snippets Lab](http://www.packal.org/workflow/search-snippetslab)
-    - [Spotify Mini Player]() - Play, Pause, Next, the missing remote for Spotify
-    - [Things]() - Access my tasks from Alfred
-    - Alfred Maestro
-    - Terminal Finder
-    - Copy URL
+* Open or switch quickly to any application 
+* **Text expansions**: previously using [TextExpander](https://textexpander.com/), I switched in using the snippet feature in Alfred.
+
+##### What I ❤️
+
+* Unlimited possibilities to develop any workflows
+* Integration with 1Password
+* Price
+* Tons of options
+
+##### What I 👎
+
+* I wish some features like "Snippets", would be more advanced to compete more with TextExpander
+
+##### Worflows
+
+This is the list of most of the workflows I used (files saved on Dropbox):
+
+- [caniuse](https://github.com/willfarrell/alfred-caniuse-workflow)
+- [DEVONThink Search](https://www.packal.org/workflow/devonthink-search) - To search on my DEVONThink databases
+- [F.lux]() - Change the settings of [F.lux]()
+- [Lorem Ipsum]() - To generate random Lorem Ipsum text
+- [MDN Search]() - One of the best documentation
+- [Snippets Lab](http://www.packal.org/workflow/search-snippetslab)
+- [Spotify Mini Player]() - Play, Pause, Next, the missing remote for Spotify
+- [Things]() - Access my tasks from Alfred
+- Alfred Maestro
+- Terminal Finder
+- Copy URL
 
 ##### CLI installation
 ```sh
@@ -1435,6 +1475,16 @@ Heavily inspired by the works from:
 
 - https://github.com/nikitavoloboev/my-mac-os
 - https://github.com/donnemartin/dev-setup
+
+## Icons and images
+
+All logos used a
+
+<div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+<div>Icons made by <a href="https://www.flaticon.com/authors/flat-icons" title="Flat Icons">Flat Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+<div>Icons made by <a href="https://www.flaticon.com/authors/prettycons" title="prettycons">prettycons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
 ## Licence
 
