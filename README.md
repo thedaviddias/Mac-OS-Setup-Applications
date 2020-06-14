@@ -1,4 +1,3 @@
-
 <h1 align="center">
   My Mac OS setup and applications
 </h1>
@@ -61,10 +60,9 @@ Based on hours of research and testing, I'm sharing all the applications I belie
 
 ## My Hardware
 
-Personal Computer: 13" Late 2017 Macbook Pro with Touch bar.
-Professional Computer: 15" 2019 Macbook Pro with Touch bar.
-
-Personal Monitor: [LG 34UM69G-B 34" 21:9 UltraWide](https://www.amazon.ca/gp/product/B06XFXX5JH/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
+* Personal Computer: 13" Late 2017 Macbook Pro with Touch bar.
+* Professional Computer: 15" 2019 Macbook Pro with Touch bar.
+* Personal Monitor: [LG 34UM69G-B 34" 21:9 UltraWide](https://www.amazon.ca/gp/product/B06XFXX5JH/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 
 Personal Keyboards:
 
@@ -79,6 +77,7 @@ Mouses:
 Accessories:
 
 * [Bose QuietComfort 35 II](https://www.amazon.com/dp/B0756CYWWD/ref=cm_sw_em_r_mt_dp_U_XKlQEbZWNE0YW)
+* [Plugable Thunderbolt 3 Dock](https://www.amazon.ca/dp/B075M1XHCK/ref=cm_sw_em_r_mt_dp_U_bhp4EbSFA2MQS)
 * [Elgato Stream Deck](https://www.amazon.ca/dp/B06XKNZT1P/ref=cm_sw_em_r_mt_dp_U_64mNEbDTVAA81)
 * [Elgato Green Screen](https://www.amazon.ca/dp/B0743Z892W/ref=cm_sw_em_r_mt_dp_U_n-mNEbNJ37DDK)
 * [Focusrite Scarlett-2i2 Gen2](https://www.amazon.ca/dp/B005OZE9SA/ref=cm_sw_em_r_mt_dp_U_v7mNEb9RZNDFG)
@@ -454,7 +453,7 @@ mas install 1333542190
 
 </details>
 
-##### Worflows
+##### List of workflows I use
 
 This is the list of the workflows I used the most (files saved in Dropbox):
 
@@ -562,13 +561,13 @@ Multiple profiles
 * [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en) - The required tool that help to inspect any React component
 * [Grammarly](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen?hl=en) - The life saving tool that help to fix writing errors
 * CSS Scan
-* Session Budy
-* Keepa
-* VisBug
-* Merge all Windows
-* Tab Organizer
-* JSONView
-* Momentum
+* [Session Budy](https://chrome.google.com/webstore/detail/session-buddy/edacconmaakjimmfgnblocblbcdcpbko?hl=en) - 
+* [Keepa](https://chrome.google.com/webstore/detail/keepa-amazon-price-tracke/neebplgakaahbhdphmkckjjcegoiijjo?hl=en) - Amazon price tracker: know when to buy and when to wait
+* [VisBug](https://chrome.google.com/webstore/detail/visbug/cdockenadnadldjbbgcallicgledbeoc?hl=en) - Open source web design debug tool for designers (and developers)
+* [Merge all Windows](https://chrome.google.com/webstore/detail/merge-windows/mmpokgfcmbkfdeibafoafkiijdbfblfg?hl=en) - When you have multiple windows and just want one
+* [Tab Organizer](https://chrome.google.com/webstore/detail/tab-organizer/kkcbifggchajpkagcpagenpfghbplghc?hl=en) - To group tabs from the same base URL 
+* [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en) - To view JSON documents in your browser
+* [Momentum](https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca?hl=en) - The classic and beautiful tab replacement
 
 ##### CLI installation
 ```sh
@@ -625,7 +624,7 @@ brew cask install microsoft-edge
 
     - Hide view
 
-- Person
+- Personal
     - **Show view**
 
     ![bartender-show-personal](media/bartender-show-personal.jpg)
@@ -638,6 +637,26 @@ brew cask install microsoft-edge
 
     (f.lux, Hammerspoon, Dropbox, Google Backup, Airplay, Wifi)
 
+  
+<details>
+  <summary>What for? - What I ❤️ - What I 👎</summary>
+
+##### What for?
+
+* Keep your bar icons organize
+* Hide some non-essentials icons but make them still available
+
+##### What I ❤️
+
+* Simple to use
+* Do the job
+
+##### What I 👎
+
+* 0️⃣
+
+</details>
+
 ##### CLI installation
 ```sh
 brew cask install bartender
@@ -647,6 +666,24 @@ brew cask install bartender
 
 #### [f.lux](https://justgetflux.com/) -  Reduce eyes fatigue
 ![Free][licence-free] ![Usage high][usage-high] [![Show your support][support]](https://justgetflux.com/promo/paypal2.html) [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/f-lux)
+
+<details>
+  <summary>What for? - What I ❤️ - What I 👎</summary>
+
+##### What for?
+
+* Makes it easy for my eyes
+
+##### What I ❤️
+
+* Free
+* It works! Can stay longer front of my screen without tiredness or headaches.
+
+##### What I 👎
+
+* 0️⃣
+
+</details>
 
 <img src="media/flux.jpg" width="250">
 
@@ -659,6 +696,24 @@ brew cask install flux
 
 #### [PopClip](https://pilotmoon.com/popclip/) - Giving more power to my mouse
 ![Licence ~$10][licence-10] ![Usage high][usage-high] ![Backup Dropbox for the extensions][backup-dropbox] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/popclip)
+
+<details>
+  <summary>What for? - What I ❤️ - What I 👎</summary>
+
+##### What for?
+
+* Gives more power to your mouse and save you few clicks.
+
+##### What I ❤️
+
+* Most of the apps I use in a daily basis have their extension
+* I can send any text I highlight in a page to DevonThink or Things
+
+##### What I 👎
+
+* I wish I could disable it on some websites
+
+</details>
 
 - List of the [extensions I use](https://pilotmoon.com/popclip/extensions/) (files saved on Dropbox)
     - [Past and Match Style](https://pilotmoon.com/popclip/extensions/ext/PasteAndMatch.popclipextz)
@@ -697,6 +752,9 @@ brew cask install contexts
 #### [CleanShot X](https://getcleanshot.com/?ref=thedaviddias) - Capture your Mac’s screen like a pro.
 ![Licence ~$30][licence-30] ![Usage high][usage-high] ![Backup Dropbox][backup-dropbox] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/cleanshot-x)
 
+<details>
+  <summary>What for? - What I ❤️ - What I 👎</summary>
+
 ##### What for?
 
 * Doing screenshots and quickly send it to my colleagues 
@@ -707,12 +765,14 @@ brew cask install contexts
 * Can easily rename a file before saving it
 * Scrolling capture
 * Ability to save as a GIF or a video format
-* The Quick Access that keep the last screenshots as an overlay
+* The Quick Access that keeps the last screenshots as an overlay
 * The option to enable "Do Not Disturb" while recording
 
 ##### What I 👎
 
 * 0️⃣
+
+</details>
 
 #### Alternatives
 * Mac (free): [Kap](https://getkap.co/?ref=thedaviddias)
@@ -722,6 +782,25 @@ brew cask install contexts
 
 #### [Next Meeting](https://apps.apple.com/us/app/next-meeting-quickly-see-your/id1017470484) - Never miss a meeting again
 ![Free][licence-free] ![Usage high][usage-high] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/next-meeting)
+
+<details>
+  <summary>What for? - What I ❤️ - What I 👎</summary>
+
+##### What for?
+
+* Show you your next meeting in your icon bar
+
+##### What I ❤️
+
+* Free
+* Don't need to open an app or click anywhere to see my next meeting
+* Direct access to open Google meet or Zoom
+
+##### What I 👎
+
+* 0️⃣
+
+</details>
 
 <img src="media/next-meeting-sc.png" width="300">
 
@@ -737,20 +816,28 @@ brew cask install contexts
 #### [CleanMyMac X](https://macpaw.com/cleanmymac) - To maintain my Mac as he was new
 ![Licence ~$50][licence-50] ![Usage high][usage-high] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/cleanmymac-x)
 
-<img src="media/cleanmymac.jpg" width="700" align="center">
+<details>
+  <summary>What for? - What I ❤️ - What I 👎</summary>
 
 ##### What for?
 
-* Uninstall properly applications
-* 
+* Keep your Mac clean, up-to-date and find any big file (and much more)
 
 ##### What I ❤️
 
-* 
+* Uninstall properly applications, if you remove an app from the Application folder, it automatically suggest to remove app's dependency files
+* Many file management tools in one application
+* Space lens
+* Give me access to login items
+* Easily update apps
 
 ##### What I 👎
 
-*
+* 0️⃣
+
+</details>
+
+<img src="media/cleanmymac.jpg" width="700" align="center">
 
 ##### CLI installation
 ```sh
@@ -801,6 +888,9 @@ mas install 928871589
 #### [Mouseless](https://mouseless.app/) - Practice and learn new keyboard's shortcuts
 ![Licence ~$20][licence-20] ![Usage low][usage-low] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/mouseless)
 
+<details>
+  <summary>What for? - What I ❤️ - What I 👎</summary>
+
 ##### What for?
 
 * To learn new shortcuts and use less my mouse
@@ -808,11 +898,13 @@ mas install 928871589
 ##### What I ❤️
 
 * Automatically suggest shortcuts based on the current app
-* Has some 
 
 ##### What I 👎
 
-* 
+* I wish I could easily add my shortcuts
+* Personalize some shortcuts to work with my keyboard
+
+</details>
 
 <img src="media/mouseless.jpg" width="300">
 
@@ -839,6 +931,25 @@ I only use TeamViewer when I need to debug my Mom's computer (which is located i
 #### [Keyboard Maestro](https://www.keyboardmaestro.com/main/) - The most powerful option to automate EVERYTHING on Mac
 ![Licence ~$30][licence-30] ![Usage high][usage-high] ![Backup Dropbox][backup-dropbox] ![Backup Dropbox][backup-dropbox] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/keyboard-maestro)
 
+<details>
+  <summary>What for? - What I ❤️ - What I 👎</summary>
+
+##### What for?
+
+* Automate your Mac
+
+##### What I ❤️
+
+* Unlimited possibilities and automations
+* One of the reason I own Macs since few years
+
+##### What I 👎
+
+* Not enough updates
+* You can find examples on Keyboard Maestro forum, but I wish to have more examples and content within the app.
+
+</details>
+
 ##### Extensions
 
 * [Alfred Maestro](https://github.com/iansinnott/alfred-maestro) - Search on Keyboard Maestro using Alfred
@@ -852,6 +963,24 @@ brew cask install keyboard-maestro
 
 #### [Hazel](https://www.noodlesoft.com/) - Automate repetitive tasks in a few clicks
 ![Licence ~$30][licence-30] ![Usage high][usage-high] ![Backup Dropbox][backup-dropbox] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/hazel-4-0)
+
+<details>
+  <summary>What for? - What I ❤️ - What I 👎</summary>
+
+##### What for?
+
+* Watch folders and create triggers to launch a specified action
+
+##### What I ❤️
+
+* Simpler and faster than Keyboard Maestro to configure
+* Hability to import / export rules 
+
+##### What I 👎
+
+* Delay when I cancel a task. Hazel continue running even I disabled one of the rules. Need to "hard cancel" Hazel sometimes.
+
+</details>
 
 ##### CLI installation
 ```sh
@@ -888,10 +1017,31 @@ brew cask install hammerspoon
 <img src="media/fantastical.png" width="50" align="right">
 
 #### [Fantastical](https://flexibits.com/fantastical) - Calendar management
-![Free][licence-free] ![High usage][usage-high] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/fantastical-3-0)
+![Free with limits][licence-free-limit] ![High usage][usage-high] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/fantastical-3-0)
 
-- I use the app to manage personal and professional events.
-- I always view my events from `Week` view. And show 5 days with 16h shown for all days. This lets me have a perspective over what I have to do now. What deadlines I have to complete soon. And gives me the freedom to adjust my schedule in light of upcoming deadlines and events.
+- I use Fantastical to manage personal and professional events.
+- I always view my events from `Week` view. And shows 5 days with 16h shown for all days. This lets me have a perspective over what I have to do now.
+
+<details>
+  <summary>What for? - What I ❤️ - What I 👎</summary>
+
+##### What for?
+
+* An better alternative to the native calendar
+
+##### What I ❤️
+
+* Integration with Reminders and Meetup
+* Lightweight
+* Easy to use
+* Lot of personalization options
+
+##### What I 👎
+
+* I usually understand and don't bother too much with subscriptions, but $52 a year is too much in comparison with other apps I used. Around $35 would make more sense to me. I'm using the free version and it's enough for my needs.
+* It's clearly a "trap": when I access the premium details in the preferences, my only option is to click on "Start trial" or Force quit the app... I'm not fan of that.
+
+</details>
 
 ##### CLI installation
 ```sh
@@ -903,7 +1053,27 @@ brew cask install fantastical
 #### [Things](https://culturedcode.com/things/) - Task manager
 ![Licence ~$30][licence-30] ![High usage][usage-high] ![Proprietary backup][backup-proprietary] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/things-3-0)
 
-- I used [Todoist](https://todoist.com/) for few years but decided to try Things.
+- I used [Todoist](https://todoist.com/) for few years but decided to try Things, and even I miss some options from Todoist, I'm loving using Things.
+
+<details>
+  <summary>What for? - What I ❤️ - What I 👎</summary>
+
+##### What for?
+
+* Organize my todos and projects
+
+##### What I ❤️
+
+* The UI
+* The integration with Shortcuts (iPad OS and iOS)
+* Integration with Reminders and a lot of other apps
+* Organize by area and projects
+
+##### What I 👎
+
+* Would be awesome to integrate things with other apps through Zapier
+
+</details>
 
 ##### CLI installation
 ```sh
@@ -926,13 +1096,36 @@ brew cask install timing
 
 ### Storage & backup management
 
+I've used Google One many years, but decide to use Dropbox instead. The two main reasons are: integration with most of the apps I used and the offline mode out of the box.
+
 <img src="media/dropbox.png" width="50" align="right">
 
-#### [Dropbox](https://www.dropbox.com/individual) - Online Cloud Backup
+#### [Dropbox](https://db.tt/4dn59Jv3od) - Online Cloud Backup
 ![Monthly subscription][subscription-montly] ![Usage high][usage-high]
+
+I've used Google Drive storage few years but use now mainly Dropbox because of the integration with a lot of Mac OS, iOs and iPad OS apps.
 
 ##### To DO after install
 - [ ] Select `Apps` and `Screenshots` folders to sync
+
+<details>
+  <summary>What for? - What I ❤️ - What I 👎</summary>
+
+##### What for?
+
+* Backup storage
+
+##### What I ❤️
+
+* Integration with a lot of apps
+* Offline / online possibility
+* Faster then Google Drive for the synchronization
+
+##### What I 👎
+
+* I wish I could access the "Selective Sync" with fewer clicks
+
+</details>
 
 ##### CLI installation
 ```sh
@@ -952,6 +1145,24 @@ brew cask install dropbox
 #### [ForkLift](https://binarynights.com/) - Dual pane file manager and file transfer client for macOS
 ![Licence ~$30][licence-30] ![Backup Dropbox][backup-dropbox] ![Usage medium][usage-medium]
 
+<details>
+  <summary>What for? - What I ❤️ - What I 👎</summary>
+
+##### What for?
+
+* Copy-paste with queue and access remote folders
+
+##### What I ❤️
+
+* The copy-paste queue that allow me to pause or resume
+* Access remote folders (FTP, Dropbox, S3, Backblaze B2)
+
+##### What I 👎
+
+* Sometime crashes or keep "copying" but is actually blocked.
+
+</details>
+
 ##### To DO after install
 - [ ] *Sync favorites* with Dropbox
 
@@ -969,6 +1180,9 @@ mas install 412448059
 #### [The Unarchiver](https://theunarchiver.com/) - The missing RAR and Zip unarchiver
 ![Free][licence-free] ![Usage high][usage-high] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/the-unarchiver-4-0)
 
+
+![unarchiver-options](media/unarchiver-options.jpg)
+
 ##### CLI installation
 ```sh
 brew cask install the-unarchiver
@@ -981,6 +1195,8 @@ mas install 425424353
 #### [Hard Disk Manager](https://www.paragon-software.com/hdm-mac/) - Maintain and manage my external hard drives
 ![Licence ~$65][licence-50] ![Usage low][usage-low]
 
+Sometimes, some external hard drives can gave me tough times. Hard Disk Manager saved me multiple times and it's always good to check the health of your hard drives time to time.
+
 <img src="media/harddiskmanager.jpg" width="400">
 
 ---
@@ -990,15 +1206,30 @@ mas install 425424353
 #### [GoodSync](https://www.goodsync.com/download) - Backup/sync and file organization
 ![Licence ~$30][licence-30] 
 
+<details>
+  <summary>What for? - What I ❤️ - What I 👎</summary>
 
-### Code
-----
+##### What for?
+
+* Synchronize files between local and remove storage
+
+##### What I ❤️
+
+* Can sync between various remote storage (ex Drive <> Dropbox)
+
+##### What I 👎
+
+* Crashed some times
+* Can take ages depending on how many files and where these are located (not really what I dislike, I just wishes things could be faster 😅)
+
+</details>
+
 <img src="media/visual-studio-code.png" width="50" align="right">
 
 #### [Visual Studio Code](https://github.com/Microsoft/vscode) - My preferred code editor
 ![Free][licence-free] ![Usage high][usage-high] ![Backup Github][backup-github]
 
-sync settings
+The best code editor (for my usage)
 
 ##### CLI installation
 ```sh
@@ -1007,10 +1238,25 @@ brew cask install visual-studio-code
 
 <img src="media/tower.png" width="50" align="right">
 
-#### [Tower](https://www.git-tower.com/) - Git client
+#### [Tower](https://www.git-tower.com/) - GUI Git client
 ![Yearly subscription][subscription-yearly] ![Usage high][usage-high] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/tower-3-0)
 
-- I love using Tower as it gave me a more visual representation of my Github projects. When I'm not using Tower, I use some aliases enabled in ZSH to speedup Git commands.
+<details>
+  <summary>What for? - What I ❤️ - What I 👎</summary>
+
+##### What for?
+
+* Manage Git projects
+
+##### What I ❤️
+
+* Tower gives me a more visual representation of all my Github repo. When I'm not using Tower, I use some aliases enabled in ZSH to speedup Git commands.
+
+##### What I 👎
+
+* The last versions forced me to sometimes force quit the app, or had to face some crashes. This seems solved by now.
+
+</details>
 
 <img src="media/tower.jpg" width="700" align="center">
 
@@ -1036,12 +1282,37 @@ brew cask install diffmerge
 
 - I store all my code snippets
 
+<details>
+  <summary>What for? - What I ❤️ - What I 👎</summary>
+
+##### What for?
+
+* Manage code snippets
+
+##### What I ❤️
+
+* No subscription, price
+* Works with Alfred extension and Poplip extension
+* Bar icon access
+* iCloud synchronization
+
+##### What I 👎
+
+* No recent updates
+* Doesn't support syntax highlighting (huge issue for me)
+
+</details>
+
 Other options
-- [Alfred](https://www.alfredapp.com/extras/snippets/), [VSCode](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
+- [Alfred](https://www.alfredapp.com/extras/snippets/)
+- [VSCode](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
 
 ##### Extensions / plugins
 * [Alfred extension](http://www.packal.org/workflow/search-snippetslab)
 * [PopClip extension](https://pilotmoon.com/popclip/extensions/page/SnippetsLab)
+
+##### Possible alternatives (to be tested)
+* [Snipper](https://snipper.app/)
 
 ##### CLI installation
 ```sh
@@ -1297,7 +1568,32 @@ brew cask install devonthink
 
 - I've used [Marked 2](https://marked2app.com/), [Ulysses](https://ulysses.app/) and [Boostnode](https://boostnote.io/) but MWeb is the one app I've enjoy the most using.
 
+<details>
+  <summary>What for? - What I ❤️ - What I 👎</summary>
+
+##### What for?
+
+* Markdown Editor
+
+##### What I ❤️
+
+* The dual panel with Markdown in one side and the preview in the other
+* Beautiful themes
+
+##### What I 👎
+
+* No recent updates
+* The scroll for the Editor and preview panel is usually not synchronized 
+* No possibility to deactivate the synchronized scroll
+
+</details>
+
 <img src="media/mweb.jpg" width="700" align="center">
+
+##### Possible alternatives
+* [Mou](http://25.io/mou/)
+* [MacDown](https://macdown.uranusjr.com/)
+* [Quiver](http://happenapps.com/#quiver)
 
 ##### CLI installation
 ```sh
@@ -1355,7 +1651,7 @@ mas install 803453959
 ![Free][licence-free-limit] ![Yearly subscription][subscription-yearly] ![Backup iCloud][backup-icloud] ![Usage high][usage-high] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/airmail-3-3)
 
 * I've been using Airmail since I fully work on MacOS.
-* I tried [Spark](https://sparkmailapp.com/) for few days but I didn't feel it was a big win in comparaison to Airmail.
+* I tried [Spark](https://sparkmailapp.com/) for few days but I didn't feel it was a big win in comparison to Airmail.
 * Like many people, I approach my emails tasks in GTD style, trying to always be close to zero emails in my inbox.
 
 ##### Filters and triage
@@ -1381,6 +1677,8 @@ I have a strict rule in regards to social apps on my professional Mac. I usually
 #### [Flume](https://flumeapp.com/) - To manage Instagram on Mac
 ![Free][licence-free] ![Usage low][usage-low] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/flume-2-0)
 
+Don't use it regularly.
+
 <img src="media/messenger.png" width="50" align="right">
 
 #### [Messenger](https://apps.apple.com/us/app/messenger/id1480068668?mt=12) - Facebook Messenger but on Mac
@@ -1395,6 +1693,8 @@ I have a strict rule in regards to social apps on my professional Mac. I usually
 
 #### [Discord](https://discordapp.com/download) -
 ![Free][licence-free] ![Usage low][usage-low]
+
+I use mostly Discord to talk with HTMLHint contributors.
 
 <img src="media/skype.png" width="50" align="right">
 
@@ -1427,6 +1727,27 @@ I'm not a Web Designer / Designer, but I love studying Photography, UI and UX. I
 
 #### [Eagle](https://en.eagle.cool/) - Organize my design library
 ![Yearly subscription][subscription-yearly] ![Usage high][usage-high] ![Backup Dropbox][backup-dropbox] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/eagle-5)
+
+<details>
+  <summary>What for? - What I ❤️ - What I 👎</summary>
+
+##### What for?
+
+* To manage all my media files (images, PSD, sketch files...)
+
+##### What I ❤️
+
+* Backup on Dropbox
+* Recent updates
+* Chrome extension which save any image with a simple drag and drop
+* Fast
+* Lot of options
+
+##### What I 👎
+
+* 0️⃣
+
+</details>
 
 ##### Extensions / plugins
 * [Eagle Chrome extension](https://chrome.google.com/webstore/detail/eagle-save-images-faster/lieogkinebikhdchceieedcigeafdkid?hl=en)
@@ -1465,6 +1786,7 @@ I'm not a Web Designer / Designer, but I love studying Photography, UI and UX. I
     - Adobe Audition
     - Adobe Lightroom Classic
     - Adobe Acrobat
+    - ...
 
 ##### CLI installation
 ```sh
@@ -1476,6 +1798,8 @@ brew cask install adobe-creative-cloud
 #### [Figma](https://www.figma.com/)
 ![Free][licence-free-limit] ![Usage low][usage-low] ![Usage medium][usage-medium] ![Proprietary backup][backup-proprietary] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/figma-3-0)
 
+I'm planning in using more Figma as I don't want to renew Sketch in regards to my real usage.
+
 ##### CLI installation
 ```sh
 brew cask install figma
@@ -1485,6 +1809,8 @@ brew cask install figma
 
 #### [Sketch](https://www.sketch.com/)
 ![Yearly subscription][subscription-yearly] ![Usage medium][usage-medium] ![Backup Dropbox][backup-dropbox] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/sketch-52)
+
+Still a reference (vs Adobe XD and Figma) but I didn't renew my licence in 2019. Planning in using Figma instead when needed.
 
 ##### CLI installation
 ```sh
@@ -1496,13 +1822,19 @@ brew cask install sketch
 #### [Sketchpacks](https://sketchpacks.com/)
 ![Free][licence-free] ![Usage low][usage-low]
 
+To manage plugins for Sketch
+
 #### [Zeplin](https://zeplin.io/) - 
 ![Usage medium][usage-medium] ![Proprietary backup][backup-proprietary] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/zeplin-3-0)
+
+Used Zeplin mostly at work. I remember when it first came out. A lot of updates and improvements since.
 
 <img src="media/sip.png" width="50" align="right">
 
 #### [Sip](https://sipapp.io/) - Collect, organize and share colors
 ![Yearly subscription][subscription-yearly] ![Usage medium][usage-medium] ![Proprietary backup][backup-proprietary] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/sip-for-mac)
+
+My go-to color-picker. I just wish I could use on 2 Macs.
 
 ##### CLI installation
 ```sh
@@ -1526,15 +1858,53 @@ brew cask install imageoptim
 #### [VLC](https://www.videolan.org/vlc/index.html) - A Media player built by my compatriots
 ![Free][licence-free] ![Usage high][usage-high] [![Show your support][support]](https://www.videolan.org/contribute.html#money)
 
+It's not because it was build by French people that I love this app!
+
 <img src="media/loopback.png" width="50" align="right">
 
 #### [Loopback](https://rogueamoeba.com/loopback/) - Cable-free audio routing for Mac
  ![Licence ~$100][licence-100] ![Usage low][usage-low]
 
+<details>
+  <summary>What for? - What I ❤️ - What I 👎</summary>
+
+##### What for?
+
+* When you want to combine different audio sources, essential if you do podcasts
+
+##### What I ❤️
+
+* Easy to use
+* Works perfectly
+
+##### What I 👎
+
+* Price
+
+</details>
+
 <img src="media/audiohijack.png" width="50" align="right">
 
 #### [Audio Hijack](https://rogueamoeba.com/audiohijack/) - Record any audio
  ![Licence ~$50][licence-50] ![Usage low][usage-low]
+
+<details>
+  <summary>What for? - What I ❤️ - What I 👎</summary>
+
+##### What for?
+
+* Record any source audio
+
+##### What I ❤️
+
+* With Loopback, Audio Hijack transforms your Mac in a real studio
+* Build-in effects (like Dehum and band EQ)
+
+##### What I 👎
+
+* 0️⃣
+
+</details>
 
 <img src="media/ecammlive.png" width="50" align="right">
 
@@ -1584,6 +1954,8 @@ brew cask install airy
 
 #### [Type Fu](https://type-fu.com/) - Typing training
 ![Free][licence-free] ![Usage medium][usage-medium]
+
+The only typing program that has a "Code" practice section
 
 <img src="media/typesy.png" width="50" align="right">
 
