@@ -65,8 +65,8 @@ Based on hours of research and testing, I'm sharing all the applications I belie
 
 Personal Keyboards:
 
-* At Work: [Pock3R](https://mechanicalkeyboards.com/shop/index.php?l=product_detail&p=3631) black with blue leds
-* At Home: [Ducky One 2 RGB TKL](https://mechanicalkeyboards.com/shop/index.php?l=product_detail&p=4284)
+* At Home 1: [Keychron K3](https://www.keychron.com/pages/keychron-k3-wireless-mechanical-keyboard) optical brown switch
+* At Home 2: [Ducky One 2 RGB TKL](https://mechanicalkeyboards.com/shop/index.php?l=product_detail&p=4284)
 
 Mouses:
 
@@ -76,12 +76,14 @@ Mouses:
 Accessories:
 
 * [Bose QuietComfort 35 II](https://www.amazon.com/dp/B0756CYWWD/ref=cm_sw_em_r_mt_dp_U_XKlQEbZWNE0YW)
+* [AirPods Pro](https://www.apple.com/ca/airpods-pro/)
 * [Plugable Thunderbolt 3 Dock](https://www.amazon.ca/dp/B075M1XHCK/ref=cm_sw_em_r_mt_dp_U_bhp4EbSFA2MQS)
 * [Elgato Stream Deck](https://www.amazon.ca/dp/B06XKNZT1P/ref=cm_sw_em_r_mt_dp_U_64mNEbDTVAA81)
 * [Elgato Green Screen](https://www.amazon.ca/dp/B0743Z892W/ref=cm_sw_em_r_mt_dp_U_n-mNEbNJ37DDK)
 * [Focusrite Scarlett-2i2 Gen2](https://www.amazon.ca/dp/B005OZE9SA/ref=cm_sw_em_r_mt_dp_U_v7mNEb9RZNDFG)
 * [DBX 286s Microphone Pre-amp Processor](https://www.amazon.ca/dp/B004NDFRVC/ref=cm_sw_em_r_mt_dp_U_V7mNEbTJ0E20E)
 * [Rode Procaster](https://www.amazon.com/dp/B001IPUJJI/ref=cm_sw_em_r_mt_dp_U_wLlQEbV5FS1XC)
+* [NETGEAR 8-Port Gigabit Ethernet Smart Managed Pro Switch (GS308T)](https://www.amazon.ca/dp/B01MYTIPG2/ref=cm_sw_em_r_mt_dp_QQXN7GR51BJ2R9ZWH8QJ?_encoding=UTF8&psc=1)
 
 ## Setup shell
 
@@ -330,21 +332,19 @@ brew cask install \
 
 ### Node packages to install globally
 
-npm list -g --depth 0
+List all NPM package installed globally: `npm list -g --depth 0`
 
 * [Netlify CLI]() - `npm install netlify-cli -g`
-* Gatsby CLI
-* NPM-check
-* Babel CLI?
-* Contentful CLI?
-* Now CLI
-* ESLint?
-* Create React App
-* @lhci/cli
+* Gatsby CLI - `npm install -g gatsby-cli`
+* NPM-check - `npm install -g npm-check`
+* Yarn-check - `npm install -g yarn-check`
+* AWS Amplify CLI - `npm install -g @aws-amplify/cli`
+* Vercel CLI - `npm i -g vercel`
+* Create React App - `npx create-react-app my-app`
 * [dotenv-cli](https://www.npmjs.com/package/dotenv-cli) - `npm install -g dotenv-cli`
-npm install --global release-it
-npm i -g gitmoji-cli
-npm i -g plop
+* Gitmoji - `npm i -g gitmoji-cli`
+* Release-it - `npm install --global release-it`
+* Plop - `npm i -g plop`
 
 
 ## Applications
@@ -502,23 +502,24 @@ brew cask install alfred
 brew cask install iterm2
 ```
 
-<img src="media/15878423395361.png" width="50" align="right">
+<img src="media/table-plus.png" width="50" align="right">
 
-#### [Spotify](https://www.spotify.com/) - Music for my hears
-![Montly subscription][subscription-montly] ![Usage high][usage-high] ![Proprietary backup][backup-proprietary]
+#### [TablePlus](https://tableplus.com/download) - The replacement for  terminal
+![Licence ~$50][licence-50] ![Usage high][usage-high]
 
 <details>
   <summary>What for? - What I ❤️ - What I 👎</summary>
 
 ##### What for?
 
-* **Listen to music** or nature sounds
-* **Help to concentrate** when doing heaving work
+* To manage relational databases
 
 ##### What I ❤️
 
-* Fast and mostly stable
-* The "Made for You" which choose music based on my preferences.
+* The number of databases supported
+* The clean UI interface
+* Support for MongoDB (more coming soon)
+* Support for Mac and Windows
 
 ##### What I 👎
 
@@ -526,12 +527,9 @@ brew cask install iterm2
 
 </details>
 
-##### Extensions / plugins
-- [Alfred - Spotify Mini Player](https://alfred-spotify-mini-player.com/) - Play, Pause, Next, the missing remote for Spotify
-
 ##### CLI installation
 ```sh
-brew cask install spotify
+brew cask install tableplus
 ```
 
 ### Browsers
@@ -551,6 +549,7 @@ Multiple profiles
 * [Feedly Mini](https://chrome.google.com/webstore/detail/feedly-mini/ndhinffkekpekljifjkkkkkhopnjodja?hl=en) - Easily save the RSS feed of the current website
 * [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb?hl=en) - Because I prefer to limit ads
 * [1Password](https://chrome.google.com/webstore/detail/1password-x-%E2%80%93-password-ma/aeblfdkhhhdcdjpifhhbdiojplfjncoa?hl=en) - 1Password companion
+* [Tabs Mania](https://chrome.google.com/webstore/detail/tabs-mania/kpehljmacelghfpbkoajiigcaijjdogf) - Extension I built to manage tabs
 * [Toolbar Spacer 1](https://chrome.google.com/webstore/detail/toolbar-spacer/golladjmjodbefcoombodcdhimkmgemd?hl=en) - I prefer to separate my extensions visually
 * [Clip to DEVONthink](https://chrome.google.com/webstore/detail/clip-to-devonthink/pjoafdokmbmkpolhcnmnkgaicbajigcc?hl=en) - Clip the URL, text or screenshot the page and save it in DEVONthink
 * [Save to Notion](https://chrome.google.com/webstore/detail/notion-web-clipper/knheggckgoiihginacbkhaalnibhilkk?hl=en) - Save a page, text or anything else to Notion
@@ -563,8 +562,6 @@ Multiple profiles
 * [Session Budy](https://chrome.google.com/webstore/detail/session-buddy/edacconmaakjimmfgnblocblbcdcpbko?hl=en) - 
 * [Keepa](https://chrome.google.com/webstore/detail/keepa-amazon-price-tracke/neebplgakaahbhdphmkckjjcegoiijjo?hl=en) - Amazon price tracker: know when to buy and when to wait
 * [VisBug](https://chrome.google.com/webstore/detail/visbug/cdockenadnadldjbbgcallicgledbeoc?hl=en) - Open source web design debug tool for designers (and developers)
-* [Merge all Windows](https://chrome.google.com/webstore/detail/merge-windows/mmpokgfcmbkfdeibafoafkiijdbfblfg?hl=en) - When you have multiple windows and just want one
-* [Tab Organizer](https://chrome.google.com/webstore/detail/tab-organizer/kkcbifggchajpkagcpagenpfghbplghc?hl=en) - To group tabs from the same base URL 
 * [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en) - To view JSON documents in your browser
 * [Momentum](https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca?hl=en) - The classic and beautiful tab replacement
 
@@ -773,11 +770,21 @@ brew cask install contexts
 
 </details>
 
+##### CLI installation
+```sh
+brew cask install cleanshot
+```
+
 #### Alternatives
 * Mac (free): [Kap](https://getkap.co/?ref=thedaviddias)
 * Windows (paid): [Snagit](https://www.techsmith.com/screen-capture.html)
 
-<img src="media/next-meeting.png" width="50" align="right">
+<img src="media/text-sniper.png" width="50" align="right">
+
+#### [TextSniper](https://textsniper.app/) - Extract text from images and videos
+![Licence ~$10][licence-10] ![Usage low][usage-low]
+ 
+<img src="media/meetingbar.png" width="50" align="right">
 
 #### [MeetingBar](https://apps.apple.com/us/app/meetingbar/id1532419400) - Never miss a meeting again
 ![Free][licence-free] ![Usage high][usage-high] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/meetingbar)
@@ -800,8 +807,6 @@ brew cask install contexts
 * 0️⃣
 
 </details>
-
-<img src="media/meetingbar.png" width="300">
 
 ---
 
@@ -984,6 +989,17 @@ brew cask install keyboard-maestro
 ##### CLI installation
 ```sh
 brew cask install hazel
+```
+
+<img src="media/raycast.png" width="50" align="right">
+
+#### [Raycast](https://raycast.com/) - Control tools with few keystrokes
+![Free][licence-free] ![Usage medium][usage-medium]
+
+
+##### CLI installation
+```sh
+brew cask install raycast
 ```
 
 <img src="media/karabiner.png" width="50" align="right">
@@ -1328,7 +1344,7 @@ mas install 1006087419
 #### [Proxyman](https://proxyman.io/) - Best Web Debugging Proxy for MacOS
 ![Free][licence-free-limit] ![Usage medium][usage-medium] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/proxyman)
  
-I found Proxyman when struggling making Charles working on my Mac. Proxyman make it really easy to....
+I found Proxyman when struggling making Charles working on my Mac. Proxyman make it really easy to replace any file by a local version. Useful sometimes to debug production.
 
 <img src="media/proxyman.jpg" width="700" align="center">
 
@@ -1499,11 +1515,12 @@ mas install 568020055
 
 ##### What for?
 
-* 
+* To help organization thoughts and ideas
 
 ##### What I ❤️
 
-* 
+* Easy to use
+* Nice UI and integration with MacOS / iOS
 
 ##### What I 👎
 
@@ -1668,16 +1685,12 @@ mas install 918858936
 
 ### Social Media
 
-I have a strict rule in regards to social apps on my professional Mac. I usually don't have any social / communication app that is not directly related to work (only Slack).
+I have a strict rule in regards to social apps on my professional Mac. I usually don't have any social / communication app that is not directly related to work (only Slack). These apps are mostly on my personal MacBook.
 
-<img src="media/flume.png" width="50" align="right">
+<img src="media/signal.png" width="50" align="right">
 
-#### [Flume](https://flumeapp.com/) - To manage Instagram on Mac
-![Free][licence-free] ![Usage low][usage-low] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/flume-2-0)
-
-Don't use it regularly.
-
-<img src="media/messenger.png" width="50" align="right">
+#### [Signal](https://signal.org/download/) - Signal on Mac
+![Free][licence-free] ![Usage low][usage-low]
 
 #### [Messenger](https://apps.apple.com/us/app/messenger/id1480068668?mt=12) - Facebook Messenger but on Mac
 ![Free][licence-free] ![Usage low][usage-low] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/messenger-for-mac-2)
@@ -1816,12 +1829,22 @@ To manage plugins for Sketch
 
 Used Zeplin mostly at work. I remember when it first came out. A lot of updates and improvements since.
 
-<img src="media/sip.png" width="50" align="right">
+<img src="media/color-snapper.png" width="50" align="right">
 
-#### [Sip](https://sipapp.io/) - Collect, organize and share colors
-![Yearly subscription][subscription-yearly] ![Usage medium][usage-medium] ![Proprietary backup][backup-proprietary] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/sip-for-mac)
+#### [ColorSnapper2](https://colorsnapper.com/) - Collect, organize and share colors
+![Licence ~$20][licence-20] ![Usage medium][usage-medium]
 
-My go-to color-picker. I just wish I could use on 2 Macs.
+My go-to color-picker.
+
+##### CLI installation
+```sh
+brew cask install colorsnapper
+```
+
+
+##### Alternatives
+
+- I've used [Sip](https://sipapp.io/) in the past but recently switched to ColorSnapper2 because no subscription.
 
 ##### CLI installation
 ```sh
@@ -1880,7 +1903,7 @@ It's not because it was build by French people that I love this app!
 
 ##### What for?
 
-* Record any source audio
+* Record any source audio, I use to record podcasts
 
 ##### What I ❤️
 
@@ -1896,7 +1919,7 @@ It's not because it was build by French people that I love this app!
 <img src="media/ecammlive.png" width="50" align="right">
 
 #### [Ecamm Live](https://www.ecamm.com/mac/ecammlive/) - The simplest tool for doing live streaming on Facebook / Youtube
- ![Monthly subscription][subscription-montly] ![Usage high][usage-high]
+ ![Free][licence-free] ![Usage medium][usage-medium]
 
 <img src="media/streamlabs-obs.png" width="50" align="right">
 
