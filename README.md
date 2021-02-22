@@ -779,8 +779,8 @@ brew cask install contexts
 
 <img src="media/next-meeting.png" width="50" align="right">
 
-#### [Next Meeting](https://apps.apple.com/us/app/next-meeting-quickly-see-your/id1017470484) - Never miss a meeting again
-![Free][licence-free] ![Usage high][usage-high] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/next-meeting)
+#### [MeetingBar](https://apps.apple.com/us/app/meetingbar/id1532419400) - Never miss a meeting again
+![Free][licence-free] ![Usage high][usage-high] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/meetingbar)
 
 <details>
   <summary>What for? - What I ❤️ - What I 👎</summary>
@@ -793,7 +793,7 @@ brew cask install contexts
 
 * Free
 * Don't need to open an app or click anywhere to see my next meeting
-* Direct access to open Google meet or Zoom
+* Direct access to open Google meet, Zoom and most chat providers
 
 ##### What I 👎
 
@@ -801,7 +801,7 @@ brew cask install contexts
 
 </details>
 
-<img src="media/next-meeting-sc.png" width="300">
+<img src="media/meetingbar.png" width="300">
 
 ---
 
