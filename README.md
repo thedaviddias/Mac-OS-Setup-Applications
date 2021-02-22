@@ -61,7 +61,6 @@ Based on hours of research and testing, I'm sharing all the applications I belie
 ## My Hardware
 
 * Personal Computer: 13" Late 2017 Macbook Pro with Touch bar.
-* Professional Computer: 15" 2019 Macbook Pro with Touch bar.
 * Personal Monitor: [LG 34UM69G-B 34" 21:9 UltraWide](https://www.amazon.ca/gp/product/B06XFXX5JH/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 
 Personal Keyboards:
@@ -1211,7 +1210,7 @@ Sometimes, some external hard drives can gave me tough times. Hard Disk Manager 
 
 ##### What for?
 
-* Synchronize files between local and remove storage
+* Synchronize files between local and remote storage
 
 ##### What I ❤️
 
@@ -1631,7 +1630,6 @@ mas install 1310686187
 ![Free][licence-free] ![Usage high][usage-high] ![Proprietary backup][backup-proprietary] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/slack-for-mac)
 
 ##### Workspaces
-- HomeX
 - Dias testing (my own Slack workspace to test apps and webhooks)
 - [Contentful Community](https://www.contentful.com/slack/)
 - [A11y](https://web-a11y.slack.com/#/)
@@ -1691,10 +1689,10 @@ Don't use it regularly.
 
 <img src="media/discord.png" width="50" align="right">
 
-#### [Discord](https://discordapp.com/download) -
+#### [Discord](https://discordapp.com/download) - Popular chat platform amount developers and companies
 ![Free][licence-free] ![Usage low][usage-low]
 
-I use mostly Discord to talk with HTMLHint contributors.
+I use mostly Discord to talk with HTMLHint contributors and other platforms.
 
 <img src="media/skype.png" width="50" align="right">
 
@@ -1706,17 +1704,6 @@ I use mostly Discord to talk with HTMLHint contributors.
 ##### CLI installation
 ```sh
 brew cask install skype
-```
-
-<img src="media/telegram.png" width="50" align="right">
-
-#### [Telegram](https://desktop.telegram.org/) -
-![Free][licence-free] ![Usage low][usage-low] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/telegram-6-0)
-
-##### CLI installation
-
-```sh
-mas install 747648890
 ```
 
 ### Design & Web Design
@@ -1824,7 +1811,7 @@ brew cask install sketch
 
 To manage plugins for Sketch
 
-#### [Zeplin](https://zeplin.io/) - 
+#### [Zeplin](https://zeplin.io/)
 ![Usage medium][usage-medium] ![Proprietary backup][backup-proprietary] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/zeplin-3-0)
 
 Used Zeplin mostly at work. I remember when it first came out. A lot of updates and improvements since.
@@ -1908,7 +1895,7 @@ It's not because it was build by French people that I love this app!
 
 <img src="media/ecammlive.png" width="50" align="right">
 
-#### [Ecamm Live](https://www.ecamm.com/mac/ecammlive/) -
+#### [Ecamm Live](https://www.ecamm.com/mac/ecammlive/) - The simplest tool for doing live streaming on Facebook / Youtube
  ![Monthly subscription][subscription-montly] ![Usage high][usage-high]
 
 <img src="media/streamlabs-obs.png" width="50" align="right">
@@ -1918,8 +1905,8 @@ It's not because it was build by French people that I love this app!
 
 <img src="media/screenflow.png" width="50" align="right">
 
-#### [Screenflow 8](https://www.telestream.net/controls/screenflow/download-screenflow.htm) - Screen recording and editing like a pro
-![Licence ~$100][licence-100] ![Usage low][usage-low] ![Backup Dropbox][backup-dropbox] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/screenflow-8)
+#### [Screenflow 9](https://www.telestream.net/controls/screenflow/download-screenflow.htm) - Screen recording and editing like a pro
+![Licence ~$100][licence-100] ![Usage low][usage-low] ![Backup Dropbox][backup-dropbox] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/screenflow-9)
 
 - Screenflow doesn't recommend to store files on Dropbox, so I usually store the files on Dropbox but move them to my local hard drive if I want to edit these. No problem until today.
 
@@ -1933,15 +1920,6 @@ It's not because it was build by French people that I love this app!
 #### [Twitch](https://www.twitch.tv/) - The well-known streaming platform
 ![Free][licence-free] ![Usage medium][usage-medium]
 
-<img src="media/airy.png" width="50" align="right">
-
-#### [Airy](https://www.airy-youtube-downloader.com/) - YouTube video and MP3 Downloader
-![Licence ~$10][licence-10] ![Usage low][usage-low]
-
-##### CLI installation
-```sh
-brew cask install airy
-```
 
 ### Miscellaneous
 
@@ -2001,6 +1979,9 @@ defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-t
 * [Namecheap](https://www.namecheap.com/) - The best domain registrar
 * [StatusCake](https://www.statuscake.com/) - To keep an eye on your website uptime
 * [Themer.dev](https://themer.dev/) - To generate themes (editors, terminals, wallpapers, and more) with ease
+* [Netlify](https://netlify.com/)
+* [codeimg](https://codeimg.io/) - To easily create social media banners
+* [Gradient Magic](https://www.gradientmagic.com/) - Free gallery of CSS Gradients
 
 
 ## Inspiration
