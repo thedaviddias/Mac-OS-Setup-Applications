@@ -8,6 +8,10 @@
   My Mac OS setup and the best applications I use as a Web Developer
 </p>
 
+<p align="center">
+<a href="https://www.producthunt.com/posts/my-mac-os-setup-and-applications?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-my-mac-os-setup-and-applications" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=285571&theme=dark" alt="My Mac OS setup and applications - All the tools and apps any Web Developer should use on a Mac | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+</p>
+
 ## Table of content
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
