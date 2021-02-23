@@ -506,36 +506,6 @@ brew cask install alfred
 brew cask install iterm2
 ```
 
-<img src="media/table-plus.png" width="50" align="right">
-
-#### [TablePlus](https://tableplus.com/download) - The replacement for  terminal
-![Licence ~$50][licence-50] ![Usage high][usage-high]
-
-<details>
-  <summary>What for? - What I ❤️ - What I 👎</summary>
-
-##### What for?
-
-* To manage relational databases
-
-##### What I ❤️
-
-* The number of databases supported
-* The clean UI interface
-* Support for MongoDB (more coming soon)
-* Support for Mac and Windows
-
-##### What I 👎
-
-* 0️⃣
-
-</details>
-
-##### CLI installation
-```sh
-brew cask install tableplus
-```
-
 ### Browsers
 ![Free][licence-free]
 
@@ -786,7 +756,7 @@ brew cask install cleanshot
 <img src="media/text-sniper.png" width="50" align="right">
 
 #### [TextSniper](https://textsniper.app/) - Extract text from images and videos
-![Licence ~$10][licence-10] ![Usage low][usage-low]
+![Licence ~$10][licence-10] ![Usage low][usage-low] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/textsniper)
  
 <img src="media/meetingbar.png" width="50" align="right">
 
@@ -1365,6 +1335,37 @@ https://paw.cloud/extensions/
 ```sh
 brew cask install paw
 ```
+
+<img src="media/table-plus.png" width="50" align="right">
+
+#### [TablePlus](https://tableplus.com/download) - The best GUI for relational databases
+![Licence ~$50][licence-50] ![Usage high][usage-high]
+
+<details>
+  <summary>What for? - What I ❤️ - What I 👎</summary>
+
+##### What for?
+
+* To manage relational databases
+
+##### What I ❤️
+
+* The number of databases supported
+* The clean UI interface
+* Support for MongoDB (more coming soon)
+* Support for Mac and Windows
+
+##### What I 👎
+
+* 0️⃣
+
+</details>
+
+##### CLI installation
+```sh
+brew cask install tableplus
+```
+
 
 <img src="media/postman.png" width="50" align="right">
 
