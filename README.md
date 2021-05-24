@@ -217,7 +217,7 @@ More details [here](https://gist.github.com/clayton/6196167)
 brew install blueutil
 ```
 
-#### [Speetest-cli](https://github.com/sivel/speedtest-cli) - The command line version of Speedtest.net
+#### [Speedtest-cli](https://github.com/sivel/speedtest-cli) - The command line version of Speedtest.net
 
 ```sh
 brew install speedtest-cli
