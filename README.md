@@ -229,6 +229,12 @@ brew install speedtest-cli
 brew install imagemagick
 ```
 
+#### [DisplayPlacer](https://github.com/jakehilborn/displayplacer) - Programmatically reorganize your screens layout
+
+```sh
+brew tap jakehilborn/jakehilborn && brew install displayplacer
+```
+
 #### Fonts - Installing some fonts
 
 ```sh
