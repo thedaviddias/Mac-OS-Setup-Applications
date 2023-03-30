@@ -113,15 +113,15 @@ With Homebrew comes `brew-cask` which will allow to install applications with th
 brew update                         # Fetch latest version of homebrew and formula.
 brew search {app name}              # Searches all known Casks for a partial or exact match.
 brew install {package name}         # Install a package
-brew cask info {app name}           # Displays information about a given Cask
-brew cask install {app name}        # Install the given cask.
+brew info --cask {app name}           # Displays information about a given Cask
+brew install --cask {app name}        # Install the given cask.
 brew cleanup
 ```
 
 ##### [Cakebrew](https://www.cakebrew.com/) (optional) - A GUI for Cask
 
 ```sh
-brew cask install cakebrew
+brew install --cask cakebrew
 ```
 
 #### ZSH - An alternative shell to Bash
@@ -240,7 +240,7 @@ brew tap jakehilborn/jakehilborn && brew install displayplacer
 ```sh
 brew tap homebrew/cask-fonts
 
-brew cask install \
+brew install --cask \
     font-fira-code \
     font-source-code-pro font-source-code-pro-for-powerline \
     font-source-sans-pro
@@ -334,7 +334,7 @@ brew install github/gh/gh
 #### [Quick Look plugins](https://github.com/sindresorhus/quick-look-plugins)
 
 ```sh
-brew cask install \
+brew install --cask \
 	qlcolorcode qlmarkdown qlprettypatch qlstephen \
 	qlimagesize \
 	quicklook-csv quicklook-json epubquicklook 
@@ -392,7 +392,7 @@ This is the list of the most essentials apps I would install if I was limited in
 
 ##### CLI installation
 ```sh
-brew cask install little-snitch
+brew install --cask little-snitch
 ```
 
 <img src="media/15878412922030.png" width="50" align="right">
@@ -431,7 +431,7 @@ brew cask install little-snitch
 
 ##### CLI installation
 ```sh
-brew cask install 1password
+brew install --cask 1password
 
 mas install 1333542190
 ```
@@ -480,7 +480,7 @@ This is the list of the workflows I used the most (files saved in Dropbox):
 
 ##### CLI installation
 ```sh
-brew cask install alfred
+brew install --cask alfred
 ```
 
 <img src="media/iterm2.png" width="50" align="right">
@@ -509,7 +509,7 @@ brew cask install alfred
 
 ##### CLI installation
 ```sh
-brew cask install iterm2
+brew install --cask iterm2
 ```
 
 ### Browsers
@@ -547,7 +547,7 @@ Multiple profiles
 
 ##### CLI installation
 ```sh
-brew cask install google-chrome
+brew install --cask google-chrome
 ```
 
 <img src="media/chrome-canary.png" width="50" align="right">
@@ -556,7 +556,7 @@ brew cask install google-chrome
 
 ##### CLI installation
 ```sh
-brew cask install google-chrome-canary
+brew install --cask google-chrome-canary
 ```
 
 <img src="media/firefox.png" width="50" align="right">
@@ -565,7 +565,7 @@ brew cask install google-chrome-canary
 
 ##### CLI installation
 ```sh
-brew cask install firefox
+brew install --caskfirefox
 ```
 
 <img src="media/firefox-nightly.png" width="50" align="right">
@@ -574,7 +574,7 @@ brew cask install firefox
 
 ##### CLI installation
 ```sh
-brew cask install firefox-nightly
+brew install --cask firefox-nightly
 ```
 
 <img src="media/edge.png" width="50" align="right">
@@ -583,7 +583,7 @@ brew cask install firefox-nightly
 
 ##### CLI installation
 ```sh
-brew cask install microsoft-edge
+brew install --cask microsoft-edge
 ```
 
 ### Utilities
@@ -635,7 +635,7 @@ brew cask install microsoft-edge
 
 ##### CLI installation
 ```sh
-brew cask install bartender
+brew install --cask bartender
 ```
 
 <img src="media/flux-1.png" width="50" align="right">
@@ -665,7 +665,7 @@ brew cask install bartender
 
 ##### CLI installation
 ```sh
-brew cask install flux
+brew install --cask flux
 ```
 
 <img src="media/popclip.png" width="50" align="right">
@@ -707,7 +707,7 @@ brew cask install flux
 
 ##### CLI installation
 ```sh
-brew cask install popclip
+brew install --cask popclip
 ```
 
 <img src="media/contexts.png" width="50" align="right">
@@ -720,7 +720,7 @@ brew cask install popclip
 
 ##### CLI installation
 ```sh
-brew cask install contexts
+brew install --cask contexts
 ```
 
 <img src="media/cleanshotx.png" width="50" align="right">
@@ -752,7 +752,7 @@ brew cask install contexts
 
 ##### CLI installation
 ```sh
-brew cask install cleanshot
+brew install --cask cleanshot
 ```
 
 #### Alternatives
@@ -825,7 +825,7 @@ brew cask install cleanshot
 
 ##### CLI installation
 ```sh
-brew cask install cleanmymac
+brew install --cask cleanmymac
 ```
 
 <img src="media/muzzle.png" width="50" align="right">
@@ -847,7 +847,7 @@ brew cask install cleanmymac
 
 ##### CLI installation
 ```sh
-brew cask install elgato-stream-deck
+brew install --cask elgato-stream-deck
 ```
 
 <img src="media/noizio.png" width="50" align="right">
@@ -862,7 +862,7 @@ brew cask install elgato-stream-deck
 
 ##### CLI installation
 ```sh
-brew cask install noizio
+brew install --casknoizio
 
 mas install 928871589
 ```
@@ -940,7 +940,7 @@ I only use TeamViewer when I need to debug my Mom's computer (which is located i
 
 ##### CLI installation
 ```sh
-brew cask install keyboard-maestro
+brew install --cask keyboard-maestro
 ```
 
 <img src="media/hazel.png" width="50" align="right">
@@ -968,7 +968,7 @@ brew cask install keyboard-maestro
 
 ##### CLI installation
 ```sh
-brew cask install hazel
+brew install --cask hazel
 ```
 
 <img src="media/raycast.png" width="50" align="right">
@@ -979,7 +979,7 @@ brew cask install hazel
 
 ##### CLI installation
 ```sh
-brew cask install raycast
+brew install --cask raycast
 ```
 
 <img src="media/karabiner.png" width="50" align="right">
@@ -994,7 +994,7 @@ brew cask install raycast
 
 ##### CLI installation
 ```sh
-brew cask install bettertouchtool
+brew install --caskbettertouchtool
 ```
 
 <img src="media/hammerspoon.png" width="50" align="right">
@@ -1004,7 +1004,7 @@ brew cask install bettertouchtool
  
 ##### CLI installation
 ```sh
-brew cask install hammerspoon
+brew install --caskhammerspoon
 ```
 
 ### Tasks & time management
@@ -1040,7 +1040,7 @@ brew cask install hammerspoon
 
 ##### CLI installation
 ```sh
-brew cask install fantastical
+brew install --caskfantastical
 ```
 
 <img src="media/things.png" width="50" align="right">
@@ -1072,7 +1072,7 @@ brew cask install fantastical
 
 ##### CLI installation
 ```sh
-brew cask install things
+brew install --caskthings
 
 mas install 904280696
 ```
@@ -1086,7 +1086,7 @@ mas install 904280696
 
 ##### CLI installation
 ```sh
-brew cask install timing
+brew install --casktiming
 ```
 
 ### Storage & backup management
@@ -1124,7 +1124,7 @@ I've used Google Drive storage few years but use now mainly Dropbox because of t
 
 ##### CLI installation
 ```sh
-brew cask install dropbox
+brew install --caskdropbox
 ```
 
 <img src="media/backup-sync-google.png" width="50" align="right">
@@ -1165,7 +1165,7 @@ brew cask install dropbox
 
 ##### CLI installation
 ```sh
-brew cask install forklift
+brew install --caskforklift
 
 mas install 412448059
 ```
@@ -1180,7 +1180,7 @@ mas install 412448059
 
 ##### CLI installation
 ```sh
-brew cask install the-unarchiver
+brew install --caskthe-unarchiver
 
 mas install 425424353
 ```
@@ -1228,7 +1228,7 @@ The best code editor (for my usage)
 
 ##### CLI installation
 ```sh
-brew cask install visual-studio-code
+brew install --caskvisual-studio-code
 ```
 
 <img src="media/tower.png" width="50" align="right">
@@ -1257,7 +1257,7 @@ brew cask install visual-studio-code
 
 ##### CLI installation
 ```sh
-brew cask install tower
+brew install --casktower
 ```
 
 #### [Diffmerge](https://sourcegear.com/diffmerge/downloads.php) - Compare and merge files
@@ -1265,7 +1265,7 @@ brew cask install tower
 
 ##### CLI installation
 ```sh
-brew cask install diffmerge
+brew install --caskdiffmerge
 ```
 
 <img src="media/snippetslab.png" width="50" align="right">
@@ -1339,7 +1339,7 @@ https://paw.cloud/extensions/
 
 ##### CLI installation
 ```sh
-brew cask install paw
+brew install --caskpaw
 ```
 
 <img src="media/table-plus.png" width="50" align="right">
@@ -1369,7 +1369,7 @@ brew cask install paw
 
 ##### CLI installation
 ```sh
-brew cask install tableplus
+brew install --casktableplus
 ```
 
 
@@ -1385,7 +1385,7 @@ brew cask install tableplus
 
 ##### CLI installation
 ```sh
-brew cask install mockoon
+brew install --caskmockoon
 ```
 
 <img src="media/docker.png" width="50" align="right">
@@ -1397,7 +1397,7 @@ brew cask install mockoon
 ```sh
 brew install docker
 
-brew cask install docker-toolbox
+brew install --caskdocker-toolbox
 ```
 
 <img src="media/altair-graphql.png" width="50" align="right">
@@ -1407,7 +1407,7 @@ brew cask install docker-toolbox
 
 ##### CLI installation
 ```sh
-brew cask install altair-graphql-client
+brew install --caskaltair-graphql-client
 ```
 
 <img src="media/screaming-frog-seo-spider.png" width="50" align="right">
@@ -1422,7 +1422,7 @@ brew cask install altair-graphql-client
 
 ##### CLI installation
 ```sh
-brew cask install poedit
+brew install --caskpoedit
 ```
 
 <img src="media/switch-hosts.png" width="50" align="right">
@@ -1432,7 +1432,7 @@ brew cask install poedit
 
 ##### CLI installation
 ```sh
-brew cask install switchhosts
+brew install --caskswitchhosts
 ```
 
 <img src="media/core-shell.png" width="50" align="right">
@@ -1514,7 +1514,7 @@ mas install 880001334
 
 ##### CLI installation
 ```sh
-brew cask install scapple
+brew install --caskscapple
 
 mas install 568020055
 ```
@@ -1542,7 +1542,7 @@ mas install 568020055
 
 ##### CLI installation
 ```sh
-brew cask install mindnode-pro
+brew install --caskmindnode-pro
 
 mas install 1289197285
 ```
@@ -1554,7 +1554,7 @@ mas install 1289197285
 
 ##### CLI installation
 ```sh
-brew cask install notion
+brew install --casknotion
 ```
 
 <img src="media/devonthink.png" width="50" align="right">
@@ -1574,7 +1574,7 @@ brew cask install notion
 
 ##### CLI installation
 ```sh
-brew cask install devonthink
+brew install --caskdevonthink
 ```
 
 <img src="media/devonagent.png" width="50" align="right">
@@ -1640,7 +1640,7 @@ mas install 1403919533
 
 ##### CLI installation
 ```sh
-brew cask install scrivener
+brew install --caskscrivener
 
 mas install 1310686187
 ```
@@ -1689,7 +1689,7 @@ I used "filters" on Gmail to organize most of my emails (especially newsletters,
 
 ##### CLI installation
 ```sh
-brew cask install airmail
+brew install --caskairmail
 
 mas install 918858936
 ```
@@ -1727,7 +1727,7 @@ I use mostly Discord to talk with HTMLHint contributors and other platforms.
 
 ##### CLI installation
 ```sh
-brew cask install skype
+brew install --caskskype
 ```
 
 ### Design & Web Design
@@ -1801,7 +1801,7 @@ I'm not a Web Designer / Designer, but I love studying Photography, UI and UX. I
 
 ##### CLI installation
 ```sh
-brew cask install adobe-creative-cloud
+brew install --caskadobe-creative-cloud
 ```
 
 <img src="media/figma.png" width="50" align="right">
@@ -1813,7 +1813,7 @@ I'm planning in using more Figma as I don't want to renew Sketch in regards to m
 
 ##### CLI installation
 ```sh
-brew cask install figma
+brew install --caskfigma
 ```
 
 <img src="media/sketch.png" width="50" align="right">
@@ -1825,7 +1825,7 @@ Still a reference (vs Adobe XD and Figma) but I didn't renew my licence in 2019.
 
 ##### CLI installation
 ```sh
-brew cask install sketch
+brew install --casksketch
 ```
 
 <img src="media/sketchpacks.png" width="50" align="right">
@@ -1849,7 +1849,7 @@ My go-to color-picker.
 
 ##### CLI installation
 ```sh
-brew cask install colorsnapper
+brew install --caskcolorsnapper
 ```
 
 
@@ -1859,7 +1859,7 @@ brew cask install colorsnapper
 
 ##### CLI installation
 ```sh
-brew cask install sip
+brew install --casksip
 ```
 
 <img src="media/image-optim.png" width="50" align="right">
@@ -1869,7 +1869,7 @@ brew cask install sip
 
 ##### CLI installation
 ```sh
-brew cask install imageoptim
+brew install --caskimageoptim
 ```
 
 ### Audio & Video production
@@ -1989,7 +1989,7 @@ The only typing program that has a "Code" practice section
 ##### CLI installation
 
 ```sh
-brew cask install
+brew install --cask
 ```
 
 ## Mac preferences
