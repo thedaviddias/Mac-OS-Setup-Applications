@@ -130,7 +130,7 @@ brew cask install cakebrew
 brew install zsh
 ```
 
-Add this to my `./zshrc`
+Add this to my `~/.zshrc`
 
 ```sh
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
