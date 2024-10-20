@@ -1,22 +1,11 @@
-<h1 align="center">
-  My Mac OS setup and applications
-</h1>
-<p align="center">
-    <img src="media/mac-setup-workflow.jpg" align="center" alt="3 logos: command line, apple and application">
-</p>
-<p align="center">
-  My Mac OS setup and the best applications I use as a Web Developer
-</p>
+# 👾 My Mac OS setup and applications
 
-<p align="center">
-<a href="https://www.producthunt.com/posts/my-mac-os-setup-and-applications?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-my-mac-os-setup-and-applications" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=285571&theme=dark" alt="My Mac OS setup and applications - All the tools and apps any Web Developer should use on a Mac | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
-</p>
+My Mac OS setup and the best applications I use as a Web Developer. This is a living document. I regularly update it with new tools and applications that I find useful. If you want to know more, I share more on [my blog](https://ddias.link/blog) and [my newsletter](https://ddias.link/newsletter).
 
 ## Table of content
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
 
 - [Disclaimer](#disclaimer)
 - [Usage](#usage)
@@ -43,14 +32,12 @@
 - [Web Applications](#web-applications)
 - [Inspiration](#inspiration)
 - [Icons and images](#icons-and-images)
-- [Licence](#licence)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## Disclaimer
-I have been always passionate about tools. I always loved experimenting until I can find the right tool for the right task. Being a Front-End Developer requires to know the tools that exist and choose the one that will perform the task faster and better.
-
-Based on hours of research and testing, I'm sharing all the applications I believe suits the best my work and daily workflow. It's a living MacOS configuration that, I hope, will also save you time for you to enjoy life more!
+<!-- prettier-ignore-start -->
+> [!IMPORTANT]
+> **Disclaimer:** I have been always passionate about tools. I always loved experimenting until I can find the right tool for the right task. Being a Front-End Developer requires to know the tools that exist and choose the one that will perform the task faster and better. Based on hours of research and testing, I'm sharing all the applications I believe suits the best my work and daily workflow. It's a living MacOS configuration that, I hope, will also save you time for you to enjoy life more!This is a living document. I regularly update it with new tools and applications that I find useful.
 
 ## Usage
 
@@ -64,34 +51,11 @@ Based on hours of research and testing, I'm sharing all the applications I belie
 
 ## My Hardware
 
-* Personal Computer: 13" Late 2017 Macbook Pro with Touch bar.
-* Personal Monitor: [LG 34UM69G-B 34" 21:9 UltraWide](https://www.amazon.ca/gp/product/B06XFXX5JH/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
-
-Personal Keyboards:
-
-* At Home 1: [Keychron K3](https://www.keychron.com/pages/keychron-k3-wireless-mechanical-keyboard) optical brown switch
-* At Home 2: [Ducky One 2 RGB TKL](https://mechanicalkeyboards.com/shop/index.php?l=product_detail&p=4284)
-
-Mouses:
-
-* 2 [Logitech MX Master 2S](https://www.amazon.ca/dp/B071YZJ1G1/ref=cm_sw_em_r_mt_dp_U_92mNEbX6PD4H0)
-* 1 [Logitech MX Ergo](https://www.amazon.ca/Logitech%C2%AE-Advanced-Wireless-Trackball-910-005177/dp/B0753P1GTS)
-
-Accessories:
-
-* [Bose QuietComfort 35 II](https://www.amazon.com/dp/B0756CYWWD/ref=cm_sw_em_r_mt_dp_U_XKlQEbZWNE0YW)
-* [AirPods Pro](https://www.apple.com/ca/airpods-pro/)
-* [Plugable Thunderbolt 3 Dock](https://www.amazon.ca/dp/B075M1XHCK/ref=cm_sw_em_r_mt_dp_U_bhp4EbSFA2MQS)
-* [Elgato Stream Deck](https://www.amazon.ca/dp/B06XKNZT1P/ref=cm_sw_em_r_mt_dp_U_64mNEbDTVAA81)
-* [Elgato Green Screen](https://www.amazon.ca/dp/B0743Z892W/ref=cm_sw_em_r_mt_dp_U_n-mNEbNJ37DDK)
-* [Focusrite Scarlett-2i2 Gen2](https://www.amazon.ca/dp/B005OZE9SA/ref=cm_sw_em_r_mt_dp_U_v7mNEb9RZNDFG)
-* [DBX 286s Microphone Pre-amp Processor](https://www.amazon.ca/dp/B004NDFRVC/ref=cm_sw_em_r_mt_dp_U_V7mNEbTJ0E20E)
-* [Rode Procaster](https://www.amazon.com/dp/B001IPUJJI/ref=cm_sw_em_r_mt_dp_U_wLlQEbV5FS1XC)
-* [NETGEAR 8-Port Gigabit Ethernet Smart Managed Pro Switch (GS308T)](https://www.amazon.ca/dp/B01MYTIPG2/ref=cm_sw_em_r_mt_dp_QQXN7GR51BJ2R9ZWH8QJ?_encoding=UTF8&psc=1)
+I regularly update all [my hardware](https://ddias.link/kit) on a dedicated page on kit.co. Feel free to check it out!
 
 ## Setup shell
 
-#### [Xcode 11](https://developer.apple.com/xcode/)
+#### [Xcode 16](https://developer.apple.com/xcode/)
 
 - Xcode is required for some applications to run. So having Xcode updated just remove the issue of not being able to install some apps.
 
@@ -260,7 +224,7 @@ mas search {app name} # To search for an app
 brew install rbenv ruby-build rbenv-default-gems rbenv-gemset
 echo 'eval "$(rbenv init -)"' >> ~/.zshrc
 source ~/.zshrc # Apply changes
-    
+
 rbenv install {version}
 ```
 
@@ -337,7 +301,7 @@ brew install github/gh/gh
 brew install --cask \
 	qlcolorcode qlmarkdown qlprettypatch qlstephen \
 	qlimagesize \
-	quicklook-csv quicklook-json epubquicklook 
+	quicklook-csv quicklook-json epubquicklook
 ```
 
 ### Node packages to install globally
@@ -446,18 +410,18 @@ mas install 1333542190
 
 ##### What for?
 
-* **Open or switch quickly** to any application 
+* **Open or switch quickly** to any application
 * **Text expansions**: previously using [TextExpander](https://textexpander.com/), I switched in using the snippet feature in Alfred.
 
 ##### What I ❤️
-    
+
 * Unlimited possibilities to develop any workflows
 * Integration with 1Password
 * Price
 * Tons of options
 
 ##### What I 👎
-    
+
 * I wish some features like "Snippets", would be more advanced to compete with tools like TextExpander or [Typinator](https://www.ergonis.com/products/typinator/)
 
 </details>
@@ -539,7 +503,7 @@ Multiple profiles
 * [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en) - The required tool that help to inspect any React component
 * [Grammarly](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen?hl=en) - The life saving tool that help to fix writing errors
 * CSS Scan
-* [Session Budy](https://chrome.google.com/webstore/detail/session-buddy/edacconmaakjimmfgnblocblbcdcpbko?hl=en) - 
+* [Session Budy](https://chrome.google.com/webstore/detail/session-buddy/edacconmaakjimmfgnblocblbcdcpbko?hl=en) -
 * [Keepa](https://chrome.google.com/webstore/detail/keepa-amazon-price-tracke/neebplgakaahbhdphmkckjjcegoiijjo?hl=en) - Amazon price tracker: know when to buy and when to wait
 * [VisBug](https://chrome.google.com/webstore/detail/visbug/cdockenadnadldjbbgcallicgledbeoc?hl=en) - Open source web design debug tool for designers (and developers)
 * [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en) - To view JSON documents in your browser
@@ -733,7 +697,7 @@ brew install --cask contexts
 
 ##### What for?
 
-* Doing screenshots and quickly send it to my colleagues 
+* Doing screenshots and quickly send it to my colleagues
 
 ##### What I ❤️
 
@@ -763,7 +727,7 @@ brew install --cask cleanshot
 
 #### [TextSniper](https://textsniper.app/) - Extract text from images and videos
 ![Licence ~$10][licence-10] ![Usage low][usage-low] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/textsniper)
- 
+
 <img src="media/meetingbar.png" width="50" align="right">
 
 #### [MeetingBar](https://apps.apple.com/us/app/meetingbar/id1532419400) - Never miss a meeting again
@@ -958,7 +922,7 @@ brew install --cask keyboard-maestro
 ##### What I ❤️
 
 * Simpler and faster than Keyboard Maestro to configure
-* Hability to import / export rules 
+* Hability to import / export rules
 
 ##### What I 👎
 
@@ -1001,7 +965,7 @@ brew install --caskbettertouchtool
 
 #### [Hammerspoon](https://www.hammerspoon.org/) - OSX automation using Lua
 ![Free][licence-free] ![Usage low][usage-low]![Backup Github][backup-github] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/hammerspoon-2)
- 
+
 ##### CLI installation
 ```sh
 brew install --caskhammerspoon
@@ -1199,7 +1163,7 @@ Sometimes, some external hard drives can gave me tough times. Hard Disk Manager 
 <img src="media/goodsync.png" width="50" align="right">
 
 #### [GoodSync](https://www.goodsync.com/download) - Backup/sync and file organization
-![Licence ~$30][licence-30] 
+![Licence ~$30][licence-30]
 
 <details>
   <summary>What for? - What I ❤️ - What I 👎</summary>
@@ -1318,12 +1282,12 @@ mas install 1006087419
 
 #### [Trailer](http://ptsochantaris.github.io/trailer/) - Github Notifications
 ![Free][licence-free] ![Usage high][usage-high] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/trailer)
- 
+
 <img src="media/proxyman.png" width="50" align="right">
 
 #### [Proxyman](https://proxyman.io/) - Best Web Debugging Proxy for MacOS
 ![Free][licence-free-limit] ![Usage medium][usage-medium] [![Upvote on Product Hunt][product-hunt]](https://www.producthunt.com/posts/proxyman)
- 
+
 I found Proxyman when struggling making Charles working on my Mac. Proxyman make it really easy to replace any file by a local version. Useful sometimes to debug production.
 
 <img src="media/proxyman.jpg" width="700" align="center">
@@ -1610,7 +1574,7 @@ brew install --caskdevonthink
 ##### What I 👎
 
 * No recent updates
-* The scroll for the Editor and preview panel is usually not synchronized 
+* The scroll for the Editor and preview panel is usually not synchronized
 * No possibility to deactivate the synchronized scroll
 
 </details>
